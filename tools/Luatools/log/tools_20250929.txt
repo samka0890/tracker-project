@@ -1,0 +1,366 @@
+2025-09-29 17:23:50.672 core.py:75 INFO 3.1.6 start!
+2025-09-29 17:23:52.144 usb_device.py:3262 INFO usb device ready!
+2025-09-29 17:23:52.936 usb_device.py:1391 INFO usb device trace
+2025-09-29 17:23:52.993 my_api.py:114 INFO [None, None]
+2025-09-29 17:23:52.993 usb_device.py:3272 INFO enter Trace
+2025-09-29 17:23:53.070 ui_main.py:458 INFO ui start
+2025-09-29 17:23:53.561 usb_device.py:2575 INFO search com done!
+2025-09-29 17:23:53.680 usb_device.py:1376 ERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025-09-29 17:23:53.691 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:23:53.707 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:23:53.718 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:23:53.739 usb_device.py:1376 ERROR -> Pls check RNDIS
+2025-09-29 17:23:53.754 usb_device.py:1376 ERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025-09-29 17:23:54.425 ui_main.py:979 INFO None is full or not exsit, create new
+2025-09-29 17:23:54.493 usb_device.py:1376 ERROR AP LOG is save atC:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-09-29_172354_AirM2M_780EG_V1164_LTE_AT_864814071602907_COM17.binPls send this file to FAE, if something worng
+2025-09-29 17:23:54.506 usb_device.py:1376 ERROR CP LOG is save atC:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\29-17-23-54-506.Sn(1556bd).traPls send this file to FAE, if something worng
+2025-09-29 17:24:08.797 core.py:35 ERROR Traceback (most recent call last):
+  File "wx\core.py", line 3259, in <lambda>
+  File "ui_resource.py", line 86, in init_main_tree
+RuntimeError: wrapped C/C++ object of type TreeListCtrl has been deleted
+
+2025-09-29 17:24:12.365 usb_device.py:1439 INFO usb device download
+2025-09-29 17:24:12.375 ui_firmware.py:116 INFO Ready to download
+2025-09-29 17:24:12.386 my_api.py:114 INFO [None, None]
+2025-09-29 17:24:12.386 usb_device.py:2143 INFO trace -> download
+2025-09-29 17:24:12.386 usb_device.py:3280 INFO quit Trace
+2025-09-29 17:24:12.386 usb_device.py:3282 INFO enter download
+2025-09-29 17:24:12.386 ui_firmware.py:116 INFO Parsing Firmware
+2025-09-29 17:24:12.851 ui_firmware.py:116 INFO Download perparing
+2025-09-29 17:24:13.897 ui_firmware.py:116 INFO Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-09-29 17:24:57.658 usb_device.py:1391 INFO usb device trace
+2025-09-29 17:24:58.993 usb_device.py:1366 ERROR Download COM port NOT FOUND
+2025-09-29 17:24:58.993 soc.py:476 INFO None
+2025-09-29 17:24:58.995 usb_device.py:3284 INFO quit download
+2025-09-29 17:24:58.995 usb_device.py:3272 INFO enter Trace
+2025-09-29 17:24:58.995 usb_device.py:2563 INFO sleep 0.1099998950958252 sec
+2025-09-29 17:24:58.997 net_main.py:260 ERROR 
+Traceback (most recent call last):
+  File "aiohttp\connector.py", line 969, in _wrap_create_connection
+  File "asyncio\base_events.py", line 962, in create_connection
+  File "asyncio\base_events.py", line 949, in create_connection
+  File "asyncio\proactor_events.py", line 554, in sock_connect
+  File "asyncio\windows_events.py", line 744, in _poll
+  File "asyncio\windows_events.py", line 531, in finish_connect
+OSError: [WinError 121] The semaphore timeout period has expired
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "net_main.py", line 221, in dt_report_update
+  File "aiohttp\client.py", line 521, in _request
+  File "aiohttp\connector.py", line 535, in connect
+  File "aiohttp\connector.py", line 892, in _create_connection
+  File "aiohttp\connector.py", line 1051, in _create_direct_connection
+  File "aiohttp\connector.py", line 1032, in _create_direct_connection
+  File "aiohttp\connector.py", line 975, in _wrap_create_connection
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host luatos.com:443 ssl:default [The semaphore timeout period has expired]
+
+2025-09-29 17:24:58.999 my_api.py:114 INFO [None, None]
+2025-09-29 17:24:58.999 usb_device.py:2567 INFO sleep done
+2025-09-29 17:24:59.223 usb_device.py:2575 INFO search com done!
+2025-09-29 17:24:59.224 usb_device.py:1376 ERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025-09-29 17:24:59.234 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:24:59.244 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:24:59.258 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:24:59.264 usb_device.py:1376 ERROR -> Pls check RNDIS
+2025-09-29 17:24:59.272 usb_device.py:1376 ERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025-09-29 17:24:59.988 usb_device.py:1376 ERROR AP LOG is save atC:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-09-29_172459_AirM2M_780EG_V1164_LTE_AT_864814071602907_COM17.binPls send this file to FAE, if something worng
+2025-09-29 17:24:59.997 usb_device.py:1376 ERROR CP LOG is save atC:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\29-17-24-59-997.Sn(1556bd).traPls send this file to FAE, if something worng
+2025-09-29 17:25:05.853 usb_device.py:1439 INFO usb device download
+2025-09-29 17:25:05.860 my_api.py:114 INFO [None, None]
+2025-09-29 17:25:05.860 usb_device.py:2143 INFO trace -> download
+2025-09-29 17:25:05.860 ui_firmware.py:116 INFO Ready to download
+2025-09-29 17:25:05.860 usb_device.py:3280 INFO quit Trace
+2025-09-29 17:25:05.860 usb_device.py:3282 INFO enter download
+2025-09-29 17:25:05.860 ui_firmware.py:116 INFO Parsing Firmware
+2025-09-29 17:25:06.308 ui_firmware.py:116 INFO Download perparing
+2025-09-29 17:25:07.005 ui_firmware.py:116 INFO Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-09-29 17:25:52.013 usb_device.py:1366 ERROR Download COM port NOT FOUND
+2025-09-29 17:25:52.033 usb_device.py:1391 INFO usb device trace
+2025-09-29 17:25:52.056 ui_firmware.py:123 ERROR Download COM port NOT FOUND
+2025-09-29 17:25:52.064 soc.py:476 INFO None
+2025-09-29 17:25:52.064 usb_device.py:3284 INFO quit download
+2025-09-29 17:25:52.064 usb_device.py:3272 INFO enter Trace
+2025-09-29 17:25:52.064 usb_device.py:2563 INFO sleep 0.1099998950958252 sec
+2025-09-29 17:25:52.067 my_api.py:114 INFO [None, None]
+2025-09-29 17:25:52.067 usb_device.py:2567 INFO sleep done
+2025-09-29 17:26:10.539 usb_device.py:1439 INFO usb device download
+2025-09-29 17:26:10.539 my_api.py:114 INFO [None, None]
+2025-09-29 17:26:10.540 usb_device.py:3280 INFO quit Trace
+2025-09-29 17:26:10.540 usb_device.py:3282 INFO enter download
+2025-09-29 17:26:10.546 ui_firmware.py:116 INFO Ready to download
+2025-09-29 17:26:10.549 ui_firmware.py:116 INFO Parsing Firmware
+2025-09-29 17:26:10.993 ui_firmware.py:116 INFO Download perparing
+2025-09-29 17:26:11.728 ui_firmware.py:116 INFO Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-09-29 17:26:56.773 usb_device.py:1366 ERROR Download COM port NOT FOUND
+2025-09-29 17:26:56.793 usb_device.py:1391 INFO usb device trace
+2025-09-29 17:26:56.823 ui_firmware.py:123 ERROR Download COM port NOT FOUND
+2025-09-29 17:26:56.823 soc.py:476 INFO None
+2025-09-29 17:26:56.823 usb_device.py:3284 INFO quit download
+2025-09-29 17:26:56.826 usb_device.py:3272 INFO enter Trace
+2025-09-29 17:26:56.826 usb_device.py:2563 INFO sleep 0.10741233825683594 sec
+2025-09-29 17:26:56.826 my_api.py:114 INFO [None, None]
+2025-09-29 17:26:56.828 usb_device.py:2567 INFO sleep done
+2025-09-29 17:28:03.311 usb_device.py:1385 INFO usb device sleep
+2025-09-29 17:28:03.313 my_api.py:114 INFO [None, None]
+2025-09-29 17:28:03.313 my_api.py:114 INFO [None, None]
+2025-09-29 17:28:03.313 usb_device.py:3280 INFO quit Trace
+2025-09-29 17:28:10.821 usb_device.py:1439 INFO usb device download
+2025-09-29 17:28:10.821 my_api.py:114 INFO [None, None]
+2025-09-29 17:28:10.821 usb_device.py:3282 INFO enter download
+2025-09-29 17:28:10.831 ui_firmware.py:116 INFO Ready to download
+2025-09-29 17:28:10.831 ui_firmware.py:116 INFO Parsing Firmware
+2025-09-29 17:28:11.276 ui_firmware.py:116 INFO Download perparing
+2025-09-29 17:28:11.979 ui_firmware.py:116 INFO Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-09-29 17:28:57.093 usb_device.py:1366 ERROR Download COM port NOT FOUND
+2025-09-29 17:28:57.098 usb_device.py:1385 INFO usb device sleep
+2025-09-29 17:28:57.098 usb_device.py:1385 INFO usb device sleep
+2025-09-29 17:28:57.108 ui_firmware.py:123 ERROR Download COM port NOT FOUND
+2025-09-29 17:28:57.108 soc.py:476 INFO None
+2025-09-29 17:28:57.108 usb_device.py:3284 INFO quit download
+2025-09-29 17:28:57.108 my_api.py:114 INFO [None, None]
+2025-09-29 17:28:57.108 my_api.py:114 INFO [None, None]
+2025-09-29 17:28:57.108 my_api.py:114 INFO [None, None]
+2025-09-29 17:28:57.108 my_api.py:114 INFO [None, None]
+2025-09-29 17:29:02.590 my_api.py:114 INFO [None, None]
+2025-09-29 17:29:02.590 usb_device.py:1385 INFO usb device sleep
+2025-09-29 17:29:02.592 my_api.py:114 INFO [None, None]
+2025-09-29 17:29:02.695 my_api.py:114 INFO [None, None]
+2025-09-29 17:29:02.695 host_device.py:507 INFO task quit
+2025-09-29 17:29:02.695 my_api.py:114 INFO [None, None]
+2025-09-29 17:29:02.695 usb_device.py:3291 INFO task quit
+2025-09-29 17:29:02.955 core.py:220 INFO event loop closed
+2025-09-29 17:29:03.576 core.py:245 INFO end!
+2025-09-29 17:29:09.526 core.py:75 INFO 3.1.6 start!
+2025-09-29 17:29:10.147 usb_device.py:3262 INFO usb device ready!
+2025-09-29 17:29:10.456 ui_main.py:458 INFO ui start
+2025-09-29 17:29:26.464 usb_device.py:1439 INFO usb device download
+2025-09-29 17:29:26.464 my_api.py:114 INFO [None, None]
+2025-09-29 17:29:26.464 usb_device.py:3282 INFO enter download
+2025-09-29 17:29:26.475 ui_firmware.py:116 INFO Ready to download
+2025-09-29 17:29:26.482 ui_firmware.py:116 INFO Parsing Firmware
+2025-09-29 17:29:26.925 ui_firmware.py:116 INFO Download perparing
+2025-09-29 17:29:28.079 ui_firmware.py:116 INFO Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-09-29 17:30:13.091 usb_device.py:1366 ERROR Download COM port NOT FOUND
+2025-09-29 17:30:13.092 usb_device.py:1385 INFO usb device sleep
+2025-09-29 17:30:13.102 usb_device.py:1385 INFO usb device sleep
+2025-09-29 17:30:13.102 ui_firmware.py:123 ERROR Download COM port NOT FOUND
+2025-09-29 17:30:13.102 soc.py:476 INFO None
+2025-09-29 17:30:13.102 usb_device.py:3284 INFO quit download
+2025-09-29 17:30:13.102 my_api.py:114 INFO [None, None]
+2025-09-29 17:30:13.102 my_api.py:114 INFO [None, None]
+2025-09-29 17:30:13.111 my_api.py:114 INFO [None, None]
+2025-09-29 17:30:13.111 my_api.py:114 INFO [None, None]
+2025-09-29 17:39:17.361 usb_device.py:1439 INFO usb device download
+2025-09-29 17:39:17.361 my_api.py:114 INFO [None, None]
+2025-09-29 17:39:17.361 usb_device.py:3282 INFO enter download
+2025-09-29 17:39:17.361 ui_firmware.py:116 INFO Ready to download
+2025-09-29 17:39:17.371 ui_firmware.py:116 INFO Parsing Firmware
+2025-09-29 17:39:17.848 ui_firmware.py:116 INFO Download perparing
+2025-09-29 17:39:18.781 ui_firmware.py:116 INFO Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-09-29 17:40:03.788 usb_device.py:1366 ERROR Download COM port NOT FOUND
+2025-09-29 17:40:03.798 usb_device.py:1385 INFO usb device sleep
+2025-09-29 17:40:03.808 usb_device.py:1385 INFO usb device sleep
+2025-09-29 17:40:03.808 ui_firmware.py:123 ERROR Download COM port NOT FOUND
+2025-09-29 17:40:03.808 soc.py:476 INFO None
+2025-09-29 17:40:03.808 usb_device.py:3284 INFO quit download
+2025-09-29 17:40:03.808 my_api.py:114 INFO [None, None]
+2025-09-29 17:40:03.808 my_api.py:114 INFO [None, None]
+2025-09-29 17:40:03.808 my_api.py:114 INFO [None, None]
+2025-09-29 17:40:03.818 my_api.py:114 INFO [None, None]
+2025-09-29 17:41:51.217 my_api.py:114 INFO [None, None]
+2025-09-29 17:41:51.217 usb_device.py:1439 INFO usb device download
+2025-09-29 17:41:51.217 usb_device.py:3282 INFO enter download
+2025-09-29 17:41:51.226 ui_firmware.py:116 INFO Ready to download
+2025-09-29 17:41:51.230 ui_firmware.py:116 INFO Parsing Firmware
+2025-09-29 17:41:51.683 ui_firmware.py:116 INFO Download perparing
+2025-09-29 17:41:52.515 ui_firmware.py:116 INFO Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-09-29 17:42:37.595 usb_device.py:1366 ERROR Download COM port NOT FOUND
+2025-09-29 17:42:37.596 usb_device.py:1385 INFO usb device sleep
+2025-09-29 17:42:37.607 usb_device.py:1385 INFO usb device sleep
+2025-09-29 17:42:37.616 ui_firmware.py:123 ERROR Download COM port NOT FOUND
+2025-09-29 17:42:37.616 soc.py:476 INFO None
+2025-09-29 17:42:37.617 usb_device.py:3284 INFO quit download
+2025-09-29 17:42:37.619 my_api.py:114 INFO [None, None]
+2025-09-29 17:42:37.619 my_api.py:114 INFO [None, None]
+2025-09-29 17:42:37.621 my_api.py:114 INFO [None, None]
+2025-09-29 17:42:37.621 my_api.py:114 INFO [None, None]
+2025-09-29 17:43:24.110 usb_device.py:1391 INFO usb device trace
+2025-09-29 17:43:24.110 my_api.py:114 INFO [None, None]
+2025-09-29 17:43:24.110 usb_device.py:3272 INFO enter Trace
+2025-09-29 17:43:24.263 usb_device.py:2575 INFO search com done!
+2025-09-29 17:43:24.293 usb_device.py:1376 ERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025-09-29 17:43:24.303 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:43:24.303 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:43:24.314 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:43:24.324 usb_device.py:1376 ERROR -> Pls check RNDIS
+2025-09-29 17:43:24.334 usb_device.py:1376 ERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025-09-29 17:43:24.984 ui_main.py:979 INFO None is full or not exsit, create new
+2025-09-29 17:43:25.045 usb_device.py:1376 ERROR AP LOG is save atC:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-09-29_174325_AirM2M_780EG_V1164_LTE_AT_864814071602907_COM17.binPls send this file to FAE, if something worng
+2025-09-29 17:43:25.054 usb_device.py:1376 ERROR CP LOG is save atC:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\29-17-43-25-054.Sn(1556bd).traPls send this file to FAE, if something worng
+2025-09-29 17:43:40.036 usb_device.py:1439 INFO usb device download
+2025-09-29 17:43:40.036 ui_firmware.py:116 INFO Ready to download
+2025-09-29 17:43:40.056 my_api.py:114 INFO [None, None]
+2025-09-29 17:43:40.056 usb_device.py:2143 INFO trace -> download
+2025-09-29 17:43:40.056 usb_device.py:3280 INFO quit Trace
+2025-09-29 17:43:40.056 usb_device.py:3282 INFO enter download
+2025-09-29 17:43:40.056 ui_firmware.py:116 INFO Parsing Firmware
+2025-09-29 17:43:40.498 ui_firmware.py:116 INFO Download perparing
+2025-09-29 17:43:41.267 ui_firmware.py:116 INFO Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-09-29 17:44:26.385 usb_device.py:1366 ERROR Download COM port NOT FOUND
+2025-09-29 17:44:26.395 usb_device.py:1391 INFO usb device trace
+2025-09-29 17:44:26.430 ui_firmware.py:123 ERROR Download COM port NOT FOUND
+2025-09-29 17:44:26.430 soc.py:476 INFO None
+2025-09-29 17:44:26.430 usb_device.py:3284 INFO quit download
+2025-09-29 17:44:26.430 usb_device.py:3272 INFO enter Trace
+2025-09-29 17:44:26.436 usb_device.py:2563 INFO sleep 0.10388064384460449 sec
+2025-09-29 17:44:26.436 my_api.py:114 INFO [None, None]
+2025-09-29 17:44:26.436 usb_device.py:2567 INFO sleep done
+2025-09-29 17:44:26.676 usb_device.py:2575 INFO search com done!
+2025-09-29 17:44:26.690 usb_device.py:1376 ERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025-09-29 17:44:26.699 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:44:26.707 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:44:26.717 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:44:26.723 usb_device.py:1376 ERROR -> Pls check RNDIS
+2025-09-29 17:44:26.734 usb_device.py:1376 ERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025-09-29 17:44:27.460 usb_device.py:1376 ERROR AP LOG is save atC:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-09-29_174427_AirM2M_780EG_V1164_LTE_AT_864814071602907_COM17.binPls send this file to FAE, if something worng
+2025-09-29 17:44:27.466 usb_device.py:1376 ERROR CP LOG is save atC:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\29-17-44-27-466.Sn(1556bd).traPls send this file to FAE, if something worng
+2025-09-29 17:44:41.169 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-09-29 17:44:41.187 usb_device.py:3280 INFO quit Trace
+2025-09-29 17:44:41.187 usb_device.py:3272 INFO enter Trace
+2025-09-29 17:44:41.187 usb_device.py:2563 INFO sleep 0.40799360275268537 sec
+2025-09-29 17:44:41.603 usb_device.py:2567 INFO sleep done
+2025-09-29 17:44:45.479 usb_device.py:2575 INFO search com done!
+2025-09-29 17:44:45.586 usb_device.py:1376 ERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025-09-29 17:44:45.598 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:44:45.608 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:44:45.620 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:44:45.630 usb_device.py:1376 ERROR -> Pls check RNDIS
+2025-09-29 17:44:45.642 usb_device.py:1376 ERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025-09-29 17:44:46.396 usb_device.py:1376 ERROR AP LOG is save atC:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-09-29_174446_AirM2M_780EG_V1164_LTE_AT_864814071602907_COM17.binPls send this file to FAE, if something worng
+2025-09-29 17:44:46.413 usb_device.py:1376 ERROR CP LOG is save atC:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\29-17-44-46-413.Sn(1556bd).traPls send this file to FAE, if something worng
+2025-09-29 17:44:51.422 usb_device.py:1439 INFO usb device download
+2025-09-29 17:44:51.429 ui_firmware.py:116 INFO Ready to download
+2025-09-29 17:44:51.436 my_api.py:114 INFO [None, None]
+2025-09-29 17:44:51.437 usb_device.py:2143 INFO trace -> download
+2025-09-29 17:44:51.438 usb_device.py:3280 INFO quit Trace
+2025-09-29 17:44:51.440 usb_device.py:3282 INFO enter download
+2025-09-29 17:44:51.443 ui_firmware.py:116 INFO Parsing Firmware
+2025-09-29 17:44:51.886 ui_firmware.py:116 INFO Download perparing
+2025-09-29 17:44:52.608 ui_firmware.py:116 INFO Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-09-29 17:45:37.673 usb_device.py:1366 ERROR Download COM port NOT FOUND
+2025-09-29 17:45:37.694 usb_device.py:1391 INFO usb device trace
+2025-09-29 17:45:37.724 ui_firmware.py:123 ERROR Download COM port NOT FOUND
+2025-09-29 17:45:37.724 soc.py:476 INFO None
+2025-09-29 17:45:37.724 usb_device.py:3284 INFO quit download
+2025-09-29 17:45:37.729 usb_device.py:3272 INFO enter Trace
+2025-09-29 17:45:37.729 usb_device.py:2563 INFO sleep 0.10492420196533203 sec
+2025-09-29 17:45:37.729 my_api.py:114 INFO [None, None]
+2025-09-29 17:45:37.729 usb_device.py:2567 INFO sleep done
+2025-09-29 17:45:37.964 usb_device.py:2575 INFO search com done!
+2025-09-29 17:45:37.972 usb_device.py:1376 ERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025-09-29 17:45:37.979 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:45:37.988 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:45:38.001 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-29 17:45:38.008 usb_device.py:1376 ERROR -> Pls check RNDIS
+2025-09-29 17:45:38.019 usb_device.py:1376 ERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025-09-29 17:45:38.750 usb_device.py:1376 ERROR AP LOG is save atC:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-09-29_174538_AirM2M_780EG_V1164_LTE_AT_864814071602907_COM17.binPls send this file to FAE, if something worng
+2025-09-29 17:45:38.755 usb_device.py:1376 ERROR CP LOG is save atC:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\29-17-45-38-755.Sn(1556bd).traPls send this file to FAE, if something worng
+2025-09-29 17:46:43.746 ui_project.py:313 INFO Ready to download the script
+2025-09-29 17:46:43.753 ui_project.py:313 INFO Parsing firmware
+2025-09-29 17:46:44.271 ui_project.py:313 INFO Script preprocessing
+2025-09-29 17:46:44.287 ui_project.py:313 INFO Check script dependencies
+2025-09-29 17:46:44.290 ui_project.py:313 INFO Script preprocessing completed
+2025-09-29 17:46:44.293 ui_project.py:313 INFO Generate Firmware
+2025-09-29 17:46:44.294 ui_project.py:1574 INFO .
+2025-09-29 17:46:44.503 ui_project.py:1277 INFO ["main.luac"]
+2025-09-29 17:46:44.512 lua_script.py:467 INFO add crc file
+2025-09-29 17:46:48.726 usb_device.py:1439 INFO usb device download
+2025-09-29 17:46:48.726 my_api.py:114 INFO [None, None]
+2025-09-29 17:46:48.727 usb_device.py:2143 INFO trace -> download
+2025-09-29 17:46:48.729 usb_device.py:3280 INFO quit Trace
+2025-09-29 17:46:48.729 ui_project.py:313 INFO Ready to download, if no change in more than 5 seconds, turn off the module power
+2025-09-29 17:46:48.731 usb_device.py:3282 INFO enter download
+2025-09-29 17:46:48.738 ui_project.py:313 INFO Parsing Firmware
+2025-09-29 17:46:49.240 ui_project.py:313 INFO Download perparing
+2025-09-29 17:46:50.511 ui_project.py:313 INFO Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-09-29 17:47:35.563 usb_device.py:1366 ERROR Download COM port NOT FOUND
+2025-09-29 17:47:35.660 ui_project.py:321 ERROR Download COM port NOT FOUND
+2025-09-29 17:47:35.681 usb_device.py:1391 INFO usb device trace
+2025-09-29 17:47:35.703 soc.py:476 INFO None
+2025-09-29 17:47:35.703 usb_device.py:3284 INFO quit download
+2025-09-29 17:47:35.703 usb_device.py:3272 INFO enter Trace
+2025-09-29 17:47:35.703 usb_device.py:2563 INFO sleep 0.1099998950958252 sec
+2025-09-29 17:47:35.711 my_api.py:114 INFO [None, None]
+2025-09-29 17:47:35.711 usb_device.py:2567 INFO sleep done
+2025-09-29 21:01:28.373 net_main.py:260 ERROR 
+Traceback (most recent call last):
+  File "aiohttp\connector.py", line 999, in _create_direct_connection
+  File "aiohttp\connector.py", line 865, in _resolve_host
+  File "aiohttp\resolver.py", line 36, in resolve
+  File "asyncio\base_events.py", line 792, in getaddrinfo
+  File "concurrent\futures\thread.py", line 57, in run
+  File "socket.py", line 752, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "net_main.py", line 221, in dt_report_update
+  File "aiohttp\client.py", line 521, in _request
+  File "aiohttp\connector.py", line 535, in connect
+  File "aiohttp\connector.py", line 892, in _create_connection
+  File "aiohttp\connector.py", line 1011, in _create_direct_connection
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host luatos.com:443 ssl:default [getaddrinfo failed]
+
+2025-09-30 00:47:04.691 net_main.py:260 ERROR 
+Traceback (most recent call last):
+  File "aiohttp\connector.py", line 999, in _create_direct_connection
+  File "aiohttp\connector.py", line 865, in _resolve_host
+  File "aiohttp\resolver.py", line 36, in resolve
+  File "asyncio\base_events.py", line 792, in getaddrinfo
+  File "concurrent\futures\thread.py", line 57, in run
+  File "socket.py", line 752, in getaddrinfo
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "net_main.py", line 221, in dt_report_update
+  File "aiohttp\client.py", line 521, in _request
+  File "aiohttp\connector.py", line 535, in connect
+  File "aiohttp\connector.py", line 892, in _create_connection
+  File "aiohttp\connector.py", line 1011, in _create_direct_connection
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host luatos.com:443 ssl:default [getaddrinfo failed]
+
+2025-09-30 10:16:38.263 net_main.py:260 ERROR 
+Traceback (most recent call last):
+  File "aiohttp\connector.py", line 999, in _create_direct_connection
+  File "aiohttp\connector.py", line 865, in _resolve_host
+  File "aiohttp\resolver.py", line 36, in resolve
+  File "asyncio\base_events.py", line 792, in getaddrinfo
+  File "concurrent\futures\thread.py", line 57, in run
+  File "socket.py", line 752, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "net_main.py", line 221, in dt_report_update
+  File "aiohttp\client.py", line 521, in _request
+  File "aiohttp\connector.py", line 535, in connect
+  File "aiohttp\connector.py", line 892, in _create_connection
+  File "aiohttp\connector.py", line 1011, in _create_direct_connection
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host luatos.com:443 ssl:default [getaddrinfo failed]
+
+2025-09-30 11:18:05.208 usb_device.py:1385 INFO usb device sleep
+2025-09-30 11:18:05.210 my_api.py:114 INFO [None, None]
+2025-09-30 11:18:05.214 usb_device.py:3280 INFO quit Trace
+2025-09-30 11:18:05.218 my_api.py:114 INFO [None, None]
+2025-09-30 11:18:05.328 my_api.py:114 INFO [None, None]
+2025-09-30 11:18:05.328 host_device.py:507 INFO task quit
+2025-09-30 11:18:05.329 my_api.py:114 INFO [None, None]
+2025-09-30 11:18:05.330 usb_device.py:3291 INFO task quit
+2025-09-30 11:18:05.610 core.py:220 INFO event loop closed
+2025-09-30 11:18:07.338 core.py:245 INFO end!

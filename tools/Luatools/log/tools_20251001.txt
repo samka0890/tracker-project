@@ -1,0 +1,1257 @@
+2025-10-01 12:36:09.840 core.py:75 INFO 3.1.6 start!
+2025-10-01 12:36:10.506 usb_device.py:3262 INFO usb device ready!
+2025-10-01 12:36:11.146 usb_device.py:1391 INFO usb device trace
+2025-10-01 12:36:11.162 my_api.py:114 INFO [None, None]
+2025-10-01 12:36:11.163 usb_device.py:3272 INFO enter Trace
+2025-10-01 12:36:11.235 ui_main.py:458 INFO ui start
+2025-10-01 12:36:40.910 core.py:35 ERROR Traceback (most recent call last):
+  File "ui_project.py", line 2129, in m_button_del_one_OnButtonClick
+wx._core.wxAssertionError: C++ assertion "item.IsOk()" failed at ..\..\src\msw\treectrl.cpp(1333) in wxTreeCtrl::GetItemParent(): invalid tree item
+
+2025-10-01 12:36:58.220 ui_project.py:313 INFO Ready to download the script
+2025-10-01 12:36:58.220 ui_project.py:313 INFO Parsing firmware
+2025-10-01 12:36:58.382 ui_project.py:321 ERROR User Cancel
+2025-10-01 12:37:12.980 usb_device.py:2575 INFO search com done!
+2025-10-01 12:37:13.043 ui_main.py:1089 INFO create new log file
+2025-10-01 12:37:13.220 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,39494,223,33875
+2025-10-01 12:37:13.220 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=39494, pci=223, cid=33875 band=40
+2025-10-01 12:37:13.252 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,39494,223,33875
+2025-10-01 12:37:13.252 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=39494, pci=223, cid=33875 band=40
+2025-10-01 12:37:19.450 ui_project.py:313 INFO Ready to download the script
+2025-10-01 12:37:19.450 ui_project.py:313 INFO Parsing firmware
+2025-10-01 12:37:19.944 ui_project.py:313 INFO Script preprocessing
+2025-10-01 12:37:19.952 ui_project.py:313 INFO Check script dependencies
+2025-10-01 12:37:19.952 ui_project.py:313 INFO Script preprocessing completed
+2025-10-01 12:37:19.959 ui_project.py:313 INFO Generate Firmware
+2025-10-01 12:37:19.960 ui_project.py:1574 INFO .
+2025-10-01 12:37:20.110 ui_project.py:1277 INFO ["main.luac"]
+2025-10-01 12:37:20.120 lua_script.py:467 INFO add crc file
+2025-10-01 12:37:24.030 usb_device.py:1439 INFO usb device download
+2025-10-01 12:37:24.032 my_api.py:114 INFO [None, None]
+2025-10-01 12:37:24.032 usb_device.py:2227 INFO trace -> download
+2025-10-01 12:37:24.034 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_123713_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 12:37:24.036 ui_project.py:313 INFO Ready to download, if no change in more than 5 seconds, turn off the module power
+2025-10-01 12:37:24.036 usb_device.py:3280 INFO quit Trace
+2025-10-01 12:37:24.036 usb_device.py:3282 INFO enter download
+2025-10-01 12:37:24.044 ui_project.py:313 INFO Parsing Firmware
+2025-10-01 12:37:24.519 ui_project.py:313 INFO Download perparing
+2025-10-01 12:37:25.574 ui_project.py:313 INFO Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-10-01 12:37:30.900 ui_project.py:313 INFO Found Download COM portCOM20
+2025-10-01 12:37:31.009 soc.py:476 INFO FlashToolCLI.exe --cfgfile .\ec618_luatos_usb.ini  --port COM20 burnbatch --imglist flexfile2
+2025-10-01 12:37:32.523 soc.py:486 INFO b'2025-10-01 12:37:32,523 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000681,build time-2025-03-19 14:50:58\r\n'
+2025-10-01 12:37:32.530 ui_project.py:313 INFO Transfer begin
+2025-10-01 12:37:32.530 soc.py:486 INFO b'2025-10-01 12:37:32,523 INFO     [FlashTop]    init\r\n'
+2025-10-01 12:37:32.530 soc.py:486 INFO b'2025-10-01 12:37:32,530 INFO     [FlashTop]    PreLoad para sync success\r\n'
+2025-10-01 12:37:32.530 soc.py:486 INFO b'[Process-11904] [FlashTop]    do_main: cmd loadpara\r\n'
+2025-10-01 12:37:32.530 soc.py:486 INFO b'[Process-11904] [FlashTop]    loadpara args 0x3001830 \r\n'
+2025-10-01 12:37:32.546 soc.py:486 INFO b'[Process-11904] [PRFrame]    LoadPrMgrProc init loaded C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\PRMgrCfg.json\r\n'
+2025-10-01 12:37:32.546 soc.py:486 INFO b'[Process-11904] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success\r\n'
+2025-10-01 12:37:32.546 soc.py:486 INFO b'[Process-11904] [Para]    tryupd_chinese_stat_once, legal now\r\n'
+2025-10-01 12:37:32.546 soc.py:486 INFO b'[Process-11904] [Para]    LoadPara from cfgfile(C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\ec618_luatos_usb.ini) \r\n'
+2025-10-01 12:37:32.550 soc.py:486 INFO b'[Process-11904] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0\r\n'
+2025-10-01 12:37:32.550 soc.py:486 INFO b'[Process-11904] [PRFrame]    LdXPKPrMgrProc  not exist\r\n'
+2025-10-01 12:37:32.552 soc.py:486 INFO b'[Process-11904] [Para]    invalid config, filepath:C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\MergeRfTable_ec618.bin, burnaddr 0xe7000\r\n'
+2025-10-01 12:37:32.552 soc.py:486 INFO b'[Process-11904] [Para]    invalid config, filepath:C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\MergeRfTable_ec618.bin, burnaddr 0xce000\r\n'
+2025-10-01 12:37:32.554 soc.py:486 INFO b'[Process-11904] [Para]    LoadPkgFlx\r\n'
+2025-10-01 12:37:32.556 soc.py:486 INFO b'[Process-11904] [FlashTop]    Load para sync success\r\n'
+2025-10-01 12:37:32.556 soc.py:486 INFO b'[Process-11904] [FlashTop]    LoadParaToArgs id args 0x3001830, opt_storage_list 0x3225c28 "cp_flash"\r\n'
+2025-10-01 12:37:32.556 soc.py:486 INFO b'[Process-11904] [FlashTop]    InitLoadImgInfo add empty bootloader2\r\n'
+2025-10-01 12:37:32.556 soc.py:486 INFO b"[Process-11904] [FlashToolCLI]    Burnbatch Start, burn imglist ['flexfile2'].\r\n"
+2025-10-01 12:37:32.559 soc.py:486 INFO b'[Process-11904] [FlashTop]    do_main: cmd burnag, Thread0[24764]\r\n'
+2025-10-01 12:37:32.562 soc.py:486 INFO b'[Process-11904] [Thread0]    ProcessStart[24764]\r\n'
+2025-10-01 12:37:32.562 soc.py:486 INFO b'[Process-11904] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 12:37:32.562 soc.py:486 INFO b'[Process-11904] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 12:37:32.562 soc.py:486 INFO b'[Process-11904] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 12:37:32.562 soc.py:486 INFO b'[Process-11904] [Thread0]    DtrConditionAssign  1\r\n'
+2025-10-01 12:37:32.562 soc.py:486 INFO b'[Process-11904] [Thread0]    RtsConditionAssign  1\r\n'
+2025-10-01 12:37:33.070 soc.py:486 INFO b'[Process-11904] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 12:37:33.580 soc.py:486 INFO b'[Process-11904] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 12:37:33.582 soc.py:486 INFO b'[Process-11904] [Thread0]    ResetBoard(Normal Mod) finish\r\n'
+2025-10-01 12:37:33.582 soc.py:486 INFO b'[Process-11904] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 12:37:33.582 soc.py:486 INFO b'[Process-11904] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 12:37:33.582 soc.py:486 INFO b'[Process-11904] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 12:37:33.582 soc.py:486 INFO b'[Process-11904] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 12:37:33.582 soc.py:486 INFO b'[Process-11904] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 12:37:33.582 soc.py:486 INFO b'[Process-11904] [Image]    pullup_qspi 1\r\n'
+2025-10-01 12:37:33.589 soc.py:486 INFO b'[Process-11904] [Image]    genimghd args id 0x323a6d0, opt_storage_list refcnt 6, id 0x3225c28 \r\n'
+2025-10-01 12:37:33.589 soc.py:486 INFO b'[Process-11904] [Image]    SetBaud 921600\r\n'
+2025-10-01 12:37:33.590 soc.py:486 INFO b"[Process-11904] [Image]    Update Image Head Hash  b'\\xe8\\xe0\\xc4\\xd3\\xfa\\x65\\x86\\x52\\x38\\xe4\\x0e\\xe4\\x83\\xac\\xcf\\xcd\\x74\\x7e\\xda\\x68\\x26\\x92\\x96\\xab\\xac\\x86\\xb3\\x2c\\x80\\x9e\\x74\\x40'\r\n"
+2025-10-01 12:37:33.590 soc.py:486 INFO b'[Process-11904] [Thread0]    TryDownload C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\agentboot_usb.bin start\r\n'
+2025-10-01 12:37:33.590 soc.py:486 INFO b'[Process-11904] [Thread0]    image size=44984, hdsize=272\r\n'
+2025-10-01 12:37:33.594 soc.py:486 INFO b'[Process-11904] [Thread0]    Preamble Send\r\n'
+2025-10-01 12:37:33.594 soc.py:486 INFO b'[Process-11904] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 12:37:33.596 soc.py:486 INFO b'[Process-11904] [Thread0]    CompRomVerIntSingle 0000000201000000 suc\r\n'
+2025-10-01 12:37:33.596 soc.py:486 INFO b'[Process-11904] [Thread0]    RVer 0000000201000000, chk suc, compare with version\r\n'
+2025-10-01 12:37:33.598 soc.py:486 INFO b'[Process-11904] [Thread0]    Preamble Send\r\n'
+2025-10-01 12:37:33.602 soc.py:486 INFO b'[Process-11904] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 12:37:33.604 soc.py:486 INFO b'[Process-11904] [Thread0]    CompRomVerIntSingle 0000000201000000 suc\r\n'
+2025-10-01 12:37:33.604 soc.py:486 INFO b'[Process-11904] [Thread0]    RVer 0000000201000000, chk suc, compare with version\r\n'
+2025-10-01 12:37:33.692 soc.py:486 INFO b'[Process-11904] [Thread0]    TryDownload agentboot success\r\n'
+2025-10-01 12:37:33.709 soc.py:486 INFO b'[Process-11904] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 12:37:33.710 soc.py:486 INFO b'[Process-11904] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 12:37:33.710 soc.py:486 INFO b'[Process-11904] [Thread0]    agbaud: 921600\r\n'
+2025-10-01 12:37:33.710 soc.py:486 INFO b'[Process-11904] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 12:37:33.712 soc.py:486 INFO b'[Process-11904] [Thread0]    Burn OK!\r\n'
+2025-10-01 12:37:33.712 soc.py:486 INFO b'[Process-11904] [Thread0]    ProcessEnd[24764]\r\n'
+2025-10-01 12:37:33.712 soc.py:486 INFO b'[Process-11904] [FlashTop]    do_main: cmd burnone, Thread0[24764]\r\n'
+2025-10-01 12:37:33.712 soc.py:486 INFO b'[Process-11904] [Thread0]    ProcessStart[24764]\r\n'
+2025-10-01 12:37:33.712 soc.py:486 INFO b'[Process-11904] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 12:37:33.712 soc.py:486 INFO b'[Process-11904] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 12:37:33.712 soc.py:486 INFO b'[Process-11904] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 12:37:33.719 soc.py:486 INFO b'[Process-11904] [Thread0]    agentboot is downloaded already\r\n'
+2025-10-01 12:37:33.720 soc.py:486 INFO b'[Process-11904] [Thread0]    TryDownload agentboot skip\r\n'
+2025-10-01 12:37:33.720 soc.py:486 INFO b'[Process-11904] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 12:37:33.720 soc.py:486 INFO b'[Process-11904] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 12:37:33.720 soc.py:486 INFO b'[Process-11904] [Thread0]    agbaud: 921600\r\n'
+2025-10-01 12:37:33.720 soc.py:486 INFO b'[Process-11904] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 12:37:33.720 soc.py:486 INFO b'[Process-11904] [Thread0]    LPC Preamble Send\r\n'
+2025-10-01 12:37:33.720 soc.py:486 INFO b'[Process-11904] [Thread0]    LPC Preamble Received Rsp\r\n'
+2025-10-01 12:37:33.725 soc.py:486 INFO b'[Process-11904] [Thread0]    LPCSetSyncStat(1)\r\n'
+2025-10-01 12:37:33.725 soc.py:486 INFO b'[Process-11904] [Thread0]    LPCSyncDetect: success\r\n'
+2025-10-01 12:37:33.727 soc.py:486 INFO b'[Process-11904] [Thread0]    DownloadBurnOne imgtype(flexfile2)\r\n'
+2025-10-01 12:37:33.727 soc.py:486 INFO b'[Process-11904] [Thread0]    DownloadBurnOne imgtype(flexfile2), burnaddr(0x24d000), imgid(0x464c5849)\r\n'
+2025-10-01 12:37:33.727 soc.py:486 INFO b'[Process-11904] [Thread0]    DownloadBurnOne file C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\script.bin \r\n'
+2025-10-01 12:37:33.729 soc.py:486 INFO b"[Process-11904] [Image]    Update Image Body Hash  b'\\x37\\x88\\x73\\x2c\\x08\\x23\\x98\\x0a\\x9d\\x8a\\x5e\\x7f\\x45\\xdd\\x5c\\xa3\\x1e\\xcd\\x50\\xaf\\xd5\\x81\\x9f\\x54\\xd7\\x10\\xcc\\x84\\x0d\\x81\\x5d\\x9e'\r\n"
+2025-10-01 12:37:33.729 soc.py:486 INFO b"[Process-11904] [Image]    Update Image Head Hash  b'\\xba\\x61\\x0d\\x2c\\xcd\\x8c\\x4c\\xc3\\x84\\xb1\\xad\\x41\\x05\\x31\\x00\\x8e\\xad\\xe5\\x2b\\x20\\x8b\\xd0\\x08\\xaa\\xad\\xd7\\x9b\\x49\\x57\\xaa\\x70\\x19'\r\n"
+2025-10-01 12:37:33.729 soc.py:486 INFO b'[Process-11904] [Thread0]    TryDownload C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\script.bin start\r\n'
+2025-10-01 12:37:33.730 soc.py:486 INFO b'[Process-11904] [Thread0]    LPCBurnOneTrig start       \t\t\t******\r\n'
+2025-10-01 12:37:33.731 soc.py:486 INFO b'[Process-11904] [Thread0]    LPCBurnOneTrig success\r\n'
+2025-10-01 12:37:33.733 soc.py:486 INFO b'[Process-11904] [Thread0]    DLDPreSync Preamble Send\r\n'
+2025-10-01 12:37:34.240 soc.py:486 INFO b'[Process-11904] [Thread0]    DLDPreSync Preamble Received Rsp\r\n'
+2025-10-01 12:37:34.242 soc.py:486 INFO b'[Process-11904] [Thread0]    image size=6416, hdsize=272\r\n'
+2025-10-01 12:37:34.242 soc.py:486 INFO b'[Process-11904] [Thread0]    \r\n'
+2025-10-01 12:37:34.244 soc.py:486 INFO b'[Process-11904] [Thread0]    imginfo.size=6416, RemainLen=6416, Offset=0\r\n'
+2025-10-01 12:37:34.244 soc.py:486 INFO b'[Process-11904] [Thread0]    {script.bin-percent files transferred   0%}\r\n'
+2025-10-01 12:37:34.246 ui_project.py:313 INFO downloadscript
+2025-10-01 12:37:34.249 soc.py:486 INFO b'[Process-11904] [Thread0]    \r\n'
+2025-10-01 12:37:34.250 soc.py:486 INFO b'[Process-11904] [Thread0]    Preamble Send\r\n'
+2025-10-01 12:37:34.250 soc.py:486 INFO b'[Process-11904] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 12:37:34.253 soc.py:486 INFO b'[Process-11904] [Thread0]    imginfo.size=6416, RemainLen=6144, Offset=272\r\n'
+2025-10-01 12:37:34.253 soc.py:486 INFO b'[Process-11904] [Thread0]    {script.bin-percent files transferred   4%}\r\n'
+2025-10-01 12:37:34.256 ui_project.py:313 INFO downloadscript
+2025-10-01 12:37:34.259 soc.py:486 INFO b'[Process-11904] [Thread0]    \r\n'
+2025-10-01 12:37:34.260 soc.py:486 INFO b'[Process-11904] [Thread0]    Preamble Send\r\n'
+2025-10-01 12:37:34.312 soc.py:486 INFO b'[Process-11904] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 12:37:34.480 soc.py:486 INFO b'[Process-11904] [Thread0]    imginfo.size=6416, RemainLen=0, Offset=272\r\n'
+2025-10-01 12:37:34.480 soc.py:486 INFO b'[Process-11904] [Thread0]    {script.bin-percent files transferred   100%}\r\n'
+2025-10-01 12:37:34.482 ui_project.py:313 INFO downloadscript
+2025-10-01 12:37:34.482 soc.py:486 INFO b'[Process-11904] [Thread0]    \r\n'
+2025-10-01 12:37:34.482 soc.py:486 INFO b'[Process-11904] [Thread0]    TryDownload success\r\n'
+2025-10-01 12:37:34.482 soc.py:486 INFO b'[Process-11904] [Thread0]    Burn OK!\r\n'
+2025-10-01 12:37:34.482 soc.py:486 INFO b'[Process-11904] [Thread0]    ProcessEnd[24764]\r\n'
+2025-10-01 12:37:34.482 soc.py:486 INFO b"[Process-11904] [FlashToolCLI]    Burnbatch OK, imglist ['flexfile2']\r\n"
+2025-10-01 12:37:34.502 usb_device.py:1391 INFO usb device trace
+2025-10-01 12:37:34.640 ui_project.py:348 INFO download successful
+2025-10-01 12:37:35.496 usb_device.py:3284 INFO quit download
+2025-10-01 12:37:35.496 usb_device.py:3272 INFO enter Trace
+2025-10-01 12:37:35.499 usb_device.py:2563 INFO sleep 0.10732150077819824 sec
+2025-10-01 12:37:35.500 my_api.py:114 INFO [None, None]
+2025-10-01 12:37:35.500 usb_device.py:2567 INFO sleep done
+2025-10-01 12:37:46.359 usb_device.py:2575 INFO search com done!
+2025-10-01 12:37:46.490 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 0,0,0,0,0
+2025-10-01 12:37:46.490 ui_main.py:740 INFO trace_soc_cell: mcc=0, mnc=0, earfcn=0, pci=0, cid=0 band=
+2025-10-01 12:37:47.399 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,39494,223,33875
+2025-10-01 12:37:47.400 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=39494, pci=223, cid=33875 band=40
+2025-10-01 12:37:59.755 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 12:37:59.757 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 12:38:47.676 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 12:38:47.866 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_123746_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 12:38:47.874 usb_device.py:3280 INFO quit Trace
+2025-10-01 12:38:47.875 usb_device.py:3272 INFO enter Trace
+2025-10-01 12:38:47.877 usb_device.py:2563 INFO sleep 0.39903216361999494 sec
+2025-10-01 12:38:48.290 usb_device.py:2567 INFO sleep done
+2025-10-01 12:38:52.510 usb_device.py:2575 INFO search com done!
+2025-10-01 12:38:52.671 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 12:38:52.671 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 12:38:54.420 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 12:38:54.583 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_123852_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 12:38:54.590 usb_device.py:3280 INFO quit Trace
+2025-10-01 12:38:54.591 usb_device.py:3272 INFO enter Trace
+2025-10-01 12:38:54.592 usb_device.py:2563 INFO sleep 0.40063505172729474 sec
+2025-10-01 12:38:55.000 usb_device.py:2567 INFO sleep done
+2025-10-01 12:38:55.419 usb_device.py:2575 INFO search com done!
+2025-10-01 12:38:55.491 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 12:38:55.492 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 12:39:06.580 usb_device.py:1376 ERROR diag com USB has disconnected. COM17 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 12:39:06.700 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_123855_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 12:39:06.702 usb_device.py:3280 INFO quit Trace
+2025-10-01 12:39:06.703 usb_device.py:3272 INFO enter Trace
+2025-10-01 12:39:06.703 usb_device.py:2563 INFO sleep 0.4063511371612547 sec
+2025-10-01 12:39:07.119 usb_device.py:2567 INFO sleep done
+2025-10-01 12:39:07.579 usb_device.py:2575 INFO search com done!
+2025-10-01 12:39:07.636 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 12:39:07.636 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 13:04:29.822 ui_project.py:313 INFO Ready to download the script
+2025-10-01 13:04:29.839 ui_project.py:313 INFO Parsing firmware
+2025-10-01 13:04:30.750 ui_project.py:313 INFO Script preprocessing
+2025-10-01 13:04:30.768 ui_project.py:313 INFO Check script dependencies
+2025-10-01 13:04:30.772 ui_project.py:313 INFO Script preprocessing completed
+2025-10-01 13:04:30.776 ui_project.py:313 INFO Generate Firmware
+2025-10-01 13:04:30.779 ui_project.py:1574 INFO .
+2025-10-01 13:04:30.905 ui_project.py:1277 INFO ["main.luac"]
+2025-10-01 13:04:30.917 lua_script.py:467 INFO add crc file
+2025-10-01 13:04:32.744 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 13:04:32.792 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_123907_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 13:04:32.795 usb_device.py:3280 INFO quit Trace
+2025-10-01 13:04:32.795 usb_device.py:3272 INFO enter Trace
+2025-10-01 13:04:32.795 usb_device.py:2563 INFO sleep 0.40636043548583967 sec
+2025-10-01 13:04:33.215 usb_device.py:2567 INFO sleep done
+2025-10-01 13:04:37.133 usb_device.py:2575 INFO search com done!
+2025-10-01 13:04:37.154 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 13:04:37.166 usb_device.py:3280 INFO quit Trace
+2025-10-01 13:04:37.169 usb_device.py:3272 INFO enter Trace
+2025-10-01 13:04:37.170 usb_device.py:2563 INFO sleep 0.40692381858825666 sec
+2025-10-01 13:04:37.585 usb_device.py:2567 INFO sleep done
+2025-10-01 13:04:37.791 usb_device.py:1439 INFO usb device download
+2025-10-01 13:04:37.792 my_api.py:114 INFO [None, None]
+2025-10-01 13:04:37.793 usb_device.py:3280 INFO quit Trace
+2025-10-01 13:04:37.795 usb_device.py:3282 INFO enter download
+2025-10-01 13:04:37.801 ui_project.py:313 INFO Ready to download, if no change in more than 5 seconds, turn off the module power
+2025-10-01 13:04:37.812 ui_project.py:313 INFO Parsing Firmware
+2025-10-01 13:04:38.885 ui_project.py:313 INFO Download perparing
+2025-10-01 13:04:40.503 ui_project.py:313 INFO Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-10-01 13:04:44.690 ui_project.py:313 INFO Found Download COM portCOM20
+2025-10-01 13:04:44.796 soc.py:476 INFO FlashToolCLI.exe --cfgfile .\ec618_luatos_usb.ini  --port COM20 burnbatch --imglist flexfile2
+2025-10-01 13:04:46.063 soc.py:486 INFO b'2025-10-01 13:04:46,063 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000681,build time-2025-03-19 14:50:58\r\n'
+2025-10-01 13:04:46.074 ui_project.py:313 INFO Transfer begin
+2025-10-01 13:04:46.074 soc.py:486 INFO b'2025-10-01 13:04:46,063 INFO     [FlashTop]    init\r\n'
+2025-10-01 13:04:46.087 soc.py:486 INFO b'2025-10-01 13:04:46,085 INFO     [FlashTop]    PreLoad para sync success\r\n'
+2025-10-01 13:04:46.087 soc.py:486 INFO b'[Process-8480] [FlashTop]    do_main: cmd loadpara\r\n'
+2025-10-01 13:04:46.089 soc.py:486 INFO b'[Process-8480] [FlashTop]    loadpara args 0x39916d0 \r\n'
+2025-10-01 13:04:46.114 soc.py:486 INFO b'[Process-8480] [PRFrame]    LoadPrMgrProc init loaded C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\PRMgrCfg.json\r\n'
+2025-10-01 13:04:46.114 soc.py:486 INFO b'[Process-8480] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success\r\n'
+2025-10-01 13:04:46.117 soc.py:486 INFO b'[Process-8480] [Para]    tryupd_chinese_stat_once, legal now\r\n'
+2025-10-01 13:04:46.117 soc.py:486 INFO b'[Process-8480] [Para]    LoadPara from cfgfile(C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\ec618_luatos_usb.ini) \r\n'
+2025-10-01 13:04:46.124 soc.py:486 INFO b'[Process-8480] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0\r\n'
+2025-10-01 13:04:46.126 soc.py:486 INFO b'[Process-8480] [PRFrame]    LdXPKPrMgrProc  not exist\r\n'
+2025-10-01 13:04:46.130 soc.py:486 INFO b'[Process-8480] [Para]    invalid config, filepath:C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\MergeRfTable_ec618.bin, burnaddr 0xe7000\r\n'
+2025-10-01 13:04:46.132 soc.py:486 INFO b'[Process-8480] [Para]    invalid config, filepath:C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\MergeRfTable_ec618.bin, burnaddr 0xce000\r\n'
+2025-10-01 13:04:46.134 soc.py:486 INFO b'[Process-8480] [Para]    LoadPkgFlx\r\n'
+2025-10-01 13:04:46.138 soc.py:486 INFO b'[Process-8480] [FlashTop]    Load para sync success\r\n'
+2025-10-01 13:04:46.140 soc.py:486 INFO b'[Process-8480] [FlashTop]    LoadParaToArgs id args 0x39916d0, opt_storage_list 0x3bb5cc8 "cp_flash"\r\n'
+2025-10-01 13:04:46.142 soc.py:486 INFO b'[Process-8480] [FlashTop]    InitLoadImgInfo add empty bootloader2\r\n'
+2025-10-01 13:04:46.146 soc.py:486 INFO b"[Process-8480] [FlashToolCLI]    Burnbatch Start, burn imglist ['flexfile2'].\r\n"
+2025-10-01 13:04:46.148 soc.py:486 INFO b'[Process-8480] [FlashTop]    do_main: cmd burnag, Thread0[21388]\r\n'
+2025-10-01 13:04:46.160 soc.py:486 INFO b'[Process-8480] [Thread0]    ProcessStart[21388]\r\n'
+2025-10-01 13:04:46.163 soc.py:486 INFO b'[Process-8480] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 13:04:46.164 soc.py:486 INFO b'[Process-8480] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 13:04:46.166 soc.py:486 INFO b'[Process-8480] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 13:04:46.166 soc.py:486 INFO b'[Process-8480] [Thread0]    DtrConditionAssign  1\r\n'
+2025-10-01 13:04:46.166 soc.py:486 INFO b'[Process-8480] [Thread0]    RtsConditionAssign  1\r\n'
+2025-10-01 13:04:46.665 soc.py:486 INFO b'[Process-8480] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 13:04:47.165 soc.py:486 INFO b'[Process-8480] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 13:04:47.167 soc.py:486 INFO b'[Process-8480] [Thread0]    ResetBoard(Normal Mod) finish\r\n'
+2025-10-01 13:04:47.169 soc.py:486 INFO b'[Process-8480] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 13:04:47.169 soc.py:486 INFO b'[Process-8480] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 13:04:47.171 soc.py:486 INFO b'[Process-8480] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 13:04:47.171 soc.py:486 INFO b'[Process-8480] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 13:04:47.173 soc.py:486 INFO b'[Process-8480] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 13:04:47.175 soc.py:486 INFO b'[Process-8480] [Image]    pullup_qspi 1\r\n'
+2025-10-01 13:04:47.177 soc.py:486 INFO b'[Process-8480] [Image]    genimghd args id 0x3bcd6b0, opt_storage_list refcnt 6, id 0x3bb5cc8 \r\n'
+2025-10-01 13:04:47.177 soc.py:486 INFO b'[Process-8480] [Image]    SetBaud 921600\r\n'
+2025-10-01 13:04:47.181 soc.py:486 INFO b"[Process-8480] [Image]    Update Image Head Hash  b'\\xe8\\xe0\\xc4\\xd3\\xfa\\x65\\x86\\x52\\x38\\xe4\\x0e\\xe4\\x83\\xac\\xcf\\xcd\\x74\\x7e\\xda\\x68\\x26\\x92\\x96\\xab\\xac\\x86\\xb3\\x2c\\x80\\x9e\\x74\\x40'\r\n"
+2025-10-01 13:04:47.181 soc.py:486 INFO b'[Process-8480] [Thread0]    TryDownload C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\agentboot_usb.bin start\r\n'
+2025-10-01 13:04:47.181 soc.py:486 INFO b'[Process-8480] [Thread0]    image size=44984, hdsize=272\r\n'
+2025-10-01 13:04:47.181 soc.py:486 INFO b'[Process-8480] [Thread0]    Preamble Send\r\n'
+2025-10-01 13:04:47.186 soc.py:486 INFO b'[Process-8480] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 13:04:47.186 soc.py:486 INFO b'[Process-8480] [Thread0]    CompRomVerIntSingle 0000000201000000 suc\r\n'
+2025-10-01 13:04:47.186 soc.py:486 INFO b'[Process-8480] [Thread0]    RVer 0000000201000000, chk suc, compare with version\r\n'
+2025-10-01 13:04:47.191 soc.py:486 INFO b'[Process-8480] [Thread0]    Preamble Send\r\n'
+2025-10-01 13:04:47.193 soc.py:486 INFO b'[Process-8480] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 13:04:47.196 soc.py:486 INFO b'[Process-8480] [Thread0]    CompRomVerIntSingle 0000000201000000 suc\r\n'
+2025-10-01 13:04:47.196 soc.py:486 INFO b'[Process-8480] [Thread0]    RVer 0000000201000000, chk suc, compare with version\r\n'
+2025-10-01 13:04:47.300 soc.py:486 INFO b'[Process-8480] [Thread0]    TryDownload agentboot success\r\n'
+2025-10-01 13:04:47.308 soc.py:486 INFO b'[Process-8480] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 13:04:47.308 soc.py:486 INFO b'[Process-8480] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 13:04:47.318 soc.py:486 INFO b'[Process-8480] [Thread0]    agbaud: 921600\r\n'
+2025-10-01 13:04:47.320 soc.py:486 INFO b'[Process-8480] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 13:04:47.320 soc.py:486 INFO b'[Process-8480] [Thread0]    Burn OK!\r\n'
+2025-10-01 13:04:47.320 soc.py:486 INFO b'[Process-8480] [Thread0]    ProcessEnd[21388]\r\n'
+2025-10-01 13:04:47.322 soc.py:486 INFO b'[Process-8480] [FlashTop]    do_main: cmd burnone, Thread0[21388]\r\n'
+2025-10-01 13:04:47.322 soc.py:486 INFO b'[Process-8480] [Thread0]    ProcessStart[21388]\r\n'
+2025-10-01 13:04:47.328 soc.py:486 INFO b'[Process-8480] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 13:04:47.328 soc.py:486 INFO b'[Process-8480] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 13:04:47.330 soc.py:486 INFO b'[Process-8480] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 13:04:47.332 soc.py:486 INFO b'[Process-8480] [Thread0]    agentboot is downloaded already\r\n'
+2025-10-01 13:04:47.332 soc.py:486 INFO b'[Process-8480] [Thread0]    TryDownload agentboot skip\r\n'
+2025-10-01 13:04:47.334 soc.py:486 INFO b'[Process-8480] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 13:04:47.334 soc.py:486 INFO b'[Process-8480] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 13:04:47.336 soc.py:486 INFO b'[Process-8480] [Thread0]    agbaud: 921600\r\n'
+2025-10-01 13:04:47.336 soc.py:486 INFO b'[Process-8480] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 13:04:47.338 soc.py:486 INFO b'[Process-8480] [Thread0]    LPC Preamble Send\r\n'
+2025-10-01 13:04:47.340 soc.py:486 INFO b'[Process-8480] [Thread0]    LPC Preamble Received Rsp\r\n'
+2025-10-01 13:04:47.340 soc.py:486 INFO b'[Process-8480] [Thread0]    LPCSetSyncStat(1)\r\n'
+2025-10-01 13:04:47.340 soc.py:486 INFO b'[Process-8480] [Thread0]    LPCSyncDetect: success\r\n'
+2025-10-01 13:04:47.343 soc.py:486 INFO b'[Process-8480] [Thread0]    DownloadBurnOne imgtype(flexfile2)\r\n'
+2025-10-01 13:04:47.344 soc.py:486 INFO b'[Process-8480] [Thread0]    DownloadBurnOne imgtype(flexfile2), burnaddr(0x24d000), imgid(0x464c5849)\r\n'
+2025-10-01 13:04:47.344 soc.py:486 INFO b'[Process-8480] [Thread0]    DownloadBurnOne file C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\script.bin \r\n'
+2025-10-01 13:04:47.344 soc.py:486 INFO b"[Process-8480] [Image]    Update Image Body Hash  b'\\xa9\\xdf\\x89\\x90\\x06\\x3d\\x7f\\x57\\xfc\\x19\\x49\\x40\\x57\\xf2\\x01\\x1f\\xb7\\x48\\x4b\\x21\\x2b\\xb4\\xf9\\x7e\\x5d\\x78\\xb9\\x22\\xc7\\xe6\\xeb\\xcc'\r\n"
+2025-10-01 13:04:47.344 soc.py:486 INFO b"[Process-8480] [Image]    Update Image Head Hash  b'\\x60\\x7c\\xc7\\xb1\\x68\\x53\\xaa\\x6d\\x82\\xaa\\xbb\\x1a\\xe3\\xd6\\xb8\\xd4\\x73\\x0f\\x71\\xfa\\xf1\\xce\\x37\\xad\\x7e\\xbf\\xdb\\x61\\xee\\xe6\\xc2\\xf3'\r\n"
+2025-10-01 13:04:47.348 soc.py:486 INFO b'[Process-8480] [Thread0]    TryDownload C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\script.bin start\r\n'
+2025-10-01 13:04:47.349 soc.py:486 INFO b'[Process-8480] [Thread0]    LPCBurnOneTrig start       \t\t\t******\r\n'
+2025-10-01 13:04:47.351 soc.py:486 INFO b'[Process-8480] [Thread0]    LPCBurnOneTrig success\r\n'
+2025-10-01 13:04:47.351 soc.py:486 INFO b'[Process-8480] [Thread0]    DLDPreSync Preamble Send\r\n'
+2025-10-01 13:04:47.859 soc.py:486 INFO b'[Process-8480] [Thread0]    DLDPreSync Preamble Received Rsp\r\n'
+2025-10-01 13:04:47.862 soc.py:486 INFO b'[Process-8480] [Thread0]    image size=2320, hdsize=272\r\n'
+2025-10-01 13:04:47.864 soc.py:486 INFO b'[Process-8480] [Thread0]    \r\n'
+2025-10-01 13:04:47.867 soc.py:486 INFO b'[Process-8480] [Thread0]    imginfo.size=2320, RemainLen=2320, Offset=0\r\n'
+2025-10-01 13:04:47.867 soc.py:486 INFO b'[Process-8480] [Thread0]    {script.bin-percent files transferred   0%}\r\n'
+2025-10-01 13:04:47.870 ui_project.py:313 INFO downloadscript
+2025-10-01 13:04:47.870 soc.py:486 INFO b'[Process-8480] [Thread0]    \r\n'
+2025-10-01 13:04:47.880 soc.py:486 INFO b'[Process-8480] [Thread0]    Preamble Send\r\n'
+2025-10-01 13:04:47.883 soc.py:486 INFO b'[Process-8480] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 13:04:47.883 soc.py:486 INFO b'[Process-8480] [Thread0]    imginfo.size=2320, RemainLen=2048, Offset=272\r\n'
+2025-10-01 13:04:47.886 soc.py:486 INFO b'[Process-8480] [Thread0]    {script.bin-percent files transferred   11%}\r\n'
+2025-10-01 13:04:47.892 ui_project.py:313 INFO downloadscript
+2025-10-01 13:04:47.901 soc.py:486 INFO b'[Process-8480] [Thread0]    \r\n'
+2025-10-01 13:04:47.903 soc.py:486 INFO b'[Process-8480] [Thread0]    Preamble Send\r\n'
+2025-10-01 13:04:47.913 soc.py:486 INFO b'[Process-8480] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 13:04:48.074 soc.py:486 INFO b'[Process-8480] [Thread0]    imginfo.size=2320, RemainLen=0, Offset=272\r\n'
+2025-10-01 13:04:48.074 soc.py:486 INFO b'[Process-8480] [Thread0]    {script.bin-percent files transferred   100%}\r\n'
+2025-10-01 13:04:48.085 ui_project.py:313 INFO downloadscript
+2025-10-01 13:04:48.093 soc.py:486 INFO b'[Process-8480] [Thread0]    \r\n'
+2025-10-01 13:04:48.096 soc.py:486 INFO b'[Process-8480] [Thread0]    TryDownload success\r\n'
+2025-10-01 13:04:48.098 soc.py:486 INFO b'[Process-8480] [Thread0]    Burn OK!\r\n'
+2025-10-01 13:04:48.098 soc.py:486 INFO b'[Process-8480] [Thread0]    ProcessEnd[21388]\r\n'
+2025-10-01 13:04:48.100 soc.py:486 INFO b"[Process-8480] [FlashToolCLI]    Burnbatch OK, imglist ['flexfile2']\r\n"
+2025-10-01 13:04:48.132 usb_device.py:1391 INFO usb device trace
+2025-10-01 13:04:48.401 ui_project.py:348 INFO download successful
+2025-10-01 13:04:49.786 usb_device.py:3284 INFO quit download
+2025-10-01 13:04:49.789 usb_device.py:3272 INFO enter Trace
+2025-10-01 13:04:49.790 usb_device.py:2563 INFO sleep 0.10595893859863281 sec
+2025-10-01 13:04:49.792 my_api.py:114 INFO [None, None]
+2025-10-01 13:04:49.792 usb_device.py:2567 INFO sleep done
+2025-10-01 13:05:07.290 usb_device.py:2575 INFO search com done!
+2025-10-01 13:05:07.310 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 13:05:07.350 usb_device.py:3280 INFO quit Trace
+2025-10-01 13:05:07.352 usb_device.py:3272 INFO enter Trace
+2025-10-01 13:05:07.353 usb_device.py:2563 INFO sleep 0.4051902770996092 sec
+2025-10-01 13:05:07.762 usb_device.py:2567 INFO sleep done
+2025-10-01 13:05:08.354 usb_device.py:2575 INFO search com done!
+2025-10-01 13:05:09.195 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 13:05:09.195 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 13:05:09.259 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 13:05:09.263 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 13:05:54.617 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 13:05:54.739 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_130509_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 13:05:54.741 usb_device.py:3280 INFO quit Trace
+2025-10-01 13:05:54.745 usb_device.py:3272 INFO enter Trace
+2025-10-01 13:05:54.746 usb_device.py:2563 INFO sleep 0.40288071632385236 sec
+2025-10-01 13:05:55.161 usb_device.py:2567 INFO sleep done
+2025-10-01 13:07:54.410 ui_project.py:313 INFO Ready to download the script
+2025-10-01 13:07:54.448 ui_project.py:313 INFO Parsing firmware
+2025-10-01 13:07:55.564 ui_project.py:313 INFO Script preprocessing
+2025-10-01 13:07:55.572 ui_project.py:313 INFO Check script dependencies
+2025-10-01 13:07:55.577 ui_project.py:313 INFO Script preprocessing completed
+2025-10-01 13:07:55.577 ui_project.py:313 INFO Generate Firmware
+2025-10-01 13:07:55.584 ui_project.py:1574 INFO .
+2025-10-01 13:07:55.697 ui_project.py:1277 INFO ["main.luac"]
+2025-10-01 13:07:55.699 lua_script.py:467 INFO add crc file
+2025-10-01 13:07:59.506 usb_device.py:2575 INFO search com done!
+2025-10-01 13:07:59.573 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 13:07:59.574 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 13:07:59.930 usb_device.py:1376 ERROR diag com USB has disconnected. COM17 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 13:07:59.987 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_130759_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 13:07:59.991 usb_device.py:3280 INFO quit Trace
+2025-10-01 13:07:59.991 usb_device.py:3272 INFO enter Trace
+2025-10-01 13:07:59.993 usb_device.py:2563 INFO sleep 0.4037709712982176 sec
+2025-10-01 13:08:00.399 usb_device.py:2567 INFO sleep done
+2025-10-01 13:08:00.799 usb_device.py:2575 INFO search com done!
+2025-10-01 13:08:00.821 usb_device.py:1376 ERROR print com USB has disconnected. COM15 write wait error(0),[WinError 433] A device which does not exist was specified.
+2025-10-01 13:08:00.842 usb_device.py:3280 INFO quit Trace
+2025-10-01 13:08:00.844 usb_device.py:3272 INFO enter Trace
+2025-10-01 13:08:00.844 usb_device.py:2563 INFO sleep 0.40798811912536603 sec
+2025-10-01 13:08:01.260 usb_device.py:2567 INFO sleep done
+2025-10-01 13:08:02.108 usb_device.py:2575 INFO search com done!
+2025-10-01 13:08:02.164 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 13:08:02.167 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 13:08:03.346 usb_device.py:1439 INFO usb device download
+2025-10-01 13:08:03.361 ui_project.py:313 INFO Ready to download, if no change in more than 5 seconds, turn off the module power
+2025-10-01 13:08:03.367 my_api.py:114 INFO [None, None]
+2025-10-01 13:08:03.369 usb_device.py:2227 INFO trace -> download
+2025-10-01 13:08:03.373 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_130802_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 13:08:03.380 usb_device.py:3280 INFO quit Trace
+2025-10-01 13:08:03.384 usb_device.py:3282 INFO enter download
+2025-10-01 13:08:03.407 ui_project.py:313 INFO Parsing Firmware
+2025-10-01 13:08:04.355 ui_project.py:313 INFO Download perparing
+2025-10-01 13:08:06.873 ui_project.py:313 INFO Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-10-01 13:08:09.807 ui_project.py:313 INFO Found Download COM portCOM20
+2025-10-01 13:08:09.918 soc.py:476 INFO FlashToolCLI.exe --cfgfile .\ec618_luatos_usb.ini  --port COM20 burnbatch --imglist flexfile2
+2025-10-01 13:08:11.116 soc.py:486 INFO b'2025-10-01 13:08:11,114 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000681,build time-2025-03-19 14:50:58\r\n'
+2025-10-01 13:08:11.131 ui_project.py:313 INFO Transfer begin
+2025-10-01 13:08:11.131 soc.py:486 INFO b'2025-10-01 13:08:11,120 INFO     [FlashTop]    init\r\n'
+2025-10-01 13:08:11.146 soc.py:486 INFO b'2025-10-01 13:08:11,146 INFO     [FlashTop]    PreLoad para sync success\r\n'
+2025-10-01 13:08:11.149 soc.py:486 INFO b'[Process-8000] [FlashTop]    do_main: cmd loadpara\r\n'
+2025-10-01 13:08:11.152 soc.py:486 INFO b'[Process-8000] [FlashTop]    loadpara args 0x3379d50 \r\n'
+2025-10-01 13:08:11.184 soc.py:486 INFO b'[Process-8000] [PRFrame]    LoadPrMgrProc init loaded C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\PRMgrCfg.json\r\n'
+2025-10-01 13:08:11.184 soc.py:486 INFO b'[Process-8000] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success\r\n'
+2025-10-01 13:08:11.193 soc.py:486 INFO b'[Process-8000] [Para]    tryupd_chinese_stat_once, legal now\r\n'
+2025-10-01 13:08:11.199 soc.py:486 INFO b'[Process-8000] [Para]    LoadPara from cfgfile(C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\ec618_luatos_usb.ini) \r\n'
+2025-10-01 13:08:11.203 soc.py:486 INFO b'[Process-8000] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0\r\n'
+2025-10-01 13:08:11.206 soc.py:486 INFO b'[Process-8000] [PRFrame]    LdXPKPrMgrProc  not exist\r\n'
+2025-10-01 13:08:11.210 soc.py:486 INFO b'[Process-8000] [Para]    invalid config, filepath:C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\MergeRfTable_ec618.bin, burnaddr 0xe7000\r\n'
+2025-10-01 13:08:11.213 soc.py:486 INFO b'[Process-8000] [Para]    invalid config, filepath:C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\MergeRfTable_ec618.bin, burnaddr 0xce000\r\n'
+2025-10-01 13:08:11.217 soc.py:486 INFO b'[Process-8000] [Para]    LoadPkgFlx\r\n'
+2025-10-01 13:08:11.223 soc.py:486 INFO b'[Process-8000] [FlashTop]    Load para sync success\r\n'
+2025-10-01 13:08:11.223 soc.py:486 INFO b'[Process-8000] [FlashTop]    LoadParaToArgs id args 0x3379d50, opt_storage_list 0x3384db8 "cp_flash"\r\n'
+2025-10-01 13:08:11.226 soc.py:486 INFO b'[Process-8000] [FlashTop]    InitLoadImgInfo add empty bootloader2\r\n'
+2025-10-01 13:08:11.235 soc.py:486 INFO b"[Process-8000] [FlashToolCLI]    Burnbatch Start, burn imglist ['flexfile2'].\r\n"
+2025-10-01 13:08:11.236 soc.py:486 INFO b'[Process-8000] [FlashTop]    do_main: cmd burnag, Thread0[26684]\r\n'
+2025-10-01 13:08:11.243 soc.py:486 INFO b'[Process-8000] [Thread0]    ProcessStart[26684]\r\n'
+2025-10-01 13:08:11.250 soc.py:486 INFO b'[Process-8000] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 13:08:11.250 soc.py:486 INFO b'[Process-8000] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 13:08:11.254 soc.py:486 INFO b'[Process-8000] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 13:08:11.255 soc.py:486 INFO b'[Process-8000] [Thread0]    DtrConditionAssign  1\r\n'
+2025-10-01 13:08:11.256 soc.py:486 INFO b'[Process-8000] [Thread0]    RtsConditionAssign  1\r\n'
+2025-10-01 13:08:11.758 soc.py:486 INFO b'[Process-8000] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 13:08:12.262 soc.py:486 INFO b'[Process-8000] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 13:08:12.264 soc.py:486 INFO b'[Process-8000] [Thread0]    ResetBoard(Normal Mod) finish\r\n'
+2025-10-01 13:08:12.268 soc.py:486 INFO b'[Process-8000] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 13:08:12.271 soc.py:486 INFO b'[Process-8000] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 13:08:12.273 soc.py:486 INFO b'[Process-8000] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 13:08:12.277 soc.py:486 INFO b'[Process-8000] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 13:08:12.279 soc.py:486 INFO b'[Process-8000] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 13:08:12.283 soc.py:486 INFO b'[Process-8000] [Image]    pullup_qspi 1\r\n'
+2025-10-01 13:08:12.285 soc.py:486 INFO b'[Process-8000] [Image]    genimghd args id 0x339a690, opt_storage_list refcnt 6, id 0x3384db8 \r\n'
+2025-10-01 13:08:12.289 soc.py:486 INFO b'[Process-8000] [Image]    SetBaud 921600\r\n'
+2025-10-01 13:08:12.291 soc.py:486 INFO b"[Process-8000] [Image]    Update Image Head Hash  b'\\xe8\\xe0\\xc4\\xd3\\xfa\\x65\\x86\\x52\\x38\\xe4\\x0e\\xe4\\x83\\xac\\xcf\\xcd\\x74\\x7e\\xda\\x68\\x26\\x92\\x96\\xab\\xac\\x86\\xb3\\x2c\\x80\\x9e\\x74\\x40'\r\n"
+2025-10-01 13:08:12.293 soc.py:486 INFO b'[Process-8000] [Thread0]    TryDownload C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\agentboot_usb.bin start\r\n'
+2025-10-01 13:08:12.295 soc.py:486 INFO b'[Process-8000] [Thread0]    image size=44984, hdsize=272\r\n'
+2025-10-01 13:08:12.297 soc.py:486 INFO b'[Process-8000] [Thread0]    Preamble Send\r\n'
+2025-10-01 13:08:12.300 soc.py:486 INFO b'[Process-8000] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 13:08:12.302 soc.py:486 INFO b'[Process-8000] [Thread0]    CompRomVerIntSingle 0000000201000000 suc\r\n'
+2025-10-01 13:08:12.302 soc.py:486 INFO b'[Process-8000] [Thread0]    RVer 0000000201000000, chk suc, compare with version\r\n'
+2025-10-01 13:08:12.302 soc.py:486 INFO b'[Process-8000] [Thread0]    Preamble Send\r\n'
+2025-10-01 13:08:12.302 soc.py:486 INFO b'[Process-8000] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 13:08:12.311 soc.py:486 INFO b'[Process-8000] [Thread0]    CompRomVerIntSingle 0000000201000000 suc\r\n'
+2025-10-01 13:08:12.313 soc.py:486 INFO b'[Process-8000] [Thread0]    RVer 0000000201000000, chk suc, compare with version\r\n'
+2025-10-01 13:08:12.444 soc.py:486 INFO b'[Process-8000] [Thread0]    TryDownload agentboot success\r\n'
+2025-10-01 13:08:12.455 soc.py:486 INFO b'[Process-8000] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 13:08:12.463 soc.py:486 INFO b'[Process-8000] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 13:08:12.465 soc.py:486 INFO b'[Process-8000] [Thread0]    agbaud: 921600\r\n'
+2025-10-01 13:08:12.466 soc.py:486 INFO b'[Process-8000] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 13:08:12.466 soc.py:486 INFO b'[Process-8000] [Thread0]    Burn OK!\r\n'
+2025-10-01 13:08:12.466 soc.py:486 INFO b'[Process-8000] [Thread0]    ProcessEnd[26684]\r\n'
+2025-10-01 13:08:12.466 soc.py:486 INFO b'[Process-8000] [FlashTop]    do_main: cmd burnone, Thread0[26684]\r\n'
+2025-10-01 13:08:12.478 soc.py:486 INFO b'[Process-8000] [Thread0]    ProcessStart[26684]\r\n'
+2025-10-01 13:08:12.480 soc.py:486 INFO b'[Process-8000] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 13:08:12.481 soc.py:486 INFO b'[Process-8000] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 13:08:12.484 soc.py:486 INFO b'[Process-8000] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 13:08:12.484 soc.py:486 INFO b'[Process-8000] [Thread0]    agentboot is downloaded already\r\n'
+2025-10-01 13:08:12.487 soc.py:486 INFO b'[Process-8000] [Thread0]    TryDownload agentboot skip\r\n'
+2025-10-01 13:08:12.487 soc.py:486 INFO b'[Process-8000] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 13:08:12.487 soc.py:486 INFO b'[Process-8000] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 13:08:12.493 soc.py:486 INFO b'[Process-8000] [Thread0]    agbaud: 921600\r\n'
+2025-10-01 13:08:12.495 soc.py:486 INFO b'[Process-8000] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 13:08:12.498 soc.py:486 INFO b'[Process-8000] [Thread0]    LPC Preamble Send\r\n'
+2025-10-01 13:08:12.498 soc.py:486 INFO b'[Process-8000] [Thread0]    LPC Preamble Received Rsp\r\n'
+2025-10-01 13:08:12.503 soc.py:486 INFO b'[Process-8000] [Thread0]    LPCSetSyncStat(1)\r\n'
+2025-10-01 13:08:12.503 soc.py:486 INFO b'[Process-8000] [Thread0]    LPCSyncDetect: success\r\n'
+2025-10-01 13:08:12.503 soc.py:486 INFO b'[Process-8000] [Thread0]    DownloadBurnOne imgtype(flexfile2)\r\n'
+2025-10-01 13:08:12.507 soc.py:486 INFO b'[Process-8000] [Thread0]    DownloadBurnOne imgtype(flexfile2), burnaddr(0x24d000), imgid(0x464c5849)\r\n'
+2025-10-01 13:08:12.507 soc.py:486 INFO b'[Process-8000] [Thread0]    DownloadBurnOne file C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\script.bin \r\n'
+2025-10-01 13:08:12.507 soc.py:486 INFO b"[Process-8000] [Image]    Update Image Body Hash  b'\\x37\\x88\\x73\\x2c\\x08\\x23\\x98\\x0a\\x9d\\x8a\\x5e\\x7f\\x45\\xdd\\x5c\\xa3\\x1e\\xcd\\x50\\xaf\\xd5\\x81\\x9f\\x54\\xd7\\x10\\xcc\\x84\\x0d\\x81\\x5d\\x9e'\r\n"
+2025-10-01 13:08:12.507 soc.py:486 INFO b"[Process-8000] [Image]    Update Image Head Hash  b'\\xba\\x61\\x0d\\x2c\\xcd\\x8c\\x4c\\xc3\\x84\\xb1\\xad\\x41\\x05\\x31\\x00\\x8e\\xad\\xe5\\x2b\\x20\\x8b\\xd0\\x08\\xaa\\xad\\xd7\\x9b\\x49\\x57\\xaa\\x70\\x19'\r\n"
+2025-10-01 13:08:12.513 soc.py:486 INFO b'[Process-8000] [Thread0]    TryDownload C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\script.bin start\r\n'
+2025-10-01 13:08:12.513 soc.py:486 INFO b'[Process-8000] [Thread0]    LPCBurnOneTrig start       \t\t\t******\r\n'
+2025-10-01 13:08:12.513 soc.py:486 INFO b'[Process-8000] [Thread0]    LPCBurnOneTrig success\r\n'
+2025-10-01 13:08:12.519 soc.py:486 INFO b'[Process-8000] [Thread0]    DLDPreSync Preamble Send\r\n'
+2025-10-01 13:08:13.015 soc.py:486 INFO b'[Process-8000] [Thread0]    DLDPreSync Preamble Received Rsp\r\n'
+2025-10-01 13:08:13.019 soc.py:486 INFO b'[Process-8000] [Thread0]    image size=6416, hdsize=272\r\n'
+2025-10-01 13:08:13.021 soc.py:486 INFO b'[Process-8000] [Thread0]    \r\n'
+2025-10-01 13:08:13.023 soc.py:486 INFO b'[Process-8000] [Thread0]    imginfo.size=6416, RemainLen=6416, Offset=0\r\n'
+2025-10-01 13:08:13.027 soc.py:486 INFO b'[Process-8000] [Thread0]    {script.bin-percent files transferred   0%}\r\n'
+2025-10-01 13:08:13.042 ui_project.py:313 INFO downloadscript
+2025-10-01 13:08:13.060 soc.py:486 INFO b'[Process-8000] [Thread0]    \r\n'
+2025-10-01 13:08:13.060 soc.py:486 INFO b'[Process-8000] [Thread0]    Preamble Send\r\n'
+2025-10-01 13:08:13.064 soc.py:486 INFO b'[Process-8000] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 13:08:13.064 soc.py:486 INFO b'[Process-8000] [Thread0]    imginfo.size=6416, RemainLen=6144, Offset=272\r\n'
+2025-10-01 13:08:13.064 soc.py:486 INFO b'[Process-8000] [Thread0]    {script.bin-percent files transferred   4%}\r\n'
+2025-10-01 13:08:13.086 ui_project.py:313 INFO downloadscript
+2025-10-01 13:08:13.102 soc.py:486 INFO b'[Process-8000] [Thread0]    \r\n'
+2025-10-01 13:08:13.105 soc.py:486 INFO b'[Process-8000] [Thread0]    Preamble Send\r\n'
+2025-10-01 13:08:13.106 soc.py:486 INFO b'[Process-8000] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 13:08:13.261 soc.py:486 INFO b'[Process-8000] [Thread0]    imginfo.size=6416, RemainLen=0, Offset=272\r\n'
+2025-10-01 13:08:13.265 soc.py:486 INFO b'[Process-8000] [Thread0]    {script.bin-percent files transferred   100%}\r\n'
+2025-10-01 13:08:13.273 ui_project.py:313 INFO downloadscript
+2025-10-01 13:08:13.290 soc.py:486 INFO b'[Process-8000] [Thread0]    \r\n'
+2025-10-01 13:08:13.293 soc.py:486 INFO b'[Process-8000] [Thread0]    TryDownload success\r\n'
+2025-10-01 13:08:13.295 soc.py:486 INFO b'[Process-8000] [Thread0]    Burn OK!\r\n'
+2025-10-01 13:08:13.299 soc.py:486 INFO b'[Process-8000] [Thread0]    ProcessEnd[26684]\r\n'
+2025-10-01 13:08:13.302 soc.py:486 INFO b"[Process-8000] [FlashToolCLI]    Burnbatch OK, imglist ['flexfile2']\r\n"
+2025-10-01 13:08:13.366 usb_device.py:1391 INFO usb device trace
+2025-10-01 13:08:13.899 ui_project.py:348 INFO download successful
+2025-10-01 13:08:15.525 usb_device.py:3284 INFO quit download
+2025-10-01 13:08:15.525 usb_device.py:3272 INFO enter Trace
+2025-10-01 13:08:15.532 usb_device.py:2563 INFO sleep 0.1099998950958252 sec
+2025-10-01 13:08:15.534 my_api.py:114 INFO [None, None]
+2025-10-01 13:08:15.537 usb_device.py:2567 INFO sleep done
+2025-10-01 13:08:16.627 usb_device.py:2575 INFO search com done!
+2025-10-01 13:08:16.647 usb_device.py:1376 ERROR print com USB has disconnected. COM15 write wait error(0),[WinError 433] A device which does not exist was specified.
+2025-10-01 13:08:16.713 usb_device.py:3280 INFO quit Trace
+2025-10-01 13:08:16.718 usb_device.py:3272 INFO enter Trace
+2025-10-01 13:08:16.718 usb_device.py:2563 INFO sleep 0.4052329540252684 sec
+2025-10-01 13:08:17.127 usb_device.py:2567 INFO sleep done
+2025-10-01 13:08:17.523 usb_device.py:2575 INFO search com done!
+2025-10-01 13:08:18.099 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 13:08:18.100 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 13:08:18.238 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 13:08:18.240 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 13:08:18.314 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 13:08:18.352 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_130817_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 13:08:18.356 usb_device.py:3280 INFO quit Trace
+2025-10-01 13:08:18.358 usb_device.py:3272 INFO enter Trace
+2025-10-01 13:08:18.359 usb_device.py:2563 INFO sleep 0.40249686241149885 sec
+2025-10-01 13:08:18.766 usb_device.py:2567 INFO sleep done
+2025-10-01 13:08:19.188 usb_device.py:2575 INFO search com done!
+2025-10-01 13:08:19.301 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 13:08:19.303 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 13:08:35.162 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 13:08:35.428 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_130819_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 13:08:35.434 usb_device.py:3280 INFO quit Trace
+2025-10-01 13:08:35.436 usb_device.py:3272 INFO enter Trace
+2025-10-01 13:08:35.440 usb_device.py:2563 INFO sleep 0.39833478927612287 sec
+2025-10-01 13:08:35.849 usb_device.py:2567 INFO sleep done
+2025-10-01 13:08:36.530 usb_device.py:2575 INFO search com done!
+2025-10-01 13:08:37.064 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 0,0,0,0,0
+2025-10-01 13:08:37.066 ui_main.py:740 INFO trace_soc_cell: mcc=0, mnc=0, earfcn=0, pci=0, cid=0 band=
+2025-10-01 13:08:37.327 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 13:08:37.330 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 13:13:13.802 usb_device.py:1376 ERROR diag com USB has disconnected. COM17 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 13:13:13.963 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_130836_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 13:13:13.966 usb_device.py:3280 INFO quit Trace
+2025-10-01 13:13:13.968 usb_device.py:3272 INFO enter Trace
+2025-10-01 13:13:13.969 usb_device.py:2563 INFO sleep 0.404016065597534 sec
+2025-10-01 13:13:14.380 usb_device.py:2567 INFO sleep done
+2025-10-01 14:28:39.755 net_main.py:260 ERROR 
+Traceback (most recent call last):
+  File "aiohttp\connector.py", line 999, in _create_direct_connection
+  File "aiohttp\connector.py", line 865, in _resolve_host
+  File "aiohttp\resolver.py", line 36, in resolve
+  File "asyncio\base_events.py", line 792, in getaddrinfo
+  File "concurrent\futures\thread.py", line 57, in run
+  File "socket.py", line 752, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "net_main.py", line 221, in dt_report_update
+  File "aiohttp\client.py", line 521, in _request
+  File "aiohttp\connector.py", line 535, in connect
+  File "aiohttp\connector.py", line 892, in _create_connection
+  File "aiohttp\connector.py", line 1011, in _create_direct_connection
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host luatos.com:443 ssl:default [getaddrinfo failed]
+
+2025-10-01 14:34:30.551 net_main.py:260 ERROR 
+Traceback (most recent call last):
+  File "aiohttp\connector.py", line 999, in _create_direct_connection
+  File "aiohttp\connector.py", line 865, in _resolve_host
+  File "aiohttp\resolver.py", line 36, in resolve
+  File "asyncio\base_events.py", line 792, in getaddrinfo
+  File "concurrent\futures\thread.py", line 57, in run
+  File "socket.py", line 752, in getaddrinfo
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "net_main.py", line 221, in dt_report_update
+  File "aiohttp\client.py", line 521, in _request
+  File "aiohttp\connector.py", line 535, in connect
+  File "aiohttp\connector.py", line 892, in _create_connection
+  File "aiohttp\connector.py", line 1011, in _create_direct_connection
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host luatos.com:443 ssl:default [getaddrinfo failed]
+
+2025-10-01 14:41:30.033 usb_device.py:2575 INFO search com done!
+2025-10-01 14:41:30.489 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 14:41:30.489 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 14:41:30.529 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 14:41:30.529 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 14:41:52.550 ui_project.py:313 INFO Ready to download the script
+2025-10-01 14:41:52.566 ui_project.py:313 INFO Parsing firmware
+2025-10-01 14:41:53.478 ui_project.py:313 INFO Script preprocessing
+2025-10-01 14:41:53.483 lua_script.py:297 INFO main.lua content: 
+bytearray(b'\nsys = require "sys"\n\nsys.taskInit(function()\nlocal str = "$GNRMC,005814.000,V,,,,,,,251123,,,M,V*24\\r\\n"\nlibgnss.parse(str)\nlog.info("rmc", json.encode(libgnss.getRmc(), "7f"))\n\nstr = "$GNRMC,003657.000,A,2324.3944811,N,11313.8621125,E,0.430,43.152,020124,,,A,U*32\\r\\n"\nlibgnss.parse(str)\nlog.info("rmc", json.encode(libgnss.getRmc(), "7f"))\n\nprint("==========================================================================")\n\nlibgnss.clear()\nstr, str2 = "$GNRMC,003657.000,A",",2324.3944811,N,11313.8621125,E,0.430,43.152,020124,,,A,U*32\\r\\n"\nlibgnss.parse(str)\nlibgnss.parse(str2)\nlog.info("rmc\xe5\x88\x86\xe6\xae\xb5\xe4\xbc\xa0\xe5\x85\xa5", json.encode(libgnss.getRmc(), "7f"))\nlibgnss.clear()\n\nlibgnss.parse(str .. str2)\nlog.info("rmc\xe4\xb8\x80\xe6\xac\xa1\xe4\xbc\xa0\xe5\x85\xa5", json.encode(libgnss.getRmc(), "7f"))\nlibgnss.clear()\nend)\n\nsys.run()\n\n')
+2025-10-01 14:41:53.648 ui_project.py:330 ERROR main.lua lack of PROJECT or VERSION
+2025-10-01 14:42:28.840 ui_project.py:313 INFO Ready to download the script
+2025-10-01 14:42:28.860 ui_project.py:313 INFO Parsing firmware
+2025-10-01 14:42:30.584 ui_project.py:313 INFO Script preprocessing
+2025-10-01 14:42:30.611 ui_project.py:313 INFO Check script dependencies
+2025-10-01 14:42:30.614 ui_project.py:313 INFO Script preprocessing completed
+2025-10-01 14:42:30.621 ui_project.py:313 INFO Generate Firmware
+2025-10-01 14:42:30.625 ui_project.py:1574 INFO .
+2025-10-01 14:42:30.973 ui_project.py:1277 INFO ["main.luac"]
+2025-10-01 14:42:30.990 lua_script.py:467 INFO add crc file
+2025-10-01 14:42:40.668 usb_device.py:1439 INFO usb device download
+2025-10-01 14:42:40.669 my_api.py:114 INFO [None, None]
+2025-10-01 14:42:40.671 usb_device.py:2227 INFO trace -> download
+2025-10-01 14:42:40.671 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_144130_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 14:42:40.675 ui_project.py:313 INFO Ready to download, if no change in more than 5 seconds, turn off the module power
+2025-10-01 14:42:40.677 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:42:40.679 usb_device.py:3282 INFO enter download
+2025-10-01 14:42:40.691 ui_project.py:313 INFO Parsing Firmware
+2025-10-01 14:42:41.720 ui_project.py:313 INFO Download perparing
+2025-10-01 14:42:46.156 ui_project.py:313 INFO Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-10-01 14:42:55.923 ui_project.py:313 INFO Found Download COM portCOM20
+2025-10-01 14:42:56.037 soc.py:476 INFO FlashToolCLI.exe --cfgfile .\ec618_luatos_usb.ini  --port COM20 burnbatch --imglist flexfile2
+2025-10-01 14:42:58.616 soc.py:486 INFO b'2025-10-01 14:42:58,612 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000681,build time-2025-03-19 14:50:58\r\n'
+2025-10-01 14:42:58.638 ui_project.py:313 INFO Transfer begin
+2025-10-01 14:42:58.640 soc.py:486 INFO b'2025-10-01 14:42:58,622 INFO     [FlashTop]    init\r\n'
+2025-10-01 14:42:58.668 soc.py:486 INFO b'2025-10-01 14:42:58,667 INFO     [FlashTop]    PreLoad para sync success\r\n'
+2025-10-01 14:42:58.670 soc.py:486 INFO b'[Process-26528] [FlashTop]    do_main: cmd loadpara\r\n'
+2025-10-01 14:42:58.675 soc.py:486 INFO b'[Process-26528] [FlashTop]    loadpara args 0x34a1710 \r\n'
+2025-10-01 14:42:58.740 soc.py:486 INFO b'[Process-26528] [PRFrame]    LoadPrMgrProc init loaded C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\PRMgrCfg.json\r\n'
+2025-10-01 14:42:58.744 soc.py:486 INFO b'[Process-26528] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success\r\n'
+2025-10-01 14:42:58.748 soc.py:486 INFO b'[Process-26528] [Para]    tryupd_chinese_stat_once, legal now\r\n'
+2025-10-01 14:42:58.754 soc.py:486 INFO b'[Process-26528] [Para]    LoadPara from cfgfile(C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\ec618_luatos_usb.ini) \r\n'
+2025-10-01 14:42:58.761 soc.py:486 INFO b'[Process-26528] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0\r\n'
+2025-10-01 14:42:58.763 soc.py:486 INFO b'[Process-26528] [PRFrame]    LdXPKPrMgrProc  not exist\r\n'
+2025-10-01 14:42:58.769 soc.py:486 INFO b'[Process-26528] [Para]    invalid config, filepath:C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\MergeRfTable_ec618.bin, burnaddr 0xe7000\r\n'
+2025-10-01 14:42:58.772 soc.py:486 INFO b'[Process-26528] [Para]    invalid config, filepath:C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\MergeRfTable_ec618.bin, burnaddr 0xce000\r\n'
+2025-10-01 14:42:58.776 soc.py:486 INFO b'[Process-26528] [Para]    LoadPkgFlx\r\n'
+2025-10-01 14:42:58.786 soc.py:486 INFO b'[Process-26528] [FlashTop]    Load para sync success\r\n'
+2025-10-01 14:42:58.788 soc.py:486 INFO b'[Process-26528] [FlashTop]    LoadParaToArgs id args 0x34a1710, opt_storage_list 0x36c4db8 "cp_flash"\r\n'
+2025-10-01 14:42:58.790 soc.py:486 INFO b'[Process-26528] [FlashTop]    InitLoadImgInfo add empty bootloader2\r\n'
+2025-10-01 14:42:58.817 soc.py:486 INFO b"[Process-26528] [FlashToolCLI]    Burnbatch Start, burn imglist ['flexfile2'].\r\n"
+2025-10-01 14:42:58.821 soc.py:486 INFO b'[Process-26528] [FlashTop]    do_main: cmd burnag, Thread0[24756]\r\n'
+2025-10-01 14:42:58.842 soc.py:486 INFO b'[Process-26528] [Thread0]    ProcessStart[24756]\r\n'
+2025-10-01 14:42:58.842 soc.py:486 INFO b'[Process-26528] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 14:42:58.842 soc.py:486 INFO b'[Process-26528] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 14:42:58.849 soc.py:486 INFO b'[Process-26528] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 14:42:58.849 soc.py:486 INFO b'[Process-26528] [Thread0]    DtrConditionAssign  1\r\n'
+2025-10-01 14:42:58.852 soc.py:486 INFO b'[Process-26528] [Thread0]    RtsConditionAssign  1\r\n'
+2025-10-01 14:42:59.359 soc.py:486 INFO b'[Process-26528] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 14:42:59.868 soc.py:486 INFO b'[Process-26528] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 14:42:59.872 soc.py:486 INFO b'[Process-26528] [Thread0]    ResetBoard(Normal Mod) finish\r\n'
+2025-10-01 14:42:59.872 soc.py:486 INFO b'[Process-26528] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 14:42:59.878 soc.py:486 INFO b'[Process-26528] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 14:42:59.882 soc.py:486 INFO b'[Process-26528] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 14:42:59.884 soc.py:486 INFO b'[Process-26528] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 14:42:59.886 soc.py:486 INFO b'[Process-26528] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 14:42:59.898 soc.py:486 INFO b'[Process-26528] [Image]    pullup_qspi 1\r\n'
+2025-10-01 14:42:59.902 soc.py:486 INFO b'[Process-26528] [Image]    genimghd args id 0x33f5790, opt_storage_list refcnt 6, id 0x36c4db8 \r\n'
+2025-10-01 14:42:59.903 soc.py:486 INFO b'[Process-26528] [Image]    SetBaud 921600\r\n'
+2025-10-01 14:42:59.909 soc.py:486 INFO b"[Process-26528] [Image]    Update Image Head Hash  b'\\xe8\\xe0\\xc4\\xd3\\xfa\\x65\\x86\\x52\\x38\\xe4\\x0e\\xe4\\x83\\xac\\xcf\\xcd\\x74\\x7e\\xda\\x68\\x26\\x92\\x96\\xab\\xac\\x86\\xb3\\x2c\\x80\\x9e\\x74\\x40'\r\n"
+2025-10-01 14:42:59.912 soc.py:486 INFO b'[Process-26528] [Thread0]    TryDownload C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\agentboot_usb.bin start\r\n'
+2025-10-01 14:42:59.912 soc.py:486 INFO b'[Process-26528] [Thread0]    image size=44984, hdsize=272\r\n'
+2025-10-01 14:42:59.912 soc.py:486 INFO b'[Process-26528] [Thread0]    Preamble Send\r\n'
+2025-10-01 14:42:59.919 soc.py:486 INFO b'[Process-26528] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 14:42:59.924 soc.py:486 INFO b'[Process-26528] [Thread0]    CompRomVerIntSingle 0000000201000000 suc\r\n'
+2025-10-01 14:42:59.928 soc.py:486 INFO b'[Process-26528] [Thread0]    RVer 0000000201000000, chk suc, compare with version\r\n'
+2025-10-01 14:42:59.930 soc.py:486 INFO b'[Process-26528] [Thread0]    Preamble Send\r\n'
+2025-10-01 14:42:59.938 soc.py:486 INFO b'[Process-26528] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 14:42:59.944 soc.py:486 INFO b'[Process-26528] [Thread0]    CompRomVerIntSingle 0000000201000000 suc\r\n'
+2025-10-01 14:42:59.948 soc.py:486 INFO b'[Process-26528] [Thread0]    RVer 0000000201000000, chk suc, compare with version\r\n'
+2025-10-01 14:43:00.114 soc.py:486 INFO b'[Process-26528] [Thread0]    TryDownload agentboot success\r\n'
+2025-10-01 14:43:00.132 soc.py:486 INFO b'[Process-26528] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 14:43:00.132 soc.py:486 INFO b'[Process-26528] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 14:43:00.139 soc.py:486 INFO b'[Process-26528] [Thread0]    agbaud: 921600\r\n'
+2025-10-01 14:43:00.143 soc.py:486 INFO b'[Process-26528] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 14:43:00.145 soc.py:486 INFO b'[Process-26528] [Thread0]    Burn OK!\r\n'
+2025-10-01 14:43:00.148 soc.py:486 INFO b'[Process-26528] [Thread0]    ProcessEnd[24756]\r\n'
+2025-10-01 14:43:00.148 soc.py:486 INFO b'[Process-26528] [FlashTop]    do_main: cmd burnone, Thread0[24756]\r\n'
+2025-10-01 14:43:00.170 soc.py:486 INFO b'[Process-26528] [Thread0]    ProcessStart[24756]\r\n'
+2025-10-01 14:43:00.174 soc.py:486 INFO b'[Process-26528] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 14:43:00.177 soc.py:486 INFO b'[Process-26528] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 14:43:00.180 soc.py:486 INFO b'[Process-26528] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 14:43:00.183 soc.py:486 INFO b'[Process-26528] [Thread0]    agentboot is downloaded already\r\n'
+2025-10-01 14:43:00.188 soc.py:486 INFO b'[Process-26528] [Thread0]    TryDownload agentboot skip\r\n'
+2025-10-01 14:43:00.190 soc.py:486 INFO b'[Process-26528] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 14:43:00.194 soc.py:486 INFO b'[Process-26528] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 14:43:00.198 soc.py:486 INFO b'[Process-26528] [Thread0]    agbaud: 921600\r\n'
+2025-10-01 14:43:00.202 soc.py:486 INFO b'[Process-26528] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 14:43:00.202 soc.py:486 INFO b'[Process-26528] [Thread0]    LPC Preamble Send\r\n'
+2025-10-01 14:43:00.210 soc.py:486 INFO b'[Process-26528] [Thread0]    LPC Preamble Received Rsp\r\n'
+2025-10-01 14:43:00.212 soc.py:486 INFO b'[Process-26528] [Thread0]    LPCSetSyncStat(1)\r\n'
+2025-10-01 14:43:00.216 soc.py:486 INFO b'[Process-26528] [Thread0]    LPCSyncDetect: success\r\n'
+2025-10-01 14:43:00.218 soc.py:486 INFO b'[Process-26528] [Thread0]    DownloadBurnOne imgtype(flexfile2)\r\n'
+2025-10-01 14:43:00.222 soc.py:486 INFO b'[Process-26528] [Thread0]    DownloadBurnOne imgtype(flexfile2), burnaddr(0x24d000), imgid(0x464c5849)\r\n'
+2025-10-01 14:43:00.226 soc.py:486 INFO b'[Process-26528] [Thread0]    DownloadBurnOne file C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\script.bin \r\n'
+2025-10-01 14:43:00.230 soc.py:486 INFO b"[Process-26528] [Image]    Update Image Body Hash  b'\\x7c\\x0d\\x49\\x5e\\x18\\x2f\\x05\\xa4\\x88\\xa2\\x96\\x66\\x3d\\x6b\\x04\\x86\\x50\\xa4\\x95\\xde\\x67\\xfd\\xe5\\xc5\\x37\\x84\\x3f\\x15\\x7d\\xc7\\xa8\\x10'\r\n"
+2025-10-01 14:43:00.232 soc.py:486 INFO b"[Process-26528] [Image]    Update Image Head Hash  b'\\xd6\\x80\\x78\\x2e\\x3e\\xdd\\x8b\\x9e\\xb8\\x2a\\x18\\x7d\\x33\\x37\\x2f\\x13\\xa9\\xd3\\x34\\x00\\x98\\x2d\\x0f\\x66\\x71\\xa1\\x2d\\xf9\\x83\\xe5\\xb3\\x66'\r\n"
+2025-10-01 14:43:00.232 soc.py:486 INFO b'[Process-26528] [Thread0]    TryDownload C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\script.bin start\r\n'
+2025-10-01 14:43:00.232 soc.py:486 INFO b'[Process-26528] [Thread0]    LPCBurnOneTrig start       \t\t\t******\r\n'
+2025-10-01 14:43:00.239 soc.py:486 INFO b'[Process-26528] [Thread0]    LPCBurnOneTrig success\r\n'
+2025-10-01 14:43:00.241 soc.py:486 INFO b'[Process-26528] [Thread0]    DLDPreSync Preamble Send\r\n'
+2025-10-01 14:43:00.730 soc.py:486 INFO b'[Process-26528] [Thread0]    DLDPreSync Preamble Received Rsp\r\n'
+2025-10-01 14:43:00.735 soc.py:486 INFO b'[Process-26528] [Thread0]    image size=2320, hdsize=272\r\n'
+2025-10-01 14:43:00.738 soc.py:486 INFO b'[Process-26528] [Thread0]    \r\n'
+2025-10-01 14:43:00.741 soc.py:486 INFO b'[Process-26528] [Thread0]    imginfo.size=2320, RemainLen=2320, Offset=0\r\n'
+2025-10-01 14:43:00.743 soc.py:486 INFO b'[Process-26528] [Thread0]    {script.bin-percent files transferred   0%}\r\n'
+2025-10-01 14:43:00.762 ui_project.py:313 INFO downloadscript
+2025-10-01 14:43:00.772 soc.py:486 INFO b'[Process-26528] [Thread0]    \r\n'
+2025-10-01 14:43:00.774 soc.py:486 INFO b'[Process-26528] [Thread0]    Preamble Send\r\n'
+2025-10-01 14:43:00.778 soc.py:486 INFO b'[Process-26528] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 14:43:00.781 soc.py:486 INFO b'[Process-26528] [Thread0]    imginfo.size=2320, RemainLen=2048, Offset=272\r\n'
+2025-10-01 14:43:00.781 soc.py:486 INFO b'[Process-26528] [Thread0]    {script.bin-percent files transferred   11%}\r\n'
+2025-10-01 14:43:00.799 ui_project.py:313 INFO downloadscript
+2025-10-01 14:43:00.817 soc.py:486 INFO b'[Process-26528] [Thread0]    \r\n'
+2025-10-01 14:43:00.819 soc.py:486 INFO b'[Process-26528] [Thread0]    Preamble Send\r\n'
+2025-10-01 14:43:00.822 soc.py:486 INFO b'[Process-26528] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 14:43:00.953 soc.py:486 INFO b'[Process-26528] [Thread0]    imginfo.size=2320, RemainLen=0, Offset=272\r\n'
+2025-10-01 14:43:00.958 soc.py:486 INFO b'[Process-26528] [Thread0]    {script.bin-percent files transferred   100%}\r\n'
+2025-10-01 14:43:00.972 ui_project.py:313 INFO downloadscript
+2025-10-01 14:43:00.983 soc.py:486 INFO b'[Process-26528] [Thread0]    \r\n'
+2025-10-01 14:43:00.988 soc.py:486 INFO b'[Process-26528] [Thread0]    TryDownload success\r\n'
+2025-10-01 14:43:00.992 soc.py:486 INFO b'[Process-26528] [Thread0]    Burn OK!\r\n'
+2025-10-01 14:43:00.994 soc.py:486 INFO b'[Process-26528] [Thread0]    ProcessEnd[24756]\r\n'
+2025-10-01 14:43:00.996 soc.py:486 INFO b"[Process-26528] [FlashToolCLI]    Burnbatch OK, imglist ['flexfile2']\r\n"
+2025-10-01 14:43:01.077 usb_device.py:1391 INFO usb device trace
+2025-10-01 14:43:01.363 ui_project.py:348 INFO download successful
+2025-10-01 14:43:03.001 usb_device.py:3284 INFO quit download
+2025-10-01 14:43:03.008 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:43:03.009 usb_device.py:2563 INFO sleep 0.10204887390136719 sec
+2025-10-01 14:43:03.013 my_api.py:114 INFO [None, None]
+2025-10-01 14:43:03.013 usb_device.py:2567 INFO sleep done
+2025-10-01 14:43:04.267 usb_device.py:2575 INFO search com done!
+2025-10-01 14:43:05.150 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 0,0,0,0,0
+2025-10-01 14:43:05.150 ui_main.py:740 INFO trace_soc_cell: mcc=0, mnc=0, earfcn=0, pci=0, cid=0 band=
+2025-10-01 14:43:05.383 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 14:43:05.386 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 14:43:17.531 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 14:43:17.764 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_144305_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 14:43:17.772 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:43:17.776 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:43:17.779 usb_device.py:2563 INFO sleep 0.3951461791992186 sec
+2025-10-01 14:43:18.185 usb_device.py:2567 INFO sleep done
+2025-10-01 14:43:18.947 usb_device.py:2575 INFO search com done!
+2025-10-01 14:43:19.727 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 0,0,0,0,0
+2025-10-01 14:43:19.728 ui_main.py:740 INFO trace_soc_cell: mcc=0, mnc=0, earfcn=0, pci=0, cid=0 band=
+2025-10-01 14:43:19.957 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 14:43:19.959 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 14:47:17.880 ui_project.py:313 INFO Ready to download the script
+2025-10-01 14:47:17.899 ui_project.py:313 INFO Parsing firmware
+2025-10-01 14:47:18.969 ui_project.py:313 INFO Script preprocessing
+2025-10-01 14:47:18.975 ui_project.py:313 INFO Check script dependencies
+2025-10-01 14:47:18.982 ui_project.py:313 INFO Script preprocessing completed
+2025-10-01 14:47:18.986 ui_project.py:313 INFO Generate Firmware
+2025-10-01 14:47:18.992 ui_project.py:1574 INFO .
+2025-10-01 14:47:19.113 ui_project.py:1277 INFO ["main.luac"]
+2025-10-01 14:47:19.127 lua_script.py:467 INFO add crc file
+2025-10-01 14:47:25.989 usb_device.py:1439 INFO usb device download
+2025-10-01 14:47:25.993 ui_project.py:313 INFO Ready to download, if no change in more than 5 seconds, turn off the module power
+2025-10-01 14:47:25.997 my_api.py:114 INFO [None, None]
+2025-10-01 14:47:25.998 usb_device.py:2227 INFO trace -> download
+2025-10-01 14:47:25.998 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_144319_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 14:47:26.003 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:47:26.003 usb_device.py:3282 INFO enter download
+2025-10-01 14:47:26.011 ui_project.py:313 INFO Parsing Firmware
+2025-10-01 14:47:26.892 ui_project.py:313 INFO Download perparing
+2025-10-01 14:47:29.028 ui_project.py:313 INFO Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-10-01 14:47:36.049 ui_project.py:313 INFO Found Download COM portCOM20
+2025-10-01 14:47:36.157 soc.py:476 INFO FlashToolCLI.exe --cfgfile .\ec618_luatos_usb.ini  --port COM20 burnbatch --imglist flexfile2
+2025-10-01 14:47:37.722 soc.py:486 INFO b'2025-10-01 14:47:37,708 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000681,build time-2025-03-19 14:50:58\r\n'
+2025-10-01 14:47:37.741 ui_project.py:313 INFO Transfer begin
+2025-10-01 14:47:37.745 soc.py:486 INFO b'2025-10-01 14:47:37,722 INFO     [FlashTop]    init\r\n'
+2025-10-01 14:47:37.760 soc.py:486 INFO b'2025-10-01 14:47:37,758 INFO     [FlashTop]    PreLoad para sync success\r\n'
+2025-10-01 14:47:37.764 soc.py:486 INFO b'[Process-22720] [FlashTop]    do_main: cmd loadpara\r\n'
+2025-10-01 14:47:37.768 soc.py:486 INFO b'[Process-22720] [FlashTop]    loadpara args 0x3c41730 \r\n'
+2025-10-01 14:47:37.810 soc.py:486 INFO b'[Process-22720] [PRFrame]    LoadPrMgrProc init loaded C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\PRMgrCfg.json\r\n'
+2025-10-01 14:47:37.811 soc.py:486 INFO b'[Process-22720] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success\r\n'
+2025-10-01 14:47:37.818 soc.py:486 INFO b'[Process-22720] [Para]    tryupd_chinese_stat_once, legal now\r\n'
+2025-10-01 14:47:37.822 soc.py:486 INFO b'[Process-22720] [Para]    LoadPara from cfgfile(C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\ec618_luatos_usb.ini) \r\n'
+2025-10-01 14:47:37.832 soc.py:486 INFO b'[Process-22720] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0\r\n'
+2025-10-01 14:47:37.832 soc.py:486 INFO b'[Process-22720] [PRFrame]    LdXPKPrMgrProc  not exist\r\n'
+2025-10-01 14:47:37.839 soc.py:486 INFO b'[Process-22720] [Para]    invalid config, filepath:C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\MergeRfTable_ec618.bin, burnaddr 0xe7000\r\n'
+2025-10-01 14:47:37.844 soc.py:486 INFO b'[Process-22720] [Para]    invalid config, filepath:C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\MergeRfTable_ec618.bin, burnaddr 0xce000\r\n'
+2025-10-01 14:47:37.846 soc.py:486 INFO b'[Process-22720] [Para]    LoadPkgFlx\r\n'
+2025-10-01 14:47:37.858 soc.py:486 INFO b'[Process-22720] [FlashTop]    Load para sync success\r\n'
+2025-10-01 14:47:37.862 soc.py:486 INFO b'[Process-22720] [FlashTop]    LoadParaToArgs id args 0x3c41730, opt_storage_list 0x3e64d40 "cp_flash"\r\n'
+2025-10-01 14:47:37.864 soc.py:486 INFO b'[Process-22720] [FlashTop]    InitLoadImgInfo add empty bootloader2\r\n'
+2025-10-01 14:47:37.878 soc.py:486 INFO b"[Process-22720] [FlashToolCLI]    Burnbatch Start, burn imglist ['flexfile2'].\r\n"
+2025-10-01 14:47:37.882 soc.py:486 INFO b'[Process-22720] [FlashTop]    do_main: cmd burnag, Thread0[26760]\r\n'
+2025-10-01 14:47:37.901 soc.py:486 INFO b'[Process-22720] [Thread0]    ProcessStart[26760]\r\n'
+2025-10-01 14:47:37.901 soc.py:486 INFO b'[Process-22720] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 14:47:37.908 soc.py:486 INFO b'[Process-22720] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 14:47:37.912 soc.py:486 INFO b'[Process-22720] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 14:47:37.912 soc.py:486 INFO b'[Process-22720] [Thread0]    DtrConditionAssign  1\r\n'
+2025-10-01 14:47:37.912 soc.py:486 INFO b'[Process-22720] [Thread0]    RtsConditionAssign  1\r\n'
+2025-10-01 14:47:38.419 soc.py:486 INFO b'[Process-22720] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 14:47:38.928 soc.py:486 INFO b'[Process-22720] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 14:47:38.931 soc.py:486 INFO b'[Process-22720] [Thread0]    ResetBoard(Normal Mod) finish\r\n'
+2025-10-01 14:47:38.934 soc.py:486 INFO b'[Process-22720] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 14:47:38.934 soc.py:486 INFO b'[Process-22720] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 14:47:38.940 soc.py:486 INFO b'[Process-22720] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 14:47:38.942 soc.py:486 INFO b'[Process-22720] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 14:47:38.944 soc.py:486 INFO b'[Process-22720] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 14:47:38.962 soc.py:486 INFO b'[Process-22720] [Image]    pullup_qspi 1\r\n'
+2025-10-01 14:47:38.965 soc.py:486 INFO b'[Process-22720] [Image]    genimghd args id 0x3e7d6f0, opt_storage_list refcnt 6, id 0x3e64d40 \r\n'
+2025-10-01 14:47:38.968 soc.py:486 INFO b'[Process-22720] [Image]    SetBaud 921600\r\n'
+2025-10-01 14:47:38.968 soc.py:486 INFO b"[Process-22720] [Image]    Update Image Head Hash  b'\\xe8\\xe0\\xc4\\xd3\\xfa\\x65\\x86\\x52\\x38\\xe4\\x0e\\xe4\\x83\\xac\\xcf\\xcd\\x74\\x7e\\xda\\x68\\x26\\x92\\x96\\xab\\xac\\x86\\xb3\\x2c\\x80\\x9e\\x74\\x40'\r\n"
+2025-10-01 14:47:38.968 soc.py:486 INFO b'[Process-22720] [Thread0]    TryDownload C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\agentboot_usb.bin start\r\n'
+2025-10-01 14:47:38.968 soc.py:486 INFO b'[Process-22720] [Thread0]    image size=44984, hdsize=272\r\n'
+2025-10-01 14:47:38.979 soc.py:486 INFO b'[Process-22720] [Thread0]    Preamble Send\r\n'
+2025-10-01 14:47:38.981 soc.py:486 INFO b'[Process-22720] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 14:47:38.984 soc.py:486 INFO b'[Process-22720] [Thread0]    CompRomVerIntSingle 0000000201000000 suc\r\n'
+2025-10-01 14:47:38.987 soc.py:486 INFO b'[Process-22720] [Thread0]    RVer 0000000201000000, chk suc, compare with version\r\n'
+2025-10-01 14:47:38.990 soc.py:486 INFO b'[Process-22720] [Thread0]    Preamble Send\r\n'
+2025-10-01 14:47:38.992 soc.py:486 INFO b'[Process-22720] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 14:47:38.994 soc.py:486 INFO b'[Process-22720] [Thread0]    CompRomVerIntSingle 0000000201000000 suc\r\n'
+2025-10-01 14:47:38.997 soc.py:486 INFO b'[Process-22720] [Thread0]    RVer 0000000201000000, chk suc, compare with version\r\n'
+2025-10-01 14:47:39.143 soc.py:486 INFO b'[Process-22720] [Thread0]    TryDownload agentboot success\r\n'
+2025-10-01 14:47:39.160 soc.py:486 INFO b'[Process-22720] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 14:47:39.160 soc.py:486 INFO b'[Process-22720] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 14:47:39.160 soc.py:486 INFO b'[Process-22720] [Thread0]    agbaud: 921600\r\n'
+2025-10-01 14:47:39.168 soc.py:486 INFO b'[Process-22720] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 14:47:39.172 soc.py:486 INFO b'[Process-22720] [Thread0]    Burn OK!\r\n'
+2025-10-01 14:47:39.176 soc.py:486 INFO b'[Process-22720] [Thread0]    ProcessEnd[26760]\r\n'
+2025-10-01 14:47:39.178 soc.py:486 INFO b'[Process-22720] [FlashTop]    do_main: cmd burnone, Thread0[26760]\r\n'
+2025-10-01 14:47:39.192 soc.py:486 INFO b'[Process-22720] [Thread0]    ProcessStart[26760]\r\n'
+2025-10-01 14:47:39.197 soc.py:486 INFO b'[Process-22720] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 14:47:39.199 soc.py:486 INFO b'[Process-22720] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 14:47:39.202 soc.py:486 INFO b'[Process-22720] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 14:47:39.202 soc.py:486 INFO b'[Process-22720] [Thread0]    agentboot is downloaded already\r\n'
+2025-10-01 14:47:39.208 soc.py:486 INFO b'[Process-22720] [Thread0]    TryDownload agentboot skip\r\n'
+2025-10-01 14:47:39.211 soc.py:486 INFO b'[Process-22720] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 14:47:39.214 soc.py:486 INFO b'[Process-22720] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 14:47:39.216 soc.py:486 INFO b'[Process-22720] [Thread0]    agbaud: 921600\r\n'
+2025-10-01 14:47:39.219 soc.py:486 INFO b'[Process-22720] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 14:47:39.221 soc.py:486 INFO b'[Process-22720] [Thread0]    LPC Preamble Send\r\n'
+2025-10-01 14:47:39.221 soc.py:486 INFO b'[Process-22720] [Thread0]    LPC Preamble Received Rsp\r\n'
+2025-10-01 14:47:39.228 soc.py:486 INFO b'[Process-22720] [Thread0]    LPCSetSyncStat(1)\r\n'
+2025-10-01 14:47:39.230 soc.py:486 INFO b'[Process-22720] [Thread0]    LPCSyncDetect: success\r\n'
+2025-10-01 14:47:39.230 soc.py:486 INFO b'[Process-22720] [Thread0]    DownloadBurnOne imgtype(flexfile2)\r\n'
+2025-10-01 14:47:39.235 soc.py:486 INFO b'[Process-22720] [Thread0]    DownloadBurnOne imgtype(flexfile2), burnaddr(0x24d000), imgid(0x464c5849)\r\n'
+2025-10-01 14:47:39.238 soc.py:486 INFO b'[Process-22720] [Thread0]    DownloadBurnOne file C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\script.bin \r\n'
+2025-10-01 14:47:39.240 soc.py:486 INFO b"[Process-22720] [Image]    Update Image Body Hash  b'\\x32\\xfa\\xc4\\x7c\\x77\\xd7\\x1e\\x44\\xb3\\xd9\\x4c\\x5e\\x92\\x5e\\x8d\\xad\\x41\\xf1\\x9b\\x87\\x2a\\x5d\\x31\\xe3\\x37\\x7d\\xc9\\x0d\\x63\\x78\\xc4\\x88'\r\n"
+2025-10-01 14:47:39.242 soc.py:486 INFO b"[Process-22720] [Image]    Update Image Head Hash  b'\\x30\\x99\\x3b\\xef\\xc0\\xbc\\x98\\x94\\x89\\x50\\x24\\x9c\\x17\\x99\\x39\\xa1\\xa5\\x90\\xe1\\xc2\\xc9\\x95\\x25\\xb8\\x2c\\x41\\x64\\xd4\\x37\\xfd\\xd2\\xc7'\r\n"
+2025-10-01 14:47:39.242 soc.py:486 INFO b'[Process-22720] [Thread0]    TryDownload C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\script.bin start\r\n'
+2025-10-01 14:47:39.248 soc.py:486 INFO b'[Process-22720] [Thread0]    LPCBurnOneTrig start       \t\t\t******\r\n'
+2025-10-01 14:47:39.250 soc.py:486 INFO b'[Process-22720] [Thread0]    LPCBurnOneTrig success\r\n'
+2025-10-01 14:47:39.251 soc.py:486 INFO b'[Process-22720] [Thread0]    DLDPreSync Preamble Send\r\n'
+2025-10-01 14:47:39.751 soc.py:486 INFO b'[Process-22720] [Thread0]    DLDPreSync Preamble Received Rsp\r\n'
+2025-10-01 14:47:39.755 soc.py:486 INFO b'[Process-22720] [Thread0]    image size=2320, hdsize=272\r\n'
+2025-10-01 14:47:39.758 soc.py:486 INFO b'[Process-22720] [Thread0]    \r\n'
+2025-10-01 14:47:39.761 soc.py:486 INFO b'[Process-22720] [Thread0]    imginfo.size=2320, RemainLen=2320, Offset=0\r\n'
+2025-10-01 14:47:39.763 soc.py:486 INFO b'[Process-22720] [Thread0]    {script.bin-percent files transferred   0%}\r\n'
+2025-10-01 14:47:39.781 ui_project.py:313 INFO downloadscript
+2025-10-01 14:47:39.791 soc.py:486 INFO b'[Process-22720] [Thread0]    \r\n'
+2025-10-01 14:47:39.798 soc.py:486 INFO b'[Process-22720] [Thread0]    Preamble Send\r\n'
+2025-10-01 14:47:39.799 soc.py:486 INFO b'[Process-22720] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 14:47:39.801 soc.py:486 INFO b'[Process-22720] [Thread0]    imginfo.size=2320, RemainLen=2048, Offset=272\r\n'
+2025-10-01 14:47:39.804 soc.py:486 INFO b'[Process-22720] [Thread0]    {script.bin-percent files transferred   11%}\r\n'
+2025-10-01 14:47:39.818 ui_project.py:313 INFO downloadscript
+2025-10-01 14:47:39.832 soc.py:486 INFO b'[Process-22720] [Thread0]    \r\n'
+2025-10-01 14:47:39.835 soc.py:486 INFO b'[Process-22720] [Thread0]    Preamble Send\r\n'
+2025-10-01 14:47:39.838 soc.py:486 INFO b'[Process-22720] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 14:47:39.980 soc.py:486 INFO b'[Process-22720] [Thread0]    imginfo.size=2320, RemainLen=0, Offset=272\r\n'
+2025-10-01 14:47:39.980 soc.py:486 INFO b'[Process-22720] [Thread0]    {script.bin-percent files transferred   100%}\r\n'
+2025-10-01 14:47:39.997 ui_project.py:313 INFO downloadscript
+2025-10-01 14:47:40.009 soc.py:486 INFO b'[Process-22720] [Thread0]    \r\n'
+2025-10-01 14:47:40.012 soc.py:486 INFO b'[Process-22720] [Thread0]    TryDownload success\r\n'
+2025-10-01 14:47:40.014 soc.py:486 INFO b'[Process-22720] [Thread0]    Burn OK!\r\n'
+2025-10-01 14:47:40.019 soc.py:486 INFO b'[Process-22720] [Thread0]    ProcessEnd[26760]\r\n'
+2025-10-01 14:47:40.021 soc.py:486 INFO b"[Process-22720] [FlashToolCLI]    Burnbatch OK, imglist ['flexfile2']\r\n"
+2025-10-01 14:47:40.094 usb_device.py:1391 INFO usb device trace
+2025-10-01 14:47:40.380 ui_project.py:348 INFO download successful
+2025-10-01 14:47:42.060 usb_device.py:3284 INFO quit download
+2025-10-01 14:47:42.067 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:47:42.070 usb_device.py:2563 INFO sleep 0.09962964057922363 sec
+2025-10-01 14:47:42.073 my_api.py:114 INFO [None, None]
+2025-10-01 14:47:42.075 usb_device.py:2567 INFO sleep done
+2025-10-01 14:47:48.417 usb_device.py:2575 INFO search com done!
+2025-10-01 14:47:49.298 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 0,0,0,0,0
+2025-10-01 14:47:49.298 ui_main.py:740 INFO trace_soc_cell: mcc=0, mnc=0, earfcn=0, pci=0, cid=0 band=
+2025-10-01 14:47:49.525 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 14:47:49.527 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 14:48:19.928 usb_device.py:1376 ERROR diag com USB has disconnected. COM17 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 14:48:20.160 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_144749_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 14:48:20.165 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:48:20.165 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:48:20.167 usb_device.py:2563 INFO sleep 0.40315585136413556 sec
+2025-10-01 14:48:20.577 usb_device.py:2567 INFO sleep done
+2025-10-01 14:48:24.917 usb_device.py:2575 INFO search com done!
+2025-10-01 14:48:24.950 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 14:48:25.121 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:48:25.121 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:48:25.121 usb_device.py:2563 INFO sleep 0.409999895095825 sec
+2025-10-01 14:48:25.537 usb_device.py:2567 INFO sleep done
+2025-10-01 14:48:26.957 usb_device.py:2575 INFO search com done!
+2025-10-01 14:48:26.974 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 14:48:27.012 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:48:27.012 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:48:27.012 usb_device.py:2563 INFO sleep 0.409999895095825 sec
+2025-10-01 14:48:27.428 usb_device.py:2567 INFO sleep done
+2025-10-01 14:48:28.287 usb_device.py:2575 INFO search com done!
+2025-10-01 14:48:28.534 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 14:48:28.534 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 14:48:28.657 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 14:48:28.698 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_144828_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 14:48:28.698 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:48:28.702 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:48:28.702 usb_device.py:2563 INFO sleep 0.40635495185852033 sec
+2025-10-01 14:48:29.117 usb_device.py:2567 INFO sleep done
+2025-10-01 14:48:29.687 usb_device.py:2575 INFO search com done!
+2025-10-01 14:48:29.712 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 14:48:29.753 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:48:29.757 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:48:29.758 usb_device.py:2563 INFO sleep 0.405039596557617 sec
+2025-10-01 14:48:30.167 usb_device.py:2567 INFO sleep done
+2025-10-01 14:48:30.607 usb_device.py:2575 INFO search com done!
+2025-10-01 14:48:30.639 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 14:48:30.793 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:48:30.793 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:48:30.797 usb_device.py:2563 INFO sleep 0.405800151824951 sec
+2025-10-01 14:48:31.207 usb_device.py:2567 INFO sleep done
+2025-10-01 14:48:31.758 usb_device.py:2575 INFO search com done!
+2025-10-01 14:48:31.993 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 14:48:31.997 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 14:48:33.788 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 14:48:33.913 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_144832_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 14:48:33.917 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:48:33.918 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:48:33.921 usb_device.py:2563 INFO sleep 0.40176682472228986 sec
+2025-10-01 14:48:34.327 usb_device.py:2567 INFO sleep done
+2025-10-01 14:48:35.147 usb_device.py:2575 INFO search com done!
+2025-10-01 14:48:35.242 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 14:48:35.243 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 14:48:35.758 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 14:48:35.841 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_144835_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 14:48:35.845 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:48:35.845 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:48:35.847 usb_device.py:2563 INFO sleep 0.40426497459411603 sec
+2025-10-01 14:48:36.257 usb_device.py:2567 INFO sleep done
+2025-10-01 14:48:36.897 usb_device.py:2575 INFO search com done!
+2025-10-01 14:48:36.920 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 14:48:37.007 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:48:37.009 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:48:37.010 usb_device.py:2563 INFO sleep 0.4051330566406248 sec
+2025-10-01 14:48:37.427 usb_device.py:2567 INFO sleep done
+2025-10-01 14:48:38.287 usb_device.py:2575 INFO search com done!
+2025-10-01 14:48:38.418 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 14:48:38.419 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 14:49:07.967 usb_device.py:1376 ERROR diag com USB has disconnected. COM17 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 14:49:08.148 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_144838_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 14:49:08.148 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:49:08.148 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:49:08.154 usb_device.py:2563 INFO sleep 0.4044862270355223 sec
+2025-10-01 14:49:08.567 usb_device.py:2567 INFO sleep done
+2025-10-01 14:49:12.587 usb_device.py:2575 INFO search com done!
+2025-10-01 14:49:12.910 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 0,0,0,0,0
+2025-10-01 14:49:12.913 ui_main.py:740 INFO trace_soc_cell: mcc=0, mnc=0, earfcn=0, pci=0, cid=0 band=
+2025-10-01 14:49:13.596 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,39350,223,33835
+2025-10-01 14:49:13.611 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=39350, pci=223, cid=33835 band=40
+2025-10-01 14:50:09.090 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 14:50:09.090 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 14:51:29.381 usb_device.py:1376 ERROR diag com USB has disconnected. COM17 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 14:51:29.436 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_144912_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 14:51:29.439 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:51:29.440 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:51:29.441 usb_device.py:2563 INFO sleep 0.40451149940490705 sec
+2025-10-01 14:51:29.849 usb_device.py:2567 INFO sleep done
+2025-10-01 14:51:34.166 usb_device.py:2575 INFO search com done!
+2025-10-01 14:51:34.203 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 14:51:34.241 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:51:34.243 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:51:34.245 usb_device.py:2563 INFO sleep 0.40617589950561506 sec
+2025-10-01 14:51:34.667 usb_device.py:2567 INFO sleep done
+2025-10-01 14:51:35.105 usb_device.py:2575 INFO search com done!
+2025-10-01 14:51:35.201 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 14:51:35.202 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 14:51:38.175 usb_device.py:1376 ERROR diag com USB has disconnected. COM17 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 14:51:38.259 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_145135_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 14:51:38.263 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:51:38.270 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:51:38.273 usb_device.py:2563 INFO sleep 0.3959327220916746 sec
+2025-10-01 14:51:38.689 usb_device.py:2567 INFO sleep done
+2025-10-01 14:51:39.250 usb_device.py:2575 INFO search com done!
+2025-10-01 14:51:39.315 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 14:51:39.317 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 14:51:42.196 usb_device.py:1376 ERROR diag com USB has disconnected. COM17 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 14:51:42.363 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_145139_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 14:51:42.372 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:51:42.375 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:51:42.378 usb_device.py:2563 INFO sleep 0.3956232547760008 sec
+2025-10-01 14:51:42.791 usb_device.py:2567 INFO sleep done
+2025-10-01 14:51:43.352 usb_device.py:2575 INFO search com done!
+2025-10-01 14:51:43.472 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 14:51:43.474 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 14:53:52.448 usb_device.py:1376 ERROR diag com USB has disconnected. COM17 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 14:53:52.487 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_145143_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 14:53:52.489 usb_device.py:3280 INFO quit Trace
+2025-10-01 14:53:52.490 usb_device.py:3272 INFO enter Trace
+2025-10-01 14:53:52.492 usb_device.py:2563 INFO sleep 0.4060104370117186 sec
+2025-10-01 14:53:52.901 usb_device.py:2567 INFO sleep done
+2025-10-01 15:00:47.360 usb_device.py:2575 INFO search com done!
+2025-10-01 15:00:47.513 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 15:00:47.513 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 15:00:47.533 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 15:00:47.533 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 15:00:51.973 ui_project.py:313 INFO Ready to download the script
+2025-10-01 15:00:51.983 ui_project.py:313 INFO Parsing firmware
+2025-10-01 15:00:52.480 ui_project.py:313 INFO Script preprocessing
+2025-10-01 15:00:52.492 ui_project.py:313 INFO Check script dependencies
+2025-10-01 15:00:52.492 ui_project.py:313 INFO Script preprocessing completed
+2025-10-01 15:00:52.503 ui_project.py:313 INFO Generate Firmware
+2025-10-01 15:00:52.503 ui_project.py:1574 INFO .
+2025-10-01 15:00:52.801 ui_project.py:1277 INFO ["main.luac"]
+2025-10-01 15:00:52.809 lua_script.py:467 INFO add crc file
+2025-10-01 15:00:56.589 usb_device.py:1439 INFO usb device download
+2025-10-01 15:00:56.589 ui_project.py:313 INFO Ready to download, if no change in more than 5 seconds, turn off the module power
+2025-10-01 15:00:56.599 my_api.py:114 INFO [None, None]
+2025-10-01 15:00:56.599 usb_device.py:2227 INFO trace -> download
+2025-10-01 15:00:56.601 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_150047_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 15:00:56.603 usb_device.py:3280 INFO quit Trace
+2025-10-01 15:00:56.603 usb_device.py:3282 INFO enter download
+2025-10-01 15:00:56.605 ui_project.py:313 INFO Parsing Firmware
+2025-10-01 15:00:57.061 ui_project.py:313 INFO Download perparing
+2025-10-01 15:00:57.784 ui_project.py:313 INFO Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-10-01 15:01:01.242 ui_project.py:313 INFO Found Download COM portCOM20
+2025-10-01 15:01:01.356 soc.py:476 INFO FlashToolCLI.exe --cfgfile .\ec618_luatos_usb.ini  --port COM20 burnbatch --imglist flexfile2
+2025-10-01 15:01:02.403 soc.py:486 INFO b'2025-10-01 15:01:02,403 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000681,build time-2025-03-19 14:50:58\r\n'
+2025-10-01 15:01:02.410 ui_project.py:313 INFO Transfer begin
+2025-10-01 15:01:02.410 soc.py:486 INFO b'2025-10-01 15:01:02,403 INFO     [FlashTop]    init\r\n'
+2025-10-01 15:01:02.414 soc.py:486 INFO b'2025-10-01 15:01:02,414 INFO     [FlashTop]    PreLoad para sync success\r\n'
+2025-10-01 15:01:02.416 soc.py:486 INFO b'[Process-24416] [FlashTop]    do_main: cmd loadpara\r\n'
+2025-10-01 15:01:02.416 soc.py:486 INFO b'[Process-24416] [FlashTop]    loadpara args 0x3961850 \r\n'
+2025-10-01 15:01:02.420 soc.py:486 INFO b'[Process-24416] [PRFrame]    LoadPrMgrProc init loaded C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\PRMgrCfg.json\r\n'
+2025-10-01 15:01:02.420 soc.py:486 INFO b'[Process-24416] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success\r\n'
+2025-10-01 15:01:02.420 soc.py:486 INFO b'[Process-24416] [Para]    tryupd_chinese_stat_once, legal now\r\n'
+2025-10-01 15:01:02.420 soc.py:486 INFO b'[Process-24416] [Para]    LoadPara from cfgfile(C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\ec618_luatos_usb.ini) \r\n'
+2025-10-01 15:01:02.420 soc.py:486 INFO b'[Process-24416] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0\r\n'
+2025-10-01 15:01:02.420 soc.py:486 INFO b'[Process-24416] [PRFrame]    LdXPKPrMgrProc  not exist\r\n'
+2025-10-01 15:01:02.430 soc.py:486 INFO b'[Process-24416] [Para]    invalid config, filepath:C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\MergeRfTable_ec618.bin, burnaddr 0xe7000\r\n'
+2025-10-01 15:01:02.430 soc.py:486 INFO b'[Process-24416] [Para]    invalid config, filepath:C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\MergeRfTable_ec618.bin, burnaddr 0xce000\r\n'
+2025-10-01 15:01:02.432 soc.py:486 INFO b'[Process-24416] [Para]    LoadPkgFlx\r\n'
+2025-10-01 15:01:02.432 soc.py:486 INFO b'[Process-24416] [FlashTop]    Load para sync success\r\n'
+2025-10-01 15:01:02.432 soc.py:486 INFO b'[Process-24416] [FlashTop]    LoadParaToArgs id args 0x3961850, opt_storage_list 0x3b86c78 "cp_flash"\r\n'
+2025-10-01 15:01:02.432 soc.py:486 INFO b'[Process-24416] [FlashTop]    InitLoadImgInfo add empty bootloader2\r\n'
+2025-10-01 15:01:02.436 soc.py:486 INFO b"[Process-24416] [FlashToolCLI]    Burnbatch Start, burn imglist ['flexfile2'].\r\n"
+2025-10-01 15:01:02.436 soc.py:486 INFO b'[Process-24416] [FlashTop]    do_main: cmd burnag, Thread0[8168]\r\n'
+2025-10-01 15:01:02.440 soc.py:486 INFO b'[Process-24416] [Thread0]    ProcessStart[8168]\r\n'
+2025-10-01 15:01:02.440 soc.py:486 INFO b'[Process-24416] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 15:01:02.440 soc.py:486 INFO b'[Process-24416] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 15:01:02.440 soc.py:486 INFO b'[Process-24416] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 15:01:02.440 soc.py:486 INFO b'[Process-24416] [Thread0]    DtrConditionAssign  1\r\n'
+2025-10-01 15:01:02.440 soc.py:486 INFO b'[Process-24416] [Thread0]    RtsConditionAssign  1\r\n'
+2025-10-01 15:01:02.943 soc.py:486 INFO b'[Process-24416] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 15:01:03.453 soc.py:486 INFO b'[Process-24416] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 15:01:03.453 soc.py:486 INFO b'[Process-24416] [Thread0]    ResetBoard(Normal Mod) finish\r\n'
+2025-10-01 15:01:03.453 soc.py:486 INFO b'[Process-24416] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 15:01:03.453 soc.py:486 INFO b'[Process-24416] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 15:01:03.453 soc.py:486 INFO b'[Process-24416] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 15:01:03.453 soc.py:486 INFO b'[Process-24416] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 15:01:03.453 soc.py:486 INFO b'[Process-24416] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 15:01:03.453 soc.py:486 INFO b'[Process-24416] [Image]    pullup_qspi 1\r\n'
+2025-10-01 15:01:03.453 soc.py:486 INFO b'[Process-24416] [Image]    genimghd args id 0x3b9a730, opt_storage_list refcnt 6, id 0x3b86c78 \r\n'
+2025-10-01 15:01:03.453 soc.py:486 INFO b'[Process-24416] [Image]    SetBaud 921600\r\n'
+2025-10-01 15:01:03.453 soc.py:486 INFO b"[Process-24416] [Image]    Update Image Head Hash  b'\\xe8\\xe0\\xc4\\xd3\\xfa\\x65\\x86\\x52\\x38\\xe4\\x0e\\xe4\\x83\\xac\\xcf\\xcd\\x74\\x7e\\xda\\x68\\x26\\x92\\x96\\xab\\xac\\x86\\xb3\\x2c\\x80\\x9e\\x74\\x40'\r\n"
+2025-10-01 15:01:03.453 soc.py:486 INFO b'[Process-24416] [Thread0]    TryDownload C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\agentboot_usb.bin start\r\n'
+2025-10-01 15:01:03.453 soc.py:486 INFO b'[Process-24416] [Thread0]    image size=44984, hdsize=272\r\n'
+2025-10-01 15:01:03.453 soc.py:486 INFO b'[Process-24416] [Thread0]    Preamble Send\r\n'
+2025-10-01 15:01:03.453 soc.py:486 INFO b'[Process-24416] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 15:01:03.463 soc.py:486 INFO b'[Process-24416] [Thread0]    CompRomVerIntSingle 0000000201000000 suc\r\n'
+2025-10-01 15:01:03.463 soc.py:486 INFO b'[Process-24416] [Thread0]    RVer 0000000201000000, chk suc, compare with version\r\n'
+2025-10-01 15:01:03.468 soc.py:486 INFO b'[Process-24416] [Thread0]    Preamble Send\r\n'
+2025-10-01 15:01:03.468 soc.py:486 INFO b'[Process-24416] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 15:01:03.473 soc.py:486 INFO b'[Process-24416] [Thread0]    CompRomVerIntSingle 0000000201000000 suc\r\n'
+2025-10-01 15:01:03.473 soc.py:486 INFO b'[Process-24416] [Thread0]    RVer 0000000201000000, chk suc, compare with version\r\n'
+2025-10-01 15:01:03.554 soc.py:486 INFO b'[Process-24416] [Thread0]    TryDownload agentboot success\r\n'
+2025-10-01 15:01:03.575 soc.py:486 INFO b'[Process-24416] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 15:01:03.575 soc.py:486 INFO b'[Process-24416] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 15:01:03.575 soc.py:486 INFO b'[Process-24416] [Thread0]    agbaud: 921600\r\n'
+2025-10-01 15:01:03.575 soc.py:486 INFO b'[Process-24416] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 15:01:03.575 soc.py:486 INFO b'[Process-24416] [Thread0]    Burn OK!\r\n'
+2025-10-01 15:01:03.575 soc.py:486 INFO b'[Process-24416] [Thread0]    ProcessEnd[8168]\r\n'
+2025-10-01 15:01:03.575 soc.py:486 INFO b'[Process-24416] [FlashTop]    do_main: cmd burnone, Thread0[8168]\r\n'
+2025-10-01 15:01:03.575 soc.py:486 INFO b'[Process-24416] [Thread0]    ProcessStart[8168]\r\n'
+2025-10-01 15:01:03.575 soc.py:486 INFO b'[Process-24416] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 15:01:03.575 soc.py:486 INFO b'[Process-24416] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 15:01:03.585 soc.py:486 INFO b'[Process-24416] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 15:01:03.585 soc.py:486 INFO b'[Process-24416] [Thread0]    agentboot is downloaded already\r\n'
+2025-10-01 15:01:03.585 soc.py:486 INFO b'[Process-24416] [Thread0]    TryDownload agentboot skip\r\n'
+2025-10-01 15:01:03.585 soc.py:486 INFO b'[Process-24416] [Thread0]    DtrConditionAssign  0\r\n'
+2025-10-01 15:01:03.585 soc.py:486 INFO b'[Process-24416] [Thread0]    RtsConditionAssign  0\r\n'
+2025-10-01 15:01:03.585 soc.py:486 INFO b'[Process-24416] [Thread0]    agbaud: 921600\r\n'
+2025-10-01 15:01:03.585 soc.py:486 INFO b'[Process-24416] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-10-01 15:01:03.585 soc.py:486 INFO b'[Process-24416] [Thread0]    LPC Preamble Send\r\n'
+2025-10-01 15:01:03.585 soc.py:486 INFO b'[Process-24416] [Thread0]    LPC Preamble Received Rsp\r\n'
+2025-10-01 15:01:03.585 soc.py:486 INFO b'[Process-24416] [Thread0]    LPCSetSyncStat(1)\r\n'
+2025-10-01 15:01:03.585 soc.py:486 INFO b'[Process-24416] [Thread0]    LPCSyncDetect: success\r\n'
+2025-10-01 15:01:03.585 soc.py:486 INFO b'[Process-24416] [Thread0]    DownloadBurnOne imgtype(flexfile2)\r\n'
+2025-10-01 15:01:03.585 soc.py:486 INFO b'[Process-24416] [Thread0]    DownloadBurnOne imgtype(flexfile2), burnaddr(0x24d000), imgid(0x464c5849)\r\n'
+2025-10-01 15:01:03.585 soc.py:486 INFO b'[Process-24416] [Thread0]    DownloadBurnOne file C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\script.bin \r\n'
+2025-10-01 15:01:03.585 soc.py:486 INFO b"[Process-24416] [Image]    Update Image Body Hash  b'\\x3a\\xd2\\x08\\xb9\\x78\\x39\\xdc\\x8c\\x0e\\x4a\\xd1\\xa6\\x9c\\x73\\xd1\\x8f\\x67\\xcf\\xe4\\x4c\\x84\\xb0\\x3b\\x1a\\x5b\\xc3\\xf3\\x6f\\x09\\x02\\x8e\\x15'\r\n"
+2025-10-01 15:01:03.595 soc.py:486 INFO b"[Process-24416] [Image]    Update Image Head Hash  b'\\x0b\\x19\\x1d\\x05\\x56\\xee\\x36\\x3b\\xce\\x0a\\x73\\x4b\\x46\\xfd\\x1e\\x8f\\x42\\xec\\x0b\\x29\\x47\\x72\\xa2\\xd2\\xee\\x69\\xc2\\x2f\\x27\\xd6\\x85\\x48'\r\n"
+2025-10-01 15:01:03.595 soc.py:486 INFO b'[Process-24416] [Thread0]    TryDownload C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\script.bin start\r\n'
+2025-10-01 15:01:03.595 soc.py:486 INFO b'[Process-24416] [Thread0]    LPCBurnOneTrig start       \t\t\t******\r\n'
+2025-10-01 15:01:03.595 soc.py:486 INFO b'[Process-24416] [Thread0]    LPCBurnOneTrig success\r\n'
+2025-10-01 15:01:03.595 soc.py:486 INFO b'[Process-24416] [Thread0]    DLDPreSync Preamble Send\r\n'
+2025-10-01 15:01:04.105 soc.py:486 INFO b'[Process-24416] [Thread0]    DLDPreSync Preamble Received Rsp\r\n'
+2025-10-01 15:01:04.105 soc.py:486 INFO b'[Process-24416] [Thread0]    image size=8464, hdsize=272\r\n'
+2025-10-01 15:01:04.105 soc.py:486 INFO b'[Process-24416] [Thread0]    \r\n'
+2025-10-01 15:01:04.105 soc.py:486 INFO b'[Process-24416] [Thread0]    imginfo.size=8464, RemainLen=8464, Offset=0\r\n'
+2025-10-01 15:01:04.105 soc.py:486 INFO b'[Process-24416] [Thread0]    {script.bin-percent files transferred   0%}\r\n'
+2025-10-01 15:01:04.105 ui_project.py:313 INFO downloadscript
+2025-10-01 15:01:04.115 soc.py:486 INFO b'[Process-24416] [Thread0]    \r\n'
+2025-10-01 15:01:04.115 soc.py:486 INFO b'[Process-24416] [Thread0]    Preamble Send\r\n'
+2025-10-01 15:01:04.115 soc.py:486 INFO b'[Process-24416] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 15:01:04.115 soc.py:486 INFO b'[Process-24416] [Thread0]    imginfo.size=8464, RemainLen=8192, Offset=272\r\n'
+2025-10-01 15:01:04.115 soc.py:486 INFO b'[Process-24416] [Thread0]    {script.bin-percent files transferred   3%}\r\n'
+2025-10-01 15:01:04.115 ui_project.py:313 INFO downloadscript
+2025-10-01 15:01:04.115 soc.py:486 INFO b'[Process-24416] [Thread0]    \r\n'
+2025-10-01 15:01:04.115 soc.py:486 INFO b'[Process-24416] [Thread0]    Preamble Send\r\n'
+2025-10-01 15:01:04.176 soc.py:486 INFO b'[Process-24416] [Thread0]    Preamble Received Rsp\r\n'
+2025-10-01 15:01:04.344 soc.py:486 INFO b'[Process-24416] [Thread0]    imginfo.size=8464, RemainLen=0, Offset=272\r\n'
+2025-10-01 15:01:04.344 soc.py:486 INFO b'[Process-24416] [Thread0]    {script.bin-percent files transferred   100%}\r\n'
+2025-10-01 15:01:04.344 ui_project.py:313 INFO downloadscript
+2025-10-01 15:01:04.344 soc.py:486 INFO b'[Process-24416] [Thread0]    \r\n'
+2025-10-01 15:01:04.344 soc.py:486 INFO b'[Process-24416] [Thread0]    TryDownload success\r\n'
+2025-10-01 15:01:04.344 soc.py:486 INFO b'[Process-24416] [Thread0]    Burn OK!\r\n'
+2025-10-01 15:01:04.354 soc.py:486 INFO b'[Process-24416] [Thread0]    ProcessEnd[8168]\r\n'
+2025-10-01 15:01:04.354 soc.py:486 INFO b"[Process-24416] [FlashToolCLI]    Burnbatch OK, imglist ['flexfile2']\r\n"
+2025-10-01 15:01:04.364 usb_device.py:1391 INFO usb device trace
+2025-10-01 15:01:04.476 ui_project.py:348 INFO download successful
+2025-10-01 15:01:05.277 usb_device.py:3284 INFO quit download
+2025-10-01 15:01:05.277 usb_device.py:3272 INFO enter Trace
+2025-10-01 15:01:05.277 usb_device.py:2563 INFO sleep 0.1099998950958252 sec
+2025-10-01 15:01:05.281 my_api.py:114 INFO [None, None]
+2025-10-01 15:01:05.281 usb_device.py:2567 INFO sleep done
+2025-10-01 15:01:22.200 usb_device.py:2575 INFO search com done!
+2025-10-01 15:01:22.371 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 0,0,0,0,0
+2025-10-01 15:01:22.374 ui_main.py:740 INFO trace_soc_cell: mcc=0, mnc=0, earfcn=0, pci=0, cid=0 band=
+2025-10-01 15:01:23.141 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 15:01:23.141 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 15:01:48.637 usb_device.py:1376 ERROR diag com USB has disconnected. COM17 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 15:01:48.801 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_150122_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 15:01:48.804 usb_device.py:3280 INFO quit Trace
+2025-10-01 15:01:48.806 usb_device.py:3272 INFO enter Trace
+2025-10-01 15:01:48.806 usb_device.py:2563 INFO sleep 0.4049964427947996 sec
+2025-10-01 15:01:49.223 usb_device.py:2567 INFO sleep done
+2025-10-01 15:01:53.523 usb_device.py:2575 INFO search com done!
+2025-10-01 15:01:53.634 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 15:01:53.636 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 15:02:11.476 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 15:02:11.691 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_150153_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 15:02:11.699 usb_device.py:3280 INFO quit Trace
+2025-10-01 15:02:11.703 usb_device.py:3272 INFO enter Trace
+2025-10-01 15:02:11.705 usb_device.py:2563 INFO sleep 0.39587383270263654 sec
+2025-10-01 15:02:12.110 usb_device.py:2567 INFO sleep done
+2025-10-01 15:02:17.828 usb_device.py:2575 INFO search com done!
+2025-10-01 15:02:17.951 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 15:02:17.951 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 15:03:04.989 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,39350,7,925738
+2025-10-01 15:03:04.992 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=39350, pci=7, cid=925738 band=40
+2025-10-01 15:05:12.998 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 15:05:13.004 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 15:07:09.681 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 15:07:09.906 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_150217_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 15:07:09.909 usb_device.py:3280 INFO quit Trace
+2025-10-01 15:07:09.910 usb_device.py:3272 INFO enter Trace
+2025-10-01 15:07:09.910 usb_device.py:2563 INFO sleep 0.40573124885559064 sec
+2025-10-01 15:07:10.322 usb_device.py:2567 INFO sleep done
+2025-10-01 15:07:14.348 usb_device.py:2575 INFO search com done!
+2025-10-01 15:07:14.527 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 15:07:14.529 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 15:08:34.263 usb_device.py:1376 ERROR diag com USB has disconnected. COM17 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 15:08:34.410 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_150714_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 15:08:34.414 usb_device.py:3280 INFO quit Trace
+2025-10-01 15:08:34.416 usb_device.py:3272 INFO enter Trace
+2025-10-01 15:08:34.417 usb_device.py:2563 INFO sleep 0.4033432483673094 sec
+2025-10-01 15:08:34.826 usb_device.py:2567 INFO sleep done
+2025-10-01 15:08:40.826 usb_device.py:2575 INFO search com done!
+2025-10-01 15:08:43.725 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 15:08:43.730 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 15:09:39.096 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 15:09:39.195 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_150843_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 15:09:39.198 usb_device.py:3280 INFO quit Trace
+2025-10-01 15:09:39.201 usb_device.py:3272 INFO enter Trace
+2025-10-01 15:09:39.202 usb_device.py:2563 INFO sleep 0.4023087501525877 sec
+2025-10-01 15:09:39.622 usb_device.py:2567 INFO sleep done
+2025-10-01 15:09:43.735 usb_device.py:2575 INFO search com done!
+2025-10-01 15:09:43.848 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 15:09:43.851 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 15:09:49.461 usb_device.py:1376 ERROR diag com USB has disconnected. COM17 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 15:09:49.671 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_150943_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 15:09:49.674 usb_device.py:3280 INFO quit Trace
+2025-10-01 15:09:49.676 usb_device.py:3272 INFO enter Trace
+2025-10-01 15:09:49.676 usb_device.py:2563 INFO sleep 0.4053457260131834 sec
+2025-10-01 15:09:50.089 usb_device.py:2567 INFO sleep done
+2025-10-01 15:09:50.720 usb_device.py:2575 INFO search com done!
+2025-10-01 15:09:50.736 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 15:09:50.782 usb_device.py:3280 INFO quit Trace
+2025-10-01 15:09:50.782 usb_device.py:3272 INFO enter Trace
+2025-10-01 15:09:50.784 usb_device.py:2563 INFO sleep 0.4020941734313963 sec
+2025-10-01 15:09:51.194 usb_device.py:2567 INFO sleep done
+2025-10-01 15:09:51.877 usb_device.py:2575 INFO search com done!
+2025-10-01 15:09:51.995 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 15:09:51.996 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 15:09:54.301 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 15:09:54.484 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_150952_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 15:09:54.485 usb_device.py:3280 INFO quit Trace
+2025-10-01 15:09:54.490 usb_device.py:3272 INFO enter Trace
+2025-10-01 15:09:54.490 usb_device.py:2563 INFO sleep 0.40408496856689435 sec
+2025-10-01 15:09:54.901 usb_device.py:2567 INFO sleep done
+2025-10-01 15:09:56.189 usb_device.py:2575 INFO search com done!
+2025-10-01 15:09:56.203 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 15:09:56.255 usb_device.py:3280 INFO quit Trace
+2025-10-01 15:09:56.255 usb_device.py:3272 INFO enter Trace
+2025-10-01 15:09:56.255 usb_device.py:2563 INFO sleep 0.409999895095825 sec
+2025-10-01 15:09:56.681 usb_device.py:2567 INFO sleep done
+2025-10-01 15:09:57.581 usb_device.py:2575 INFO search com done!
+2025-10-01 15:09:58.256 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 0,0,0,0,0
+2025-10-01 15:09:58.256 ui_main.py:740 INFO trace_soc_cell: mcc=0, mnc=0, earfcn=0, pci=0, cid=0 band=
+2025-10-01 15:09:58.421 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 15:09:58.421 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 15:09:58.880 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 15:09:59.045 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_150958_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 15:09:59.046 usb_device.py:3280 INFO quit Trace
+2025-10-01 15:09:59.049 usb_device.py:3272 INFO enter Trace
+2025-10-01 15:09:59.050 usb_device.py:2563 INFO sleep 0.4042306423187254 sec
+2025-10-01 15:09:59.459 usb_device.py:2567 INFO sleep done
+2025-10-01 15:10:00.037 usb_device.py:2575 INFO search com done!
+2025-10-01 15:10:00.050 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 15:10:00.098 usb_device.py:3280 INFO quit Trace
+2025-10-01 15:10:00.098 usb_device.py:3272 INFO enter Trace
+2025-10-01 15:10:00.100 usb_device.py:2563 INFO sleep 0.40815572738647443 sec
+2025-10-01 15:10:00.514 usb_device.py:2567 INFO sleep done
+2025-10-01 15:10:01.078 usb_device.py:2575 INFO search com done!
+2025-10-01 15:10:01.105 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 15:10:01.220 usb_device.py:3280 INFO quit Trace
+2025-10-01 15:10:01.221 usb_device.py:3272 INFO enter Trace
+2025-10-01 15:10:01.222 usb_device.py:2563 INFO sleep 0.4072351932525633 sec
+2025-10-01 15:10:01.636 usb_device.py:2567 INFO sleep done
+2025-10-01 15:10:02.115 usb_device.py:2575 INFO search com done!
+2025-10-01 15:10:02.468 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 15:10:02.468 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 15:11:35.220 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 15:11:35.414 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_151002_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 15:11:35.420 usb_device.py:3280 INFO quit Trace
+2025-10-01 15:11:35.420 usb_device.py:3272 INFO enter Trace
+2025-10-01 15:11:35.424 usb_device.py:2563 INFO sleep 0.39961652755737287 sec
+2025-10-01 15:11:35.827 usb_device.py:2567 INFO sleep done
+2025-10-01 15:11:39.872 usb_device.py:2575 INFO search com done!
+2025-10-01 15:11:40.066 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 15:11:40.068 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 15:54:40.515 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 15:54:41.619 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_151140_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 15:54:41.621 usb_device.py:3280 INFO quit Trace
+2025-10-01 15:54:41.621 usb_device.py:3272 INFO enter Trace
+2025-10-01 15:54:41.623 usb_device.py:2563 INFO sleep 0.40597801208496076 sec
+2025-10-01 15:54:42.033 usb_device.py:2567 INFO sleep done
+2025-10-01 15:54:44.980 usb_device.py:2575 INFO search com done!
+2025-10-01 15:54:45.054 ui_main.py:726 INFO trace_soc_cell: +SOCCELL: 428,f088,1350,83,33935
+2025-10-01 15:54:45.054 ui_main.py:740 INFO trace_soc_cell: mcc=428, mnc=88, earfcn=1350, pci=83, cid=33935 band=3
+2025-10-01 15:54:55.858 usb_device.py:1376 ERROR diag com USB has disconnected. COM17 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 15:54:55.929 usb_device.py:752 INFO save rest data C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-10-01_155445_LuatOS-SoC_V1115_EC618_867713077075125_COM17.bin
+2025-10-01 15:54:55.929 usb_device.py:3280 INFO quit Trace
+2025-10-01 15:54:55.939 usb_device.py:3272 INFO enter Trace
+2025-10-01 15:54:55.940 usb_device.py:2563 INFO sleep 0.3986430644989012 sec
+2025-10-01 15:54:56.346 usb_device.py:2567 INFO sleep done
+2025-10-01 15:54:57.260 usb_device.py:2575 INFO search com done!
+2025-10-01 15:54:57.282 usb_device.py:1376 ERROR print com USB has disconnected. COM15 CommError,[WinError 22] The device does not recognize the command.
+2025-10-01 15:54:57.322 usb_device.py:3280 INFO quit Trace
+2025-10-01 15:54:57.322 usb_device.py:3272 INFO enter Trace
+2025-10-01 15:54:57.325 usb_device.py:2563 INFO sleep 0.40715246200561506 sec
+2025-10-01 15:54:57.744 usb_device.py:2567 INFO sleep done
+2025-10-01 16:16:54.762 my_api.py:114 INFO [None, None]
+2025-10-01 16:16:54.762 usb_device.py:1385 INFO usb device sleep
+2025-10-01 16:16:54.762 my_api.py:114 INFO [None, None]
+2025-10-01 16:16:54.762 usb_device.py:3280 INFO quit Trace
+2025-10-01 16:16:54.871 my_api.py:114 INFO [None, None]
+2025-10-01 16:16:54.871 host_device.py:507 INFO task quit
+2025-10-01 16:16:54.874 my_api.py:114 INFO [None, None]
+2025-10-01 16:16:54.874 usb_device.py:3291 INFO task quit
+2025-10-01 16:16:55.138 core.py:220 INFO event loop closed
+2025-10-01 16:16:57.060 core.py:245 INFO end!

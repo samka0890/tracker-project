@@ -1,0 +1,54 @@
+[2025-09-28 18:53:22.773][000000000.000] main_entry 601:SDK base line V013_pb11.002
+[2025-09-28 18:53:22.803][000000000.009] am_service_init 900:Air780EG_A12
+[2025-09-28 18:53:22.809][000000000.024] Uart_BaseInitEx 1049:uart 0 rx cache 256 dma 256
+[2025-09-28 18:53:22.813][000000000.025] Cal 370:51200000,6000000,6023529,1,1,1
+[2025-09-28 18:53:22.818][000000000.225] self_info 122:model Air780EG_A12 imei 867713077075125
+[2025-09-28 18:53:22.822][000000000.226] I/pm poweron: Power/Reset
+[2025-09-28 18:53:22.827][000000000.227] I/main LuatOS@Air780EG base 25.03 bsp V1114 32bit
+[2025-09-28 18:53:22.832][000000000.227] I/main ROM Build: Jul  4 2025 21:20:03
+[2025-09-28 18:53:22.843][000000000.234] D/main loadlibs luavm 262136 13648 13680
+[2025-09-28 18:53:22.847][000000000.234] D/main loadlibs sys   278544 54188 81936
+[2025-09-28 18:53:23.049][000000001.470] D/mobile cid1, state0
+[2025-09-28 18:53:23.056][000000001.471] D/mobile bearer act 0, result 0
+[2025-09-28 18:53:23.059][000000001.472] D/mobile TIME_SYNC 0
+[2025-09-28 18:53:23.068][000000004.493] D/mobile NETIF_LINK_ON -> IP_READY
+[2025-09-28 18:53:23.073][000000004.496] I/user.mqtt	pub	867713077075125/up
+[2025-09-28 18:53:23.077][000000004.496] I/user.mqtt	sub	867713077075125/down
+[2025-09-28 18:53:23.081][000000004.499] D/DNS broker.emqx.io state 0 id 1 ipv6 0 use dns server2, try 0
+[2025-09-28 18:53:23.086][000000004.576] I/DNS dns all done ,now stop
+[2025-09-28 18:53:23.091][000000005.215] I/user.mqtt	event	conack	MQTTCTRL*: 004736D0	nil	nil
+[2025-09-28 18:53:46.762][000000035.218] E/user.coroutine.resume	main.lua:119: attempt to call a nil value (global 'publishWithQos')
+stack traceback:
+	main.lua:119: in function <main.lua:111>
+[2025-09-28 18:53:47.253][000000035.719] E/main Luat: 
+[2025-09-28 18:53:47.253][000000035.720] E/main main.lua:119: attempt to call a nil value (global 'publishWithQos')
+stack traceback:
+	main.lua:119: in function <main.lua:111>
+[2025-09-28 18:53:47.260][000000035.720] E/main Lua VM exit!! reboot in 15000ms
+[2025-09-28 18:54:06.562][000000000.000] main_entry 601:SDK base line V013_pb11.002
+[2025-09-28 18:54:06.567][000000000.009] am_service_init 900:Air780EG_A12
+[2025-09-28 18:54:06.573][000000000.024] Uart_BaseInitEx 1049:uart 0 rx cache 256 dma 256
+[2025-09-28 18:54:06.577][000000000.025] Cal 370:51200000,6000000,6023529,1,1,1
+[2025-09-28 18:54:06.581][000000000.226] self_info 122:model Air780EG_A12 imei 867713077075125
+[2025-09-28 18:54:06.584][000000000.227] I/pm poweron: Power/Reset
+[2025-09-28 18:54:06.588][000000000.227] I/main LuatOS@Air780EG base 25.03 bsp V1114 32bit
+[2025-09-28 18:54:06.590][000000000.227] I/main ROM Build: Jul  4 2025 21:20:03
+[2025-09-28 18:54:06.596][000000000.234] D/main loadlibs luavm 262136 13648 13680
+[2025-09-28 18:54:06.598][000000000.235] D/main loadlibs sys   278544 54188 81936
+[2025-09-28 18:54:06.730][000000001.556] D/mobile cid1, state0
+[2025-09-28 18:54:06.736][000000001.557] D/mobile bearer act 0, result 0
+[2025-09-28 18:54:06.745][000000001.570] D/mobile TIME_SYNC 0
+[2025-09-28 18:54:07.322][000000004.827] D/mobile NETIF_LINK_ON -> IP_READY
+[2025-09-28 18:54:07.322][000000004.830] I/user.mqtt	pub	867713077075125/up
+[2025-09-28 18:54:07.322][000000004.831] I/user.mqtt	sub	867713077075125/down
+[2025-09-28 18:54:07.332][000000004.834] D/DNS broker.emqx.io state 0 id 1 ipv6 0 use dns server2, try 0
+[2025-09-28 18:54:07.363][000000004.867] I/DNS dns all done ,now stop
+[2025-09-28 18:54:08.843][000000006.349] I/user.mqtt	event	conack	MQTTCTRL*: 004736D0	nil	nil
+[2025-09-28 18:54:38.846][000000036.352] E/user.coroutine.resume	main.lua:119: attempt to call a nil value (global 'publishWithQos')
+stack traceback:
+	main.lua:119: in function <main.lua:111>
+[2025-09-28 18:54:39.351][000000036.853] E/main Luat: 
+[2025-09-28 18:54:39.358][000000036.854] E/main main.lua:119: attempt to call a nil value (global 'publishWithQos')
+stack traceback:
+	main.lua:119: in function <main.lua:111>
+[2025-09-28 18:54:39.361][000000036.854] E/main Lua VM exit!! reboot in 15000ms

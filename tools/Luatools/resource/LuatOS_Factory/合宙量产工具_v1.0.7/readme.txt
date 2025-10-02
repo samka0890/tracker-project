@@ -1,0 +1,4 @@
+1.安装Fixed_boot_port_patch1.reg
+2.安装Fixed_boot_port_patch2.reg
+3.设备进入boot模式，在port_config.ini中修改并使能对应的boot端口（同一端口只能有一个状态，不能冲突）
+4.点击exe文件进入量产软件登录界面

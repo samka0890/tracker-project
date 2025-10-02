@@ -1,0 +1,19 @@
+Luatools download and detailed usage
+
+https://docs.openluat.com/air780epm/common/Luatools/
+
+
+
+https://wiki.luatos.com
+
+
+Read GPS data
+https://docs.openluat.com/air780egh/luatos/app/gnss/loc/
+
+
+MQTT
+https://docs.openluat.com/air780e/luatos/app/socket/mqtt/
+
+
+store:
+https://luat.taobao.com/search.htm?orderType=newOn_desc&viewType=grid&keyword=air780-egh&lowPrice=&highPrice=

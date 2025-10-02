@@ -1,0 +1,1535 @@
+2025-09-22 10:51:55.962 core.py:75 INFO 3.1.6 start!
+2025-09-22 10:52:03.211 usb_device.py:3262 INFO usb device ready!
+2025-09-22 10:52:03.757 usb_device.py:1391 INFO usb device trace
+2025-09-22 10:52:03.808 my_api.py:114 INFO [None, None]
+2025-09-22 10:52:03.811 usb_device.py:3272 INFO enter Trace
+2025-09-22 10:52:03.881 ui_main.py:458 INFO ui start
+2025-09-22 10:52:04.292 usb_device.py:2575 INFO search com done!
+2025-09-22 10:52:04.510 usb_device.py:1376 ERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025-09-22 10:52:04.524 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-22 10:52:04.534 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-22 10:52:04.542 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-22 10:52:04.552 usb_device.py:1376 ERROR -> Pls check RNDIS
+2025-09-22 10:52:04.563 usb_device.py:1376 ERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025-09-22 10:52:05.207 ui_main.py:979 INFO None is full or not exsit, create new
+2025-09-22 10:52:05.294 usb_device.py:1376 ERROR AP LOG is save atC:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-09-22_105205_AirM2M_780EG_V1164_LTE_AT_864814071602907_COM17.binPls send this file to FAE, if something worng
+2025-09-22 10:52:05.306 usb_device.py:1376 ERROR CP LOG is save atC:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\22-10-52-05-306.Sn(1556bd).traPls send this file to FAE, if something worng
+2025-09-22 10:52:29.381 usb_device.py:1439 INFO usb device download
+2025-09-22 10:52:29.400 my_api.py:114 INFO [None, None]
+2025-09-22 10:52:29.402 usb_device.py:2143 INFO trace -> download
+2025-09-22 10:52:29.402 ui_firmware.py:116 INFO Ready to download
+2025-09-22 10:52:29.402 usb_device.py:3280 INFO quit Trace
+2025-09-22 10:52:29.410 usb_device.py:3282 INFO enter download
+2025-09-22 10:52:29.430 ui_firmware.py:116 INFO Parsing Firmware
+2025-09-22 10:52:31.165 ui_firmware.py:116 INFO Download perparing
+2025-09-22 10:52:32.877 my_api.py:310 INFO FlashToolCLI.exe --cfgfile config_pkg_product_usb.ini pkg2img
+2025-09-22 10:52:37.194 my_api.py:325 ERROR 
+2025-09-22 10:52:35,071 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000681,build time-2025-03-19 14:50:58
+2025-09-22 10:52:35,074 INFO     [FlashTop]    init
+2025-09-22 10:52:35,085 INFO     [FlashTop]    PreLoad para sync success
+[Process-22780] [FlashTop]    do_main: cmd loadpara
+[Process-22780] [FlashTop]    loadpara args 0x3c981f0 
+[Process-22780] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-22780] [PRFrame]    LoadPrMgrProc init loaded C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\PRMgrCfg.json
+[Process-22780] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-22780] [Para]    tryupd_chinese_stat_once, legal now
+[Process-22780] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-22780] [Para]    LdPkgSubSelXPKRec entry
+[Process-22780] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-22780] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-22780] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-22780] [Para]    LoadPkgSubSel , tProductSel EC618_OLDPKG_DEFAULT  exist, local or xpk 0
+[Process-22780] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x1e63d40 cp_flash 
+[Process-22780] [Para]    LoadPkgFlx
+[Process-22780] [FlashTop]    Load para sync success
+[Process-22780] [FlashTop]    LoadParaToArgs id args 0x3c981f0, opt_storage_list 0x1e63d40 cp_flash
+[Process-22780] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-22780] [FlashTop]    do_main: cmd pkg2img
+[Process-22780] [PkgVerCtrl]    PkgLoadToolVerInfo fail,  C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\imagedata.json not exist
+[Process-22780] [PkgVerCtrl]    PkgPrSelGenExtNeeded failed
+[Process-22780] [PkgVerCtrl]    PkgPrSelGenExtNeeded True
+[Process-22780] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-22780] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-22780] [PkgVerCtrl]    PkgLoadPrimXPKGOnly 0 items finish
+[Process-22780] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-22780] [PkgVerCtrl]    PkgPrSelGenData Entry
+[Process-22780] [PkgVerCtrl]    PkgPrSelGenData SyncRegenMode
+[Process-22780] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-22780] [PkgVerCtrl]    PkgPrSelGenProdCfg PkgPrSelGenXPK skip
+[Process-22780] [PkgVerCtrl]    PkgPrSelGenProdCfg suc
+[Process-22780] [FlashTop]    do_main: cmd rgcfgfile
+[Process-22780] [Para]    RegenItemTestAndSetVal, package_info[selected_product] 'EC618_OLDPKG_DEFAULT' to 'EC718HM_PRD'
+[Process-22780] [Para]    PrSelGenProdSelCfg selected_product update EC718HM_PRD
+[Process-22780] [Para]    PrSelGenProdSelCfg xpk_ovwrcfg_ini_path branch3 
+[Process-22780] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-22780] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-22780] [Para]    PrSelGenProdSelCfg xpk_ovwrcfg_ini_path branch4,  
+[Process-22780] [Para]    PrSelGenFrBaseCfg , tProductSel EC718HM_PRD  exist, local or xpk  0
+[Process-22780] [Para]    LPrSelGenFrBaseCfg pathconv_to_tool_basedir_pairs_dict ({}) 
+[Process-22780] [Para]    RegenItemTestAndSetVal, config[line_0_snd_ass_com] = COM65535, key added
+[Process-22780] [Para]    RegenItemTestAndSetVal, config[baud] = 130000, key added
+[Process-22780] [Para]    PrSelGenFrBaseCfg remove old config[comment_filter]="filter for com config" 
+[Process-22780] [Para]    RegenItemTestAndSetVal, agentboot[agpath] '.\product_sets\ec618_products\common_data\agentboot_usb\agentboot.bin' to '.\product_sets\ec718m_products\common_data\agentboot_usb\agentboot.bin'
+[Process-22780] [Para]    PrSelGenFrBaseCfg remove old agentboot[comment_agentboot]="agentboot.bin file infomation" 
+[Process-22780] [Para]    RegenItemTestAndSetVal, storage_cfg[format_path] 'C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolsEC618\FlashToolCLI_V4.1.4p01_20230825\product_sets\ec618_products\618_legacy\format\format_ec618_legacy.json' to 'format_ec718m_none.json'
+[Process-22780] [Para]    RegenItemTestAndSetVal, bootloader[blpath] '.\image_ec618\legacy_product\618_legacy\ap_bootloader.bin' to '.\image_ec619\ap_bootloader.bin'
+[Process-22780] [Para]    RegenItemTestAndSetVal, bootloader[burnaddr] '0x4000' to '0xf'
+[Process-22780] [Para]    PrSelGenFrBaseCfg remove old bootloader[comment_default]="bootloader.bin file infomation" 
+[Process-22780] [Para]    RegenItemTestAndSetVal, system[syspath] '.\image_ec618\legacy_product\618_legacy\ap_demo-flash.bin' to '.\image_ec619\ap_demo-flash.bin'
+[Process-22780] [Para]    RegenItemTestAndSetVal, system[burnaddr] '0x24000' to '0xf'
+[Process-22780] [Para]    PrSelGenFrBaseCfg remove old system[comment_default]="system.bin file infomation" 
+[Process-22780] [Para]    RegenItemTestAndSetVal, cp_system[cp_syspath] '.\image_ec618\legacy_product\618_legacy\cp-demo-flash.bin' to '.\image_ec619\cp-demo-flash.bin'
+[Process-22780] [Para]    RegenItemTestAndSetVal, cp_system[burnaddr] = 0xf, key added
+[Process-22780] [Para]    RegenItemTestAndSetVal, control[rom_version] '0000000103010000' to '0000000103030000'
+[Process-22780] [Para]    RegenItemTestAndSetVal, control[assist_second_port_cmd] = at+ecrst=delay,599, key added
+[Process-22780] [Para]    RegenItemTestAndSetVal, control[dribble_dld_en] = 0, key added
+[Process-22780] [Para]    RegenItemTestAndSetVal, control[pr_runtime_ctrl_en] = 1, key added
+[Process-22780] [Para]    RegenItemTestAndSetVal, control[chip_ctl_para_en] = 1, key added
+[Process-22780] [Para]    RegenItemTestAndSetVal, control[verify_flash_size_need] = 1, key added
+[Process-22780] [Para]    RegenItemTestAndSetVal, flexfile0[filepath] '.\product_sets\ec618_products\618_legacy\rfCaliTb\MergeRfTable.bin' to '.\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin'
+[Process-22780] [Para]    RegenItemTestAndSetVal, flexfile0[burnaddr] '0xe7000' to '0x7E5000'
+[Process-22780] [Para]    PrSelGenFrBaseCfg remove old flexfile0[storage_type]=cp_flash 
+[Process-22780] [Para]    RegenItemTestAndSetVal, package_info[selected_base_inicfg_rec] 'C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolsEC618\FlashToolCLI_V4.1.4p01_20230825\product_sets\ec618_products\618_legacy\base_config_files\config_ec618_legacy_pkg_usb.baseini@hash:1ef001a607ecbba39c5f03f6c736c942e10863fb167409c2d8b606726a01bafb' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718m_products\ec718hm\base_config_files\config_ec718hm_prd_usb.baseini@hash:385d56fde71d25606aa2f9c7b4e4b907421c4bbe9d9773c213114ba2bdbd4a45'
+[Process-22780] [Para]    RegenItemTestAndSetVal, storage_cfg[format_path] 'format_ec718m_none.json' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718m_products\ec718hm\format\format_ec718hm.json'
+[Process-22780] [Para]    PrSelGenStorageCfg format_path update
+[Process-22780] [Para]    PrSelGenCfgfile update suc
+[Process-22780] [FlashTop]    rgcfgfile success
+[Process-22780] [PkgRgCtl]    Step1, SetPrSelGenSuc
+[Process-22780] [FlashTop]    do_main: cmd loadpara
+[Process-22780] [FlashTop]    loadpara args 0x3cc7450 
+[Process-22780] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-22780] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-22780] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-22780] [Para]    LdPkgSubSelXPKRec entry
+[Process-22780] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-22780] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-22780] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-22780] [Para]    LoadPkgSubSel , tProductSel EC718HM_PRD  exist, local or xpk 0
+[Process-22780] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x179c980  
+[Process-22780] [Para]    invalid config, filepath:C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin, burnaddr 0x7e5000
+[Process-22780] [Para]    LoadPkgFlx
+[Process-22780] [FlashTop]    Load para sync success
+[Process-22780] [FlashTop]    LoadParaToArgs id args 0x3cc7450, opt_storage_list 0x179c980 
+[Process-22780] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-22780] [PkgRgCtl]    Step2, SetPrSelLoadSuc
+[Process-22780] [FlashTop]    do_main: cmd pkg2img
+[Process-22780] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-22780] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-22780] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-22780] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-22780] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-22780] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-22780] [PkgVerCtrl]    PkgPreExtNeeded True, ExtSyncRec not cfged yet
+[Process-22780] [PkgVerCtrl]    PkgPreExtNeeded True
+[Process-22780] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-22780] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-22780] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-22780] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-22780] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-22780] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-22780] [PkgRgCtl]    Step3, SetPreExtSuc
+[Process-22780] [PkgVerCtrl]    PkgPreExtract SyncRegenMode
+[Process-22780] [FlashTop]    do_main: cmd pkg2img
+[Process-22780] [PkgVerCtrl]    PkgRgMdPostExtNeeded True, ExtSyncRec not cfged yet
+[Process-22780] [PkgVerCtrl]    PkgRgMdPostExtNeeded True
+[Process-22780] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-22780] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-22780] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-22780] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-22780] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-22780] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-22780] [PkgRgCtl]    Step4, SetPostExtSuc
+[Process-22780] [FlashTop]    do_main: cmd pkg2img
+[Process-22780] [PkgVerCtrl]    PkgRgMdRegenData Entry
+[Process-22780] [PkgVerCtrl]    PkgRgRegenStateCfg suc
+[Process-22780] [PkgVerCtrl]    PkgRgSelProdCfg suc
+[Process-22780] [PkgVerCtrl]    PkgRgRESBinAndCfg mkdir C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images suc
+[Process-22780] [PkgVerCtrl]    PkgRgRESBinAndCfg bootloader suc, tgt copy 1
+[Process-22780] [PkgVerCtrl]    PkgRgRESBinAndCfg system suc, tgt copy 1
+[Process-22780] [PkgVerCtrl]    PkgRgRESBinAndCfg cp_system suc, tgt copy 1
+[Process-22780] [FlashTop]    do_main: cmd rgcfgfile
+[Process-22780] [Para]    RegenItemTestAndSetVal, package_info[pkg_inicfg_regened_state] 'backward_restored' to 'forward_regened'
+[Process-22780] [Para]    RegenRegenerateStateCfg pkg_inicfg_regened_state update
+[Process-22780] [Para]    RegenItemTestAndSetVal, bootloader[blpath] '.\image_ec619\ap_bootloader.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\ap_bootloader.bin'
+[Process-22780] [Para]    RegenRESCfg blpath update
+[Process-22780] [Para]    RegenItemTestAndSetVal, bootloader[burnaddr] '0xf' to '0x3000'
+[Process-22780] [Para]    RegenRESCfg burnaddr update
+[Process-22780] [Para]    RegenItemTestAndSetVal, system[syspath] '.\image_ec619\ap_demo-flash.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\ap.bin'
+[Process-22780] [Para]    RegenRESCfg syspath update
+[Process-22780] [Para]    RegenItemTestAndSetVal, system[burnaddr] '0xf' to '0xcd000'
+[Process-22780] [Para]    RegenRESCfg burnaddr update
+[Process-22780] [Para]    RegenItemTestAndSetVal, cp_system[cp_syspath] '.\image_ec619\cp-demo-flash.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\cp-demo-flash.bin'
+[Process-22780] [Para]    RegenRESCfg cp_syspath update
+[Process-22780] [Para]    RegenItemTestAndSetVal, cp_system[burnaddr] '0xf' to '0x2d000'
+[Process-22780] [Para]    RegenRESCfg burnaddr update
+[Process-22780] [Para]    FwdGenCfgFile update suc
+[Process-22780] [FlashTop]    rgcfgfile success
+[Process-22780] [PkgRgCtl]    Step5, SetRegenSuc
+[Process-22780] [FlashTop]    do_main: cmd loadpara
+[Process-22780] [FlashTop]    loadpara args 0x3cf1f70 
+[Process-22780] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-22780] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-22780] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-22780] [Para]    LdPkgSubSelXPKRec entry
+[Process-22780] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-22780] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-22780] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-22780] [Para]    LoadPkgSubSel , tProductSel EC718HM_PRD  exist, local or xpk 0
+[Process-22780] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x179c980  
+[Process-22780] [Para]    invalid config, filepath:C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin, burnaddr 0x7e5000
+[Process-22780] [Para]    LoadPkgFlx
+[Process-22780] [FlashTop]    Load para sync success
+[Process-22780] [FlashTop]    LoadParaToArgs id args 0x3cf1f70, opt_storage_list 0x179c980 
+[Process-22780] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-22780] [PkgRgCtl]    Step6, SetReloadSuc
+[Process-22780] [FlashTop]    do_main: cmd pkg2img
+[Process-22780] [PkgVerCtrl]    PkgExtRgMdSync->GetExtUpdated True, GetRgMdExtTgtChked False, need to sync
+[Process-22780] [PkgRgCtl]    Step7, SetTgtSynSuc
+[Process-22780] [FlashTop]    do_main: cmd pkg2img
+[Process-22780] [PkgRgCtl]    Step8, SetDumpRecSuc
+[Process-22780] [FlashTop]    pkg2img success
+
+2025-09-22 10:52:37.196 my_api.py:336 ERROR 
+2025-09-22 10:52:35,071 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000681,build time-2025-03-19 14:50:58
+2025-09-22 10:52:35,074 INFO     [FlashTop]    init
+2025-09-22 10:52:35,085 INFO     [FlashTop]    PreLoad para sync success
+[Process-22780] [FlashTop]    do_main: cmd loadpara
+[Process-22780] [FlashTop]    loadpara args 0x3c981f0 
+[Process-22780] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-22780] [PRFrame]    LoadPrMgrProc init loaded C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\PRMgrCfg.json
+[Process-22780] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-22780] [Para]    tryupd_chinese_stat_once, legal now
+[Process-22780] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-22780] [Para]    LdPkgSubSelXPKRec entry
+[Process-22780] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-22780] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-22780] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-22780] [Para]    LoadPkgSubSel , tProductSel EC618_OLDPKG_DEFAULT  exist, local or xpk 0
+[Process-22780] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x1e63d40 cp_flash 
+[Process-22780] [Para]    LoadPkgFlx
+[Process-22780] [FlashTop]    Load para sync success
+[Process-22780] [FlashTop]    LoadParaToArgs id args 0x3c981f0, opt_storage_list 0x1e63d40 cp_flash
+[Process-22780] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-22780] [FlashTop]    do_main: cmd pkg2img
+[Process-22780] [PkgVerCtrl]    PkgLoadToolVerInfo fail,  C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\imagedata.json not exist
+[Process-22780] [PkgVerCtrl]    PkgPrSelGenExtNeeded failed
+[Process-22780] [PkgVerCtrl]    PkgPrSelGenExtNeeded True
+[Process-22780] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-22780] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-22780] [PkgVerCtrl]    PkgLoadPrimXPKGOnly 0 items finish
+[Process-22780] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-22780] [PkgVerCtrl]    PkgPrSelGenData Entry
+[Process-22780] [PkgVerCtrl]    PkgPrSelGenData SyncRegenMode
+[Process-22780] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-22780] [PkgVerCtrl]    PkgPrSelGenProdCfg PkgPrSelGenXPK skip
+[Process-22780] [PkgVerCtrl]    PkgPrSelGenProdCfg suc
+[Process-22780] [FlashTop]    do_main: cmd rgcfgfile
+[Process-22780] [Para]    RegenItemTestAndSetVal, package_info[selected_product] 'EC618_OLDPKG_DEFAULT' to 'EC718HM_PRD'
+[Process-22780] [Para]    PrSelGenProdSelCfg selected_product update EC718HM_PRD
+[Process-22780] [Para]    PrSelGenProdSelCfg xpk_ovwrcfg_ini_path branch3 
+[Process-22780] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-22780] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-22780] [Para]    PrSelGenProdSelCfg xpk_ovwrcfg_ini_path branch4,  
+[Process-22780] [Para]    PrSelGenFrBaseCfg , tProductSel EC718HM_PRD  exist, local or xpk  0
+[Process-22780] [Para]    LPrSelGenFrBaseCfg pathconv_to_tool_basedir_pairs_dict ({}) 
+[Process-22780] [Para]    RegenItemTestAndSetVal, config[line_0_snd_ass_com] = COM65535, key added
+[Process-22780] [Para]    RegenItemTestAndSetVal, config[baud] = 130000, key added
+[Process-22780] [Para]    PrSelGenFrBaseCfg remove old config[comment_filter]="filter for com config" 
+[Process-22780] [Para]    RegenItemTestAndSetVal, agentboot[agpath] '.\product_sets\ec618_products\common_data\agentboot_usb\agentboot.bin' to '.\product_sets\ec718m_products\common_data\agentboot_usb\agentboot.bin'
+[Process-22780] [Para]    PrSelGenFrBaseCfg remove old agentboot[comment_agentboot]="agentboot.bin file infomation" 
+[Process-22780] [Para]    RegenItemTestAndSetVal, storage_cfg[format_path] 'C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolsEC618\FlashToolCLI_V4.1.4p01_20230825\product_sets\ec618_products\618_legacy\format\format_ec618_legacy.json' to 'format_ec718m_none.json'
+[Process-22780] [Para]    RegenItemTestAndSetVal, bootloader[blpath] '.\image_ec618\legacy_product\618_legacy\ap_bootloader.bin' to '.\image_ec619\ap_bootloader.bin'
+[Process-22780] [Para]    RegenItemTestAndSetVal, bootloader[burnaddr] '0x4000' to '0xf'
+[Process-22780] [Para]    PrSelGenFrBaseCfg remove old bootloader[comment_default]="bootloader.bin file infomation" 
+[Process-22780] [Para]    RegenItemTestAndSetVal, system[syspath] '.\image_ec618\legacy_product\618_legacy\ap_demo-flash.bin' to '.\image_ec619\ap_demo-flash.bin'
+[Process-22780] [Para]    RegenItemTestAndSetVal, system[burnaddr] '0x24000' to '0xf'
+[Process-22780] [Para]    PrSelGenFrBaseCfg remove old system[comment_default]="system.bin file infomation" 
+[Process-22780] [Para]    RegenItemTestAndSetVal, cp_system[cp_syspath] '.\image_ec618\legacy_product\618_legacy\cp-demo-flash.bin' to '.\image_ec619\cp-demo-flash.bin'
+[Process-22780] [Para]    RegenItemTestAndSetVal, cp_system[burnaddr] = 0xf, key added
+[Process-22780] [Para]    RegenItemTestAndSetVal, control[rom_version] '0000000103010000' to '0000000103030000'
+[Process-22780] [Para]    RegenItemTestAndSetVal, control[assist_second_port_cmd] = at+ecrst=delay,599, key added
+[Process-22780] [Para]    RegenItemTestAndSetVal, control[dribble_dld_en] = 0, key added
+[Process-22780] [Para]    RegenItemTestAndSetVal, control[pr_runtime_ctrl_en] = 1, key added
+[Process-22780] [Para]    RegenItemTestAndSetVal, control[chip_ctl_para_en] = 1, key added
+[Process-22780] [Para]    RegenItemTestAndSetVal, control[verify_flash_size_need] = 1, key added
+[Process-22780] [Para]    RegenItemTestAndSetVal, flexfile0[filepath] '.\product_sets\ec618_products\618_legacy\rfCaliTb\MergeRfTable.bin' to '.\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin'
+[Process-22780] [Para]    RegenItemTestAndSetVal, flexfile0[burnaddr] '0xe7000' to '0x7E5000'
+[Process-22780] [Para]    PrSelGenFrBaseCfg remove old flexfile0[storage_type]=cp_flash 
+[Process-22780] [Para]    RegenItemTestAndSetVal, package_info[selected_base_inicfg_rec] 'C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolsEC618\FlashToolCLI_V4.1.4p01_20230825\product_sets\ec618_products\618_legacy\base_config_files\config_ec618_legacy_pkg_usb.baseini@hash:1ef001a607ecbba39c5f03f6c736c942e10863fb167409c2d8b606726a01bafb' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718m_products\ec718hm\base_config_files\config_ec718hm_prd_usb.baseini@hash:385d56fde71d25606aa2f9c7b4e4b907421c4bbe9d9773c213114ba2bdbd4a45'
+[Process-22780] [Para]    RegenItemTestAndSetVal, storage_cfg[format_path] 'format_ec718m_none.json' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718m_products\ec718hm\format\format_ec718hm.json'
+[Process-22780] [Para]    PrSelGenStorageCfg format_path update
+[Process-22780] [Para]    PrSelGenCfgfile update suc
+[Process-22780] [FlashTop]    rgcfgfile success
+[Process-22780] [PkgRgCtl]    Step1, SetPrSelGenSuc
+[Process-22780] [FlashTop]    do_main: cmd loadpara
+[Process-22780] [FlashTop]    loadpara args 0x3cc7450 
+[Process-22780] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-22780] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-22780] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-22780] [Para]    LdPkgSubSelXPKRec entry
+[Process-22780] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-22780] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-22780] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-22780] [Para]    LoadPkgSubSel , tProductSel EC718HM_PRD  exist, local or xpk 0
+[Process-22780] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x179c980  
+[Process-22780] [Para]    invalid config, filepath:C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin, burnaddr 0x7e5000
+[Process-22780] [Para]    LoadPkgFlx
+[Process-22780] [FlashTop]    Load para sync success
+[Process-22780] [FlashTop]    LoadParaToArgs id args 0x3cc7450, opt_storage_list 0x179c980 
+[Process-22780] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-22780] [PkgRgCtl]    Step2, SetPrSelLoadSuc
+[Process-22780] [FlashTop]    do_main: cmd pkg2img
+[Process-22780] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-22780] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-22780] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-22780] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-22780] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-22780] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-22780] [PkgVerCtrl]    PkgPreExtNeeded True, ExtSyncRec not cfged yet
+[Process-22780] [PkgVerCtrl]    PkgPreExtNeeded True
+[Process-22780] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-22780] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-22780] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-22780] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-22780] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-22780] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-22780] [PkgRgCtl]    Step3, SetPreExtSuc
+[Process-22780] [PkgVerCtrl]    PkgPreExtract SyncRegenMode
+[Process-22780] [FlashTop]    do_main: cmd pkg2img
+[Process-22780] [PkgVerCtrl]    PkgRgMdPostExtNeeded True, ExtSyncRec not cfged yet
+[Process-22780] [PkgVerCtrl]    PkgRgMdPostExtNeeded True
+[Process-22780] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-22780] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-22780] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-22780] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-22780] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-22780] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-22780] [PkgRgCtl]    Step4, SetPostExtSuc
+[Process-22780] [FlashTop]    do_main: cmd pkg2img
+[Process-22780] [PkgVerCtrl]    PkgRgMdRegenData Entry
+[Process-22780] [PkgVerCtrl]    PkgRgRegenStateCfg suc
+[Process-22780] [PkgVerCtrl]    PkgRgSelProdCfg suc
+[Process-22780] [PkgVerCtrl]    PkgRgRESBinAndCfg mkdir C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images suc
+[Process-22780] [PkgVerCtrl]    PkgRgRESBinAndCfg bootloader suc, tgt copy 1
+[Process-22780] [PkgVerCtrl]    PkgRgRESBinAndCfg system suc, tgt copy 1
+[Process-22780] [PkgVerCtrl]    PkgRgRESBinAndCfg cp_system suc, tgt copy 1
+[Process-22780] [FlashTop]    do_main: cmd rgcfgfile
+[Process-22780] [Para]    RegenItemTestAndSetVal, package_info[pkg_inicfg_regened_state] 'backward_restored' to 'forward_regened'
+[Process-22780] [Para]    RegenRegenerateStateCfg pkg_inicfg_regened_state update
+[Process-22780] [Para]    RegenItemTestAndSetVal, bootloader[blpath] '.\image_ec619\ap_bootloader.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\ap_bootloader.bin'
+[Process-22780] [Para]    RegenRESCfg blpath update
+[Process-22780] [Para]    RegenItemTestAndSetVal, bootloader[burnaddr] '0xf' to '0x3000'
+[Process-22780] [Para]    RegenRESCfg burnaddr update
+[Process-22780] [Para]    RegenItemTestAndSetVal, system[syspath] '.\image_ec619\ap_demo-flash.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\ap.bin'
+[Process-22780] [Para]    RegenRESCfg syspath update
+[Process-22780] [Para]    RegenItemTestAndSetVal, system[burnaddr] '0xf' to '0xcd000'
+[Process-22780] [Para]    RegenRESCfg burnaddr update
+[Process-22780] [Para]    RegenItemTestAndSetVal, cp_system[cp_syspath] '.\image_ec619\cp-demo-flash.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\cp-demo-flash.bin'
+[Process-22780] [Para]    RegenRESCfg cp_syspath update
+[Process-22780] [Para]    RegenItemTestAndSetVal, cp_system[burnaddr] '0xf' to '0x2d000'
+[Process-22780] [Para]    RegenRESCfg burnaddr update
+[Process-22780] [Para]    FwdGenCfgFile update suc
+[Process-22780] [FlashTop]    rgcfgfile success
+[Process-22780] [PkgRgCtl]    Step5, SetRegenSuc
+[Process-22780] [FlashTop]    do_main: cmd loadpara
+[Process-22780] [FlashTop]    loadpara args 0x3cf1f70 
+[Process-22780] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-22780] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-22780] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-22780] [Para]    LdPkgSubSelXPKRec entry
+[Process-22780] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-22780] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-22780] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-22780] [Para]    LoadPkgSubSel , tProductSel EC718HM_PRD  exist, local or xpk 0
+[Process-22780] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x179c980  
+[Process-22780] [Para]    invalid config, filepath:C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin, burnaddr 0x7e5000
+[Process-22780] [Para]    LoadPkgFlx
+[Process-22780] [FlashTop]    Load para sync success
+[Process-22780] [FlashTop]    LoadParaToArgs id args 0x3cf1f70, opt_storage_list 0x179c980 
+[Process-22780] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-22780] [PkgRgCtl]    Step6, SetReloadSuc
+[Process-22780] [FlashTop]    do_main: cmd pkg2img
+[Process-22780] [PkgVerCtrl]    PkgExtRgMdSync->GetExtUpdated True, GetRgMdExtTgtChked False, need to sync
+[Process-22780] [PkgRgCtl]    Step7, SetTgtSynSuc
+[Process-22780] [FlashTop]    do_main: cmd pkg2img
+[Process-22780] [PkgRgCtl]    Step8, SetDumpRecSuc
+[Process-22780] [FlashTop]    pkg2img success
+
+2025-09-22 10:52:37.211 ui_firmware.py:116 INFO Foundec718hmfirmware,Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-09-22 10:52:37.230 soc.py:1228 INFO cmd port find COM15
+2025-09-22 10:52:42.333 soc.py:1228 INFO cmd port find COM15
+2025-09-22 10:52:42.462 soc.py:1228 INFO cmd port find COM15
+2025-09-22 10:52:43.724 soc.py:1220 INFO download port find COM20
+2025-09-22 10:52:43.728 soc.py:1222 INFO download port close COM20
+2025-09-22 10:52:43.730 soc.py:1224 INFO download port ok COM20
+2025-09-22 10:52:47.122 soc.py:476 INFO FlashToolCLI.exe --cfgfile config_pkg_product_usb.ini  --port COM20 --skipconnect 1  burnbatch --imglist bootloader system cp_system
+2025-09-22 10:52:48.419 soc.py:486 INFO b'2025-09-22 10:52:48,419 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000681,build time-2025-03-19 14:50:58\r\n'
+2025-09-22 10:52:48.439 ui_firmware.py:116 INFO Transfer begin
+2025-09-22 10:52:48.439 soc.py:486 INFO b'2025-09-22 10:52:48,430 INFO     [FlashTop]    init\r\n'
+2025-09-22 10:52:48.453 soc.py:486 INFO b'2025-09-22 10:52:48,453 INFO     [FlashTop]    PreLoad para sync success\r\n'
+2025-09-22 10:52:48.453 soc.py:486 INFO b'[Process-23224] [FlashTop]    do_main: cmd loadpara\r\n'
+2025-09-22 10:52:48.460 soc.py:486 INFO b'[Process-23224] [FlashTop]    loadpara args 0x30216f0 \r\n'
+2025-09-22 10:52:48.490 soc.py:486 INFO b'[Process-23224] [PRFrame]    LoadPrMgrProc init loaded C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\PRMgrCfg.json\r\n'
+2025-09-22 10:52:48.492 soc.py:486 INFO b'[Process-23224] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success\r\n'
+2025-09-22 10:52:48.494 soc.py:486 INFO b'[Process-23224] [Para]    tryupd_chinese_stat_once, legal now\r\n'
+2025-09-22 10:52:48.501 soc.py:486 INFO b'[Process-23224] [Para]    Log para no need\r\n'
+2025-09-22 10:52:48.501 soc.py:486 INFO b'[Process-23224] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy\r\n'
+2025-09-22 10:52:48.501 soc.py:486 INFO b'[Process-23224] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0\r\n'
+2025-09-22 10:52:48.509 soc.py:486 INFO b'[Process-23224] [PRFrame]    LdXPKPrMgrProc  not exist\r\n'
+2025-09-22 10:52:48.514 soc.py:486 INFO b'[Process-23224] [Para]    invalid config, filepath:C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\product_sets\\ec718_products\\ec718um\\rfCaliTb\\MergeRfTable.bin, burnaddr 0x7e5000\r\n'
+2025-09-22 10:52:48.516 soc.py:486 INFO b'[Process-23224] [Para]    LoadPkgFlx\r\n'
+2025-09-22 10:52:48.522 soc.py:486 INFO b'[Process-23224] [FlashTop]    Load para sync success\r\n'
+2025-09-22 10:52:48.533 soc.py:486 INFO b'[Process-23224] [FlashTop]    LoadParaToArgs id args 0x30216f0, opt_storage_list 0x109c980 \r\n'
+2025-09-22 10:52:48.535 soc.py:486 INFO b'[Process-23224] [FlashTop]    InitLoadImgInfo add empty bootloader2\r\n'
+2025-09-22 10:52:48.537 soc.py:486 INFO b"[Process-23224] [FlashToolCLI]    Burnbatch Start, burn imglist ['bootloader', 'system', 'cp_system'].\r\n"
+2025-09-22 10:52:48.537 soc.py:486 INFO b'[Process-23224] [FlashTop]    do_main: cmd burnone, Thread0[21716]\r\n'
+2025-09-22 10:52:48.552 soc.py:486 INFO b'[Process-23224] [Thread0]    ProcessStart[21716]\r\n'
+2025-09-22 10:52:48.561 soc.py:486 INFO b'[Process-23224] [Thread0]    ResetBoard skip for straight download\r\n'
+2025-09-22 10:52:48.563 soc.py:486 INFO b'[Process-23224] [Thread0]    DtrConditionAssign  0\r\n'
+2025-09-22 10:52:48.567 soc.py:486 INFO b'[Process-23224] [Thread0]    RtsConditionAssign  0\r\n'
+2025-09-22 10:52:48.569 soc.py:486 INFO b'[Process-23224] [Thread0]    SerOpen->LCtl:COM20\r\n'
+2025-09-22 10:52:48.572 soc.py:486 INFO b'[Process-23224] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-09-22 10:52:48.576 soc.py:486 INFO b'[Process-23224] [Thread0]    TryDownload agentboot skip\r\n'
+2025-09-22 10:52:48.579 soc.py:486 INFO b'[Process-23224] [Thread0]    SerClose->ConfigAgentBaud:COM20\r\n'
+2025-09-22 10:52:48.579 soc.py:486 INFO b'[Process-23224] [Thread0]    DtrConditionAssign  0\r\n'
+2025-09-22 10:52:48.582 soc.py:486 INFO b'[Process-23224] [Thread0]    RtsConditionAssign  0\r\n'
+2025-09-22 10:52:48.582 soc.py:486 INFO b'[Process-23224] [Thread0]    agbaud: 921600\r\n'
+2025-09-22 10:52:48.582 soc.py:486 INFO b'[Process-23224] [Thread0]    SerOpen->ConfigAgentBaud:COM20\r\n'
+2025-09-22 10:52:48.582 soc.py:486 INFO b'[Process-23224] [Thread0]    UpdateRomVComFlag  platform  not match Linux\r\n'
+2025-09-22 10:52:50.584 soc.py:486 INFO b'[Process-23224] [Thread0]    LPCSyncDetect try recovery\r\n'
+2025-09-22 10:52:50.584 soc.py:486 INFO b'[Process-23224] [Thread0]    LPC Preamble Send\r\n'
+2025-09-22 10:52:51.099 soc.py:486 INFO b'[Process-23224] [Thread0]    LPC Preamble Received Rsp\r\n'
+2025-09-22 10:52:51.104 soc.py:486 INFO b'[Process-23224] [Thread0]    LPCSetSyncStat(1)\r\n'
+2025-09-22 10:52:51.106 soc.py:486 INFO b'[Process-23224] [Thread0]    LPCSyncDetect: success\r\n'
+2025-09-22 10:52:51.108 soc.py:486 INFO b'[Process-23224] [Thread0]    DownloadBurnOne imgtype(bootloader)\r\n'
+2025-09-22 10:52:51.110 soc.py:486 INFO b'[Process-23224] [Thread0]    DownloadBurnOne imgtype(bootloader), burnaddr(0x3000), imgid(0x4f424d49)\r\n'
+2025-09-22 10:52:51.112 soc.py:486 INFO b'[Process-23224] [Thread0]    DownloadBurnOne file C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\pkgimg_gen\\ec718hm_prd_images\\ap_bootloader.bin \r\n'
+2025-09-22 10:52:51.114 soc.py:486 INFO b"[Process-23224] [Image]    Update Image Body Hash  b'\\x64\\x8e\\x01\\x1b\\x62\\x95\\x4b\\x64\\xbf\\x3f\\xde\\x0e\\xf5\\x98\\xda\\x69\\x96\\x63\\xb7\\x5a\\x00\\x0a\\x7a\\x85\\xa8\\xa1\\x79\\x5e\\xb3\\x50\\xa6\\x96'\r\n"
+2025-09-22 10:52:51.118 soc.py:486 INFO b"[Process-23224] [Image]    Update Image Head Hash  b'\\x46\\xd9\\x19\\x44\\xfa\\xb1\\x46\\xde\\xd7\\xa4\\x87\\x01\\x96\\xf8\\xfd\\x76\\xe2\\xf8\\x6c\\x8f\\x64\\x60\\x9e\\x45\\x7a\\xfe\\xb4\\x7f\\xb3\\x34\\xce\\x78'\r\n"
+2025-09-22 10:52:51.120 soc.py:486 INFO b'[Process-23224] [Thread0]    TryDownload C:\\Users\\Thinkpad\\Documents\\Personal\\Tracker\\Luatools\\_temp\\ec_download\\pkgimg_gen\\ec718hm_prd_images\\ap_bootloader.bin start\r\n'
+2025-09-22 10:52:51.122 soc.py:486 INFO b'[Process-23224] [Thread0]    LPCBurnOneTrig start       \t\t\t******\r\n'
+2025-09-22 10:52:53.124 soc.py:486 INFO b'[Process-23224] [Thread0]    Rsp.RecvRsp:\r\n'
+2025-09-22 10:52:53.128 soc.py:486 INFO b'[Process-23224] [Thread0]    FCSData.__len__()=0\r\n'
+2025-09-22 10:52:54.132 soc.py:486 INFO b'[Process-23224] [Thread0]    MsgProcess: RecvRsp Ret=0x9e\r\n'
+2025-09-22 10:52:56.140 soc.py:486 INFO b'[Process-23224] [Thread0]    Rsp.RecvRsp:\r\n'
+2025-09-22 10:52:56.144 soc.py:486 INFO b'[Process-23224] [Thread0]    FCSData.__len__()=0\r\n'
+2025-09-22 10:52:57.146 soc.py:486 INFO b'[Process-23224] [Thread0]    MsgProcess: RecvRsp Ret=0x9e\r\n'
+2025-09-22 10:52:59.154 soc.py:486 INFO b'[Process-23224] [Thread0]    Rsp.RecvRsp:\r\n'
+2025-09-22 10:52:59.154 soc.py:486 INFO b'[Process-23224] [Thread0]    FCSData.__len__()=0\r\n'
+2025-09-22 10:53:00.162 soc.py:486 INFO b'[Process-23224] [Thread0]    MsgProcess: RecvRsp Ret=0x9e\r\n'
+2025-09-22 10:53:02.164 soc.py:486 INFO b'[Process-23224] [Thread0]    Rsp.RecvRsp:\r\n'
+2025-09-22 10:53:02.167 soc.py:486 INFO b'[Process-23224] [Thread0]    FCSData.__len__()=0\r\n'
+2025-09-22 10:53:03.177 soc.py:486 INFO b'[Process-23224] [Thread0]    MsgProcess: RecvRsp Ret=0x9e\r\n'
+2025-09-22 10:53:05.189 soc.py:486 INFO b'[Process-23224] [Thread0]    Rsp.RecvRsp:\r\n'
+2025-09-22 10:53:05.190 soc.py:486 INFO b'[Process-23224] [Thread0]    FCSData.__len__()=0\r\n'
+2025-09-22 10:53:06.196 soc.py:486 INFO b'[Process-23224] [Thread0]    MsgProcess: RecvRsp Ret=0x9e\r\n'
+2025-09-22 10:53:06.198 soc.py:486 INFO b'[Process-23224] [Thread0]    MsgProcess: RecvRsp Ret=0xa1, exceed MaxErrCount=4 \r\n'
+2025-09-22 10:53:06.199 soc.py:486 INFO b'[Process-23224] [Thread0]    DumpAll:\r\n'
+2025-09-22 10:53:06.202 soc.py:486 INFO b'[Process-23224] [Thread0]    LPCInfo Dump:\r\n'
+2025-09-22 10:53:06.204 soc.py:486 INFO b'[Process-23224] [Thread0]    LPCBurnOneTrig failed(0xa1)\r\n'
+2025-09-22 10:53:06.205 soc.py:486 INFO b'[Process-23224] [Thread0]    Burn Failed(0xa1)\r\n'
+2025-09-22 10:53:06.205 usb_device.py:1366 ERROR Download failed
+2025-09-22 10:53:06.233 usb_device.py:1391 INFO usb device trace
+2025-09-22 10:53:06.382 ui_firmware.py:123 ERROR Download failed
+2025-09-22 10:53:24.114 usb_device.py:3284 INFO quit download
+2025-09-22 10:53:24.114 usb_device.py:3272 INFO enter Trace
+2025-09-22 10:53:24.114 usb_device.py:2563 INFO sleep 0.1099998950958252 sec
+2025-09-22 10:53:24.119 my_api.py:114 INFO [None, None]
+2025-09-22 10:53:24.119 usb_device.py:2567 INFO sleep done
+2025-09-22 10:53:42.133 usb_device.py:2575 INFO search com done!
+2025-09-22 10:53:42.199 usb_device.py:1376 ERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025-09-22 10:53:42.375 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-22 10:53:42.421 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-22 10:53:42.454 usb_device.py:1376 ERROR      **RNDIS is enabled, pls check**
+2025-09-22 10:53:42.485 usb_device.py:1376 ERROR -> Pls check RNDIS
+2025-09-22 10:53:42.505 usb_device.py:1376 ERROR !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2025-09-22 10:53:43.294 usb_device.py:1376 ERROR AP LOG is save atC:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\2025-09-22_105343_AirM2M_780EG_V1164_LTE_AT_864814071602907_COM17.binPls send this file to FAE, if something worng
+2025-09-22 10:53:43.316 usb_device.py:1376 ERROR CP LOG is save atC:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\log\4gdiag\22-10-53-43-316.Sn(1556bd).traPls send this file to FAE, if something worng
+2025-09-22 10:54:52.013 my_api.py:114 INFO [None, None]
+2025-09-22 10:54:52.013 usb_device.py:1385 INFO usb device sleep
+2025-09-22 10:54:52.038 my_api.py:114 INFO [None, None]
+2025-09-22 10:54:52.040 usb_device.py:2143 INFO trace -> sleep
+2025-09-22 10:54:52.042 usb_device.py:3280 INFO quit Trace
+2025-09-22 10:55:12.570 my_api.py:114 INFO [None, None]
+2025-09-22 10:55:12.570 usb_device.py:1439 INFO usb device download
+2025-09-22 10:55:12.570 usb_device.py:3282 INFO enter download
+2025-09-22 10:55:12.596 ui_firmware.py:116 INFO Ready to download
+2025-09-22 10:55:12.624 ui_firmware.py:116 INFO Parsing Firmware
+2025-09-22 10:55:13.963 ui_firmware.py:116 INFO Download perparing
+2025-09-22 10:55:15.409 my_api.py:310 INFO FlashToolCLI.exe --cfgfile config_pkg_product_usb.ini pkg2img
+2025-09-22 10:55:18.996 my_api.py:325 ERROR 
+2025-09-22 10:55:16,709 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000681,build time-2025-03-19 14:50:58
+2025-09-22 10:55:16,718 INFO     [FlashTop]    init
+2025-09-22 10:55:16,734 INFO     [FlashTop]    PreLoad para sync success
+[Process-17904] [FlashTop]    do_main: cmd loadpara
+[Process-17904] [FlashTop]    loadpara args 0x3877170 
+[Process-17904] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-17904] [PRFrame]    LoadPrMgrProc init loaded C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\PRMgrCfg.json
+[Process-17904] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-17904] [Para]    tryupd_chinese_stat_once, legal now
+[Process-17904] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-17904] [Para]    LdPkgSubSelXPKRec entry
+[Process-17904] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-17904] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-17904] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-17904] [Para]    LoadPkgSubSel , tProductSel EC618_OLDPKG_DEFAULT  exist, local or xpk 0
+[Process-17904] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x1a43cf0 cp_flash 
+[Process-17904] [Para]    LoadPkgFlx
+[Process-17904] [FlashTop]    Load para sync success
+[Process-17904] [FlashTop]    LoadParaToArgs id args 0x3877170, opt_storage_list 0x1a43cf0 cp_flash
+[Process-17904] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-17904] [FlashTop]    do_main: cmd pkg2img
+[Process-17904] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-17904] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-17904] [PkgVerCtrl]    PkgLoadPrimXPKGOnly 0 items finish
+[Process-17904] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-17904] [PkgVerCtrl]    ChkPkgSyncRec failed, mtime 2025-09-22 10:55:15 !=  pakcage mtime 2025-09-22 10:52:37
+[Process-17904] [PkgVerCtrl]    ChkPkgSyncRec failed, mtime value for C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\temp.binpkg does not match
+[Process-17904] [PkgVerCtrl]    PkgPrSelGenExtNeeded True, pkg updated
+[Process-17904] [PkgVerCtrl]    PkgPrSelGenExtNeeded True
+[Process-17904] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-17904] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-17904] [PkgVerCtrl]    PkgLoadPrimXPKGOnly 0 items finish
+[Process-17904] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-17904] [PkgVerCtrl]    PkgPrSelGenData Entry
+[Process-17904] [PkgVerCtrl]    PkgPrSelGenData SyncRegenMode
+[Process-17904] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-17904] [PkgVerCtrl]    PkgPrSelGenProdCfg PkgPrSelGenXPK skip
+[Process-17904] [PkgVerCtrl]    PkgPrSelGenProdCfg suc
+[Process-17904] [FlashTop]    do_main: cmd rgcfgfile
+[Process-17904] [Para]    RegenItemTestAndSetVal, package_info[selected_product] 'EC618_OLDPKG_DEFAULT' to 'EC718HM_PRD'
+[Process-17904] [Para]    PrSelGenProdSelCfg selected_product update EC718HM_PRD
+[Process-17904] [Para]    PrSelGenProdSelCfg xpk_ovwrcfg_ini_path branch3 
+[Process-17904] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-17904] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-17904] [Para]    PrSelGenProdSelCfg xpk_ovwrcfg_ini_path branch4,  
+[Process-17904] [Para]    PrSelGenFrBaseCfg , tProductSel EC718HM_PRD  exist, local or xpk  0
+[Process-17904] [Para]    LPrSelGenFrBaseCfg pathconv_to_tool_basedir_pairs_dict ({}) 
+[Process-17904] [Para]    RegenItemTestAndSetVal, config[line_0_snd_ass_com] = COM65535, key added
+[Process-17904] [Para]    RegenItemTestAndSetVal, config[baud] = 130000, key added
+[Process-17904] [Para]    PrSelGenFrBaseCfg remove old config[comment_filter]="filter for com config" 
+[Process-17904] [Para]    RegenItemTestAndSetVal, agentboot[agpath] '.\product_sets\ec618_products\common_data\agentboot_usb\agentboot.bin' to '.\product_sets\ec718m_products\common_data\agentboot_usb\agentboot.bin'
+[Process-17904] [Para]    PrSelGenFrBaseCfg remove old agentboot[comment_agentboot]="agentboot.bin file infomation" 
+[Process-17904] [Para]    RegenItemTestAndSetVal, storage_cfg[format_path] 'C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolsEC618\FlashToolCLI_V4.1.4p01_20230825\product_sets\ec618_products\618_legacy\format\format_ec618_legacy.json' to 'format_ec718m_none.json'
+[Process-17904] [Para]    RegenItemTestAndSetVal, bootloader[blpath] '.\image_ec618\legacy_product\618_legacy\ap_bootloader.bin' to '.\image_ec619\ap_bootloader.bin'
+[Process-17904] [Para]    RegenItemTestAndSetVal, bootloader[burnaddr] '0x4000' to '0xf'
+[Process-17904] [Para]    PrSelGenFrBaseCfg remove old bootloader[comment_default]="bootloader.bin file infomation" 
+[Process-17904] [Para]    RegenItemTestAndSetVal, system[syspath] '.\image_ec618\legacy_product\618_legacy\ap_demo-flash.bin' to '.\image_ec619\ap_demo-flash.bin'
+[Process-17904] [Para]    RegenItemTestAndSetVal, system[burnaddr] '0x24000' to '0xf'
+[Process-17904] [Para]    PrSelGenFrBaseCfg remove old system[comment_default]="system.bin file infomation" 
+[Process-17904] [Para]    RegenItemTestAndSetVal, cp_system[cp_syspath] '.\image_ec618\legacy_product\618_legacy\cp-demo-flash.bin' to '.\image_ec619\cp-demo-flash.bin'
+[Process-17904] [Para]    RegenItemTestAndSetVal, cp_system[burnaddr] = 0xf, key added
+[Process-17904] [Para]    RegenItemTestAndSetVal, control[rom_version] '0000000103010000' to '0000000103030000'
+[Process-17904] [Para]    RegenItemTestAndSetVal, control[assist_second_port_cmd] = at+ecrst=delay,599, key added
+[Process-17904] [Para]    RegenItemTestAndSetVal, control[dribble_dld_en] = 0, key added
+[Process-17904] [Para]    RegenItemTestAndSetVal, control[pr_runtime_ctrl_en] = 1, key added
+[Process-17904] [Para]    RegenItemTestAndSetVal, control[chip_ctl_para_en] = 1, key added
+[Process-17904] [Para]    RegenItemTestAndSetVal, control[verify_flash_size_need] = 1, key added
+[Process-17904] [Para]    RegenItemTestAndSetVal, flexfile0[filepath] '.\product_sets\ec618_products\618_legacy\rfCaliTb\MergeRfTable.bin' to '.\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin'
+[Process-17904] [Para]    RegenItemTestAndSetVal, flexfile0[burnaddr] '0xe7000' to '0x7E5000'
+[Process-17904] [Para]    PrSelGenFrBaseCfg remove old flexfile0[storage_type]=cp_flash 
+[Process-17904] [Para]    RegenItemTestAndSetVal, package_info[selected_base_inicfg_rec] 'C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolsEC618\FlashToolCLI_V4.1.4p01_20230825\product_sets\ec618_products\618_legacy\base_config_files\config_ec618_legacy_pkg_usb.baseini@hash:1ef001a607ecbba39c5f03f6c736c942e10863fb167409c2d8b606726a01bafb' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718m_products\ec718hm\base_config_files\config_ec718hm_prd_usb.baseini@hash:385d56fde71d25606aa2f9c7b4e4b907421c4bbe9d9773c213114ba2bdbd4a45'
+[Process-17904] [Para]    RegenItemTestAndSetVal, storage_cfg[format_path] 'format_ec718m_none.json' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718m_products\ec718hm\format\format_ec718hm.json'
+[Process-17904] [Para]    PrSelGenStorageCfg format_path update
+[Process-17904] [Para]    PrSelGenCfgfile update suc
+[Process-17904] [FlashTop]    rgcfgfile success
+[Process-17904] [PkgRgCtl]    Step1, SetPrSelGenSuc
+[Process-17904] [FlashTop]    do_main: cmd loadpara
+[Process-17904] [FlashTop]    loadpara args 0x38ab4d0 
+[Process-17904] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-17904] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-17904] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-17904] [Para]    LdPkgSubSelXPKRec entry
+[Process-17904] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-17904] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-17904] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-17904] [Para]    LoadPkgSubSel , tProductSel EC718HM_PRD  exist, local or xpk 0
+[Process-17904] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x16cc980  
+[Process-17904] [Para]    invalid config, filepath:C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin, burnaddr 0x7e5000
+[Process-17904] [Para]    LoadPkgFlx
+[Process-17904] [FlashTop]    Load para sync success
+[Process-17904] [FlashTop]    LoadParaToArgs id args 0x38ab4d0, opt_storage_list 0x16cc980 
+[Process-17904] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-17904] [PkgRgCtl]    Step2, SetPrSelLoadSuc
+[Process-17904] [FlashTop]    do_main: cmd pkg2img
+[Process-17904] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-17904] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-17904] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-17904] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-17904] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-17904] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-17904] [PkgVerCtrl]    PkgPreExtNeeded True, ExtSyncRec not cfged yet
+[Process-17904] [PkgVerCtrl]    PkgPreExtNeeded True
+[Process-17904] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-17904] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-17904] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-17904] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-17904] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-17904] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-17904] [PkgRgCtl]    Step3, SetPreExtSuc
+[Process-17904] [PkgVerCtrl]    PkgPreExtract SyncRegenMode
+[Process-17904] [FlashTop]    do_main: cmd pkg2img
+[Process-17904] [PkgVerCtrl]    PkgRgMdPostExtNeeded True, ExtSyncRec not cfged yet
+[Process-17904] [PkgVerCtrl]    PkgRgMdPostExtNeeded True
+[Process-17904] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-17904] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-17904] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-17904] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-17904] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-17904] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-17904] [PkgRgCtl]    Step4, SetPostExtSuc
+[Process-17904] [FlashTop]    do_main: cmd pkg2img
+[Process-17904] [PkgVerCtrl]    PkgRgMdRegenData Entry
+[Process-17904] [PkgVerCtrl]    PkgRgRegenStateCfg suc
+[Process-17904] [PkgVerCtrl]    PkgRgSelProdCfg suc
+[Process-17904] [PkgVerCtrl]    PkgRgRESBinAndCfg bootloader suc, tgt copy 1
+[Process-17904] [PkgVerCtrl]    PkgRgRESBinAndCfg system suc, tgt copy 1
+[Process-17904] [PkgVerCtrl]    PkgRgRESBinAndCfg cp_system suc, tgt copy 1
+[Process-17904] [FlashTop]    do_main: cmd rgcfgfile
+[Process-17904] [Para]    RegenItemTestAndSetVal, package_info[pkg_inicfg_regened_state] 'backward_restored' to 'forward_regened'
+[Process-17904] [Para]    RegenRegenerateStateCfg pkg_inicfg_regened_state update
+[Process-17904] [Para]    RegenItemTestAndSetVal, bootloader[blpath] '.\image_ec619\ap_bootloader.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\ap_bootloader.bin'
+[Process-17904] [Para]    RegenRESCfg blpath update
+[Process-17904] [Para]    RegenItemTestAndSetVal, bootloader[burnaddr] '0xf' to '0x3000'
+[Process-17904] [Para]    RegenRESCfg burnaddr update
+[Process-17904] [Para]    RegenItemTestAndSetVal, system[syspath] '.\image_ec619\ap_demo-flash.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\ap.bin'
+[Process-17904] [Para]    RegenRESCfg syspath update
+[Process-17904] [Para]    RegenItemTestAndSetVal, system[burnaddr] '0xf' to '0xcd000'
+[Process-17904] [Para]    RegenRESCfg burnaddr update
+[Process-17904] [Para]    RegenItemTestAndSetVal, cp_system[cp_syspath] '.\image_ec619\cp-demo-flash.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\cp-demo-flash.bin'
+[Process-17904] [Para]    RegenRESCfg cp_syspath update
+[Process-17904] [Para]    RegenItemTestAndSetVal, cp_system[burnaddr] '0xf' to '0x2d000'
+[Process-17904] [Para]    RegenRESCfg burnaddr update
+[Process-17904] [Para]    FwdGenCfgFile update suc
+[Process-17904] [FlashTop]    rgcfgfile success
+[Process-17904] [PkgRgCtl]    Step5, SetRegenSuc
+[Process-17904] [FlashTop]    do_main: cmd loadpara
+[Process-17904] [FlashTop]    loadpara args 0x38c3cf0 
+[Process-17904] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-17904] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-17904] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-17904] [Para]    LdPkgSubSelXPKRec entry
+[Process-17904] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-17904] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-17904] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-17904] [Para]    LoadPkgSubSel , tProductSel EC718HM_PRD  exist, local or xpk 0
+[Process-17904] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x16cc980  
+[Process-17904] [Para]    invalid config, filepath:C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin, burnaddr 0x7e5000
+[Process-17904] [Para]    LoadPkgFlx
+[Process-17904] [FlashTop]    Load para sync success
+[Process-17904] [FlashTop]    LoadParaToArgs id args 0x38c3cf0, opt_storage_list 0x16cc980 
+[Process-17904] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-17904] [PkgRgCtl]    Step6, SetReloadSuc
+[Process-17904] [FlashTop]    do_main: cmd pkg2img
+[Process-17904] [PkgVerCtrl]    PkgExtRgMdSync->GetExtUpdated True, GetRgMdExtTgtChked False, need to sync
+[Process-17904] [PkgRgCtl]    Step7, SetTgtSynSuc
+[Process-17904] [FlashTop]    do_main: cmd pkg2img
+[Process-17904] [PkgRgCtl]    Step8, SetDumpRecSuc
+[Process-17904] [FlashTop]    pkg2img success
+
+2025-09-22 10:55:18.998 my_api.py:336 ERROR 
+2025-09-22 10:55:16,709 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000681,build time-2025-03-19 14:50:58
+2025-09-22 10:55:16,718 INFO     [FlashTop]    init
+2025-09-22 10:55:16,734 INFO     [FlashTop]    PreLoad para sync success
+[Process-17904] [FlashTop]    do_main: cmd loadpara
+[Process-17904] [FlashTop]    loadpara args 0x3877170 
+[Process-17904] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-17904] [PRFrame]    LoadPrMgrProc init loaded C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\PRMgrCfg.json
+[Process-17904] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-17904] [Para]    tryupd_chinese_stat_once, legal now
+[Process-17904] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-17904] [Para]    LdPkgSubSelXPKRec entry
+[Process-17904] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-17904] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-17904] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-17904] [Para]    LoadPkgSubSel , tProductSel EC618_OLDPKG_DEFAULT  exist, local or xpk 0
+[Process-17904] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x1a43cf0 cp_flash 
+[Process-17904] [Para]    LoadPkgFlx
+[Process-17904] [FlashTop]    Load para sync success
+[Process-17904] [FlashTop]    LoadParaToArgs id args 0x3877170, opt_storage_list 0x1a43cf0 cp_flash
+[Process-17904] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-17904] [FlashTop]    do_main: cmd pkg2img
+[Process-17904] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-17904] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-17904] [PkgVerCtrl]    PkgLoadPrimXPKGOnly 0 items finish
+[Process-17904] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-17904] [PkgVerCtrl]    ChkPkgSyncRec failed, mtime 2025-09-22 10:55:15 !=  pakcage mtime 2025-09-22 10:52:37
+[Process-17904] [PkgVerCtrl]    ChkPkgSyncRec failed, mtime value for C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\temp.binpkg does not match
+[Process-17904] [PkgVerCtrl]    PkgPrSelGenExtNeeded True, pkg updated
+[Process-17904] [PkgVerCtrl]    PkgPrSelGenExtNeeded True
+[Process-17904] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-17904] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-17904] [PkgVerCtrl]    PkgLoadPrimXPKGOnly 0 items finish
+[Process-17904] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-17904] [PkgVerCtrl]    PkgPrSelGenData Entry
+[Process-17904] [PkgVerCtrl]    PkgPrSelGenData SyncRegenMode
+[Process-17904] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-17904] [PkgVerCtrl]    PkgPrSelGenProdCfg PkgPrSelGenXPK skip
+[Process-17904] [PkgVerCtrl]    PkgPrSelGenProdCfg suc
+[Process-17904] [FlashTop]    do_main: cmd rgcfgfile
+[Process-17904] [Para]    RegenItemTestAndSetVal, package_info[selected_product] 'EC618_OLDPKG_DEFAULT' to 'EC718HM_PRD'
+[Process-17904] [Para]    PrSelGenProdSelCfg selected_product update EC718HM_PRD
+[Process-17904] [Para]    PrSelGenProdSelCfg xpk_ovwrcfg_ini_path branch3 
+[Process-17904] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-17904] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-17904] [Para]    PrSelGenProdSelCfg xpk_ovwrcfg_ini_path branch4,  
+[Process-17904] [Para]    PrSelGenFrBaseCfg , tProductSel EC718HM_PRD  exist, local or xpk  0
+[Process-17904] [Para]    LPrSelGenFrBaseCfg pathconv_to_tool_basedir_pairs_dict ({}) 
+[Process-17904] [Para]    RegenItemTestAndSetVal, config[line_0_snd_ass_com] = COM65535, key added
+[Process-17904] [Para]    RegenItemTestAndSetVal, config[baud] = 130000, key added
+[Process-17904] [Para]    PrSelGenFrBaseCfg remove old config[comment_filter]="filter for com config" 
+[Process-17904] [Para]    RegenItemTestAndSetVal, agentboot[agpath] '.\product_sets\ec618_products\common_data\agentboot_usb\agentboot.bin' to '.\product_sets\ec718m_products\common_data\agentboot_usb\agentboot.bin'
+[Process-17904] [Para]    PrSelGenFrBaseCfg remove old agentboot[comment_agentboot]="agentboot.bin file infomation" 
+[Process-17904] [Para]    RegenItemTestAndSetVal, storage_cfg[format_path] 'C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolsEC618\FlashToolCLI_V4.1.4p01_20230825\product_sets\ec618_products\618_legacy\format\format_ec618_legacy.json' to 'format_ec718m_none.json'
+[Process-17904] [Para]    RegenItemTestAndSetVal, bootloader[blpath] '.\image_ec618\legacy_product\618_legacy\ap_bootloader.bin' to '.\image_ec619\ap_bootloader.bin'
+[Process-17904] [Para]    RegenItemTestAndSetVal, bootloader[burnaddr] '0x4000' to '0xf'
+[Process-17904] [Para]    PrSelGenFrBaseCfg remove old bootloader[comment_default]="bootloader.bin file infomation" 
+[Process-17904] [Para]    RegenItemTestAndSetVal, system[syspath] '.\image_ec618\legacy_product\618_legacy\ap_demo-flash.bin' to '.\image_ec619\ap_demo-flash.bin'
+[Process-17904] [Para]    RegenItemTestAndSetVal, system[burnaddr] '0x24000' to '0xf'
+[Process-17904] [Para]    PrSelGenFrBaseCfg remove old system[comment_default]="system.bin file infomation" 
+[Process-17904] [Para]    RegenItemTestAndSetVal, cp_system[cp_syspath] '.\image_ec618\legacy_product\618_legacy\cp-demo-flash.bin' to '.\image_ec619\cp-demo-flash.bin'
+[Process-17904] [Para]    RegenItemTestAndSetVal, cp_system[burnaddr] = 0xf, key added
+[Process-17904] [Para]    RegenItemTestAndSetVal, control[rom_version] '0000000103010000' to '0000000103030000'
+[Process-17904] [Para]    RegenItemTestAndSetVal, control[assist_second_port_cmd] = at+ecrst=delay,599, key added
+[Process-17904] [Para]    RegenItemTestAndSetVal, control[dribble_dld_en] = 0, key added
+[Process-17904] [Para]    RegenItemTestAndSetVal, control[pr_runtime_ctrl_en] = 1, key added
+[Process-17904] [Para]    RegenItemTestAndSetVal, control[chip_ctl_para_en] = 1, key added
+[Process-17904] [Para]    RegenItemTestAndSetVal, control[verify_flash_size_need] = 1, key added
+[Process-17904] [Para]    RegenItemTestAndSetVal, flexfile0[filepath] '.\product_sets\ec618_products\618_legacy\rfCaliTb\MergeRfTable.bin' to '.\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin'
+[Process-17904] [Para]    RegenItemTestAndSetVal, flexfile0[burnaddr] '0xe7000' to '0x7E5000'
+[Process-17904] [Para]    PrSelGenFrBaseCfg remove old flexfile0[storage_type]=cp_flash 
+[Process-17904] [Para]    RegenItemTestAndSetVal, package_info[selected_base_inicfg_rec] 'C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolsEC618\FlashToolCLI_V4.1.4p01_20230825\product_sets\ec618_products\618_legacy\base_config_files\config_ec618_legacy_pkg_usb.baseini@hash:1ef001a607ecbba39c5f03f6c736c942e10863fb167409c2d8b606726a01bafb' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718m_products\ec718hm\base_config_files\config_ec718hm_prd_usb.baseini@hash:385d56fde71d25606aa2f9c7b4e4b907421c4bbe9d9773c213114ba2bdbd4a45'
+[Process-17904] [Para]    RegenItemTestAndSetVal, storage_cfg[format_path] 'format_ec718m_none.json' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718m_products\ec718hm\format\format_ec718hm.json'
+[Process-17904] [Para]    PrSelGenStorageCfg format_path update
+[Process-17904] [Para]    PrSelGenCfgfile update suc
+[Process-17904] [FlashTop]    rgcfgfile success
+[Process-17904] [PkgRgCtl]    Step1, SetPrSelGenSuc
+[Process-17904] [FlashTop]    do_main: cmd loadpara
+[Process-17904] [FlashTop]    loadpara args 0x38ab4d0 
+[Process-17904] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-17904] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-17904] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-17904] [Para]    LdPkgSubSelXPKRec entry
+[Process-17904] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-17904] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-17904] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-17904] [Para]    LoadPkgSubSel , tProductSel EC718HM_PRD  exist, local or xpk 0
+[Process-17904] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x16cc980  
+[Process-17904] [Para]    invalid config, filepath:C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin, burnaddr 0x7e5000
+[Process-17904] [Para]    LoadPkgFlx
+[Process-17904] [FlashTop]    Load para sync success
+[Process-17904] [FlashTop]    LoadParaToArgs id args 0x38ab4d0, opt_storage_list 0x16cc980 
+[Process-17904] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-17904] [PkgRgCtl]    Step2, SetPrSelLoadSuc
+[Process-17904] [FlashTop]    do_main: cmd pkg2img
+[Process-17904] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-17904] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-17904] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-17904] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-17904] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-17904] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-17904] [PkgVerCtrl]    PkgPreExtNeeded True, ExtSyncRec not cfged yet
+[Process-17904] [PkgVerCtrl]    PkgPreExtNeeded True
+[Process-17904] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-17904] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-17904] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-17904] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-17904] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-17904] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-17904] [PkgRgCtl]    Step3, SetPreExtSuc
+[Process-17904] [PkgVerCtrl]    PkgPreExtract SyncRegenMode
+[Process-17904] [FlashTop]    do_main: cmd pkg2img
+[Process-17904] [PkgVerCtrl]    PkgRgMdPostExtNeeded True, ExtSyncRec not cfged yet
+[Process-17904] [PkgVerCtrl]    PkgRgMdPostExtNeeded True
+[Process-17904] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-17904] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-17904] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-17904] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-17904] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-17904] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-17904] [PkgRgCtl]    Step4, SetPostExtSuc
+[Process-17904] [FlashTop]    do_main: cmd pkg2img
+[Process-17904] [PkgVerCtrl]    PkgRgMdRegenData Entry
+[Process-17904] [PkgVerCtrl]    PkgRgRegenStateCfg suc
+[Process-17904] [PkgVerCtrl]    PkgRgSelProdCfg suc
+[Process-17904] [PkgVerCtrl]    PkgRgRESBinAndCfg bootloader suc, tgt copy 1
+[Process-17904] [PkgVerCtrl]    PkgRgRESBinAndCfg system suc, tgt copy 1
+[Process-17904] [PkgVerCtrl]    PkgRgRESBinAndCfg cp_system suc, tgt copy 1
+[Process-17904] [FlashTop]    do_main: cmd rgcfgfile
+[Process-17904] [Para]    RegenItemTestAndSetVal, package_info[pkg_inicfg_regened_state] 'backward_restored' to 'forward_regened'
+[Process-17904] [Para]    RegenRegenerateStateCfg pkg_inicfg_regened_state update
+[Process-17904] [Para]    RegenItemTestAndSetVal, bootloader[blpath] '.\image_ec619\ap_bootloader.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\ap_bootloader.bin'
+[Process-17904] [Para]    RegenRESCfg blpath update
+[Process-17904] [Para]    RegenItemTestAndSetVal, bootloader[burnaddr] '0xf' to '0x3000'
+[Process-17904] [Para]    RegenRESCfg burnaddr update
+[Process-17904] [Para]    RegenItemTestAndSetVal, system[syspath] '.\image_ec619\ap_demo-flash.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\ap.bin'
+[Process-17904] [Para]    RegenRESCfg syspath update
+[Process-17904] [Para]    RegenItemTestAndSetVal, system[burnaddr] '0xf' to '0xcd000'
+[Process-17904] [Para]    RegenRESCfg burnaddr update
+[Process-17904] [Para]    RegenItemTestAndSetVal, cp_system[cp_syspath] '.\image_ec619\cp-demo-flash.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\cp-demo-flash.bin'
+[Process-17904] [Para]    RegenRESCfg cp_syspath update
+[Process-17904] [Para]    RegenItemTestAndSetVal, cp_system[burnaddr] '0xf' to '0x2d000'
+[Process-17904] [Para]    RegenRESCfg burnaddr update
+[Process-17904] [Para]    FwdGenCfgFile update suc
+[Process-17904] [FlashTop]    rgcfgfile success
+[Process-17904] [PkgRgCtl]    Step5, SetRegenSuc
+[Process-17904] [FlashTop]    do_main: cmd loadpara
+[Process-17904] [FlashTop]    loadpara args 0x38c3cf0 
+[Process-17904] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-17904] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-17904] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-17904] [Para]    LdPkgSubSelXPKRec entry
+[Process-17904] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-17904] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-17904] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-17904] [Para]    LoadPkgSubSel , tProductSel EC718HM_PRD  exist, local or xpk 0
+[Process-17904] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x16cc980  
+[Process-17904] [Para]    invalid config, filepath:C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin, burnaddr 0x7e5000
+[Process-17904] [Para]    LoadPkgFlx
+[Process-17904] [FlashTop]    Load para sync success
+[Process-17904] [FlashTop]    LoadParaToArgs id args 0x38c3cf0, opt_storage_list 0x16cc980 
+[Process-17904] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-17904] [PkgRgCtl]    Step6, SetReloadSuc
+[Process-17904] [FlashTop]    do_main: cmd pkg2img
+[Process-17904] [PkgVerCtrl]    PkgExtRgMdSync->GetExtUpdated True, GetRgMdExtTgtChked False, need to sync
+[Process-17904] [PkgRgCtl]    Step7, SetTgtSynSuc
+[Process-17904] [FlashTop]    do_main: cmd pkg2img
+[Process-17904] [PkgRgCtl]    Step8, SetDumpRecSuc
+[Process-17904] [FlashTop]    pkg2img success
+
+2025-09-22 10:55:19.012 ui_firmware.py:116 INFO Foundec718hmfirmware,Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-09-22 10:55:49.136 usb_device.py:1366 ERROR Timeout!! Pls off-on the power, and then press "PowerOn" Button for 2 secs. at last, press "Download" button on LuaTools.
+2025-09-22 10:55:49.162 usb_device.py:1385 INFO usb device sleep
+2025-09-22 10:55:49.179 usb_device.py:1385 INFO usb device sleep
+2025-09-22 10:55:49.198 ui_firmware.py:123 ERROR Timeout!! Pls off-on the power, and then press "PowerOn" Button for 2 secs. at last, press "Download" button on LuaTools.
+2025-09-22 10:55:49.209 soc.py:476 INFO None
+2025-09-22 10:55:49.210 usb_device.py:3284 INFO quit download
+2025-09-22 10:55:49.210 my_api.py:114 INFO [None, None]
+2025-09-22 10:55:49.218 my_api.py:114 INFO [None, None]
+2025-09-22 10:55:49.218 my_api.py:114 INFO [None, None]
+2025-09-22 10:55:49.218 my_api.py:114 INFO [None, None]
+2025-09-22 10:56:30.135 usb_device.py:1439 INFO usb device download
+2025-09-22 10:56:30.135 my_api.py:114 INFO [None, None]
+2025-09-22 10:56:30.141 usb_device.py:3282 INFO enter download
+2025-09-22 10:56:30.162 ui_firmware.py:116 INFO Ready to download
+2025-09-22 10:56:30.192 ui_firmware.py:116 INFO Parsing Firmware
+2025-09-22 10:56:31.615 ui_firmware.py:116 INFO Download perparing
+2025-09-22 10:56:32.894 my_api.py:310 INFO FlashToolCLI.exe --cfgfile config_pkg_product_usb.ini pkg2img
+2025-09-22 10:56:35.601 my_api.py:325 ERROR 
+2025-09-22 10:56:34,099 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000681,build time-2025-03-19 14:50:58
+2025-09-22 10:56:34,099 INFO     [FlashTop]    init
+2025-09-22 10:56:34,119 INFO     [FlashTop]    PreLoad para sync success
+[Process-21724] [FlashTop]    do_main: cmd loadpara
+[Process-21724] [FlashTop]    loadpara args 0x37c8070 
+[Process-21724] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-21724] [PRFrame]    LoadPrMgrProc init loaded C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\PRMgrCfg.json
+[Process-21724] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-21724] [Para]    tryupd_chinese_stat_once, legal now
+[Process-21724] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-21724] [Para]    LdPkgSubSelXPKRec entry
+[Process-21724] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-21724] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-21724] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-21724] [Para]    LoadPkgSubSel , tProductSel EC618_OLDPKG_DEFAULT  exist, local or xpk 0
+[Process-21724] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x1283d18 cp_flash 
+[Process-21724] [Para]    LoadPkgFlx
+[Process-21724] [FlashTop]    Load para sync success
+[Process-21724] [FlashTop]    LoadParaToArgs id args 0x37c8070, opt_storage_list 0x1283d18 cp_flash
+[Process-21724] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-21724] [FlashTop]    do_main: cmd pkg2img
+[Process-21724] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-21724] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-21724] [PkgVerCtrl]    PkgLoadPrimXPKGOnly 0 items finish
+[Process-21724] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-21724] [PkgVerCtrl]    ChkPkgSyncRec failed, mtime 2025-09-22 10:56:32 !=  pakcage mtime 2025-09-22 10:55:18
+[Process-21724] [PkgVerCtrl]    ChkPkgSyncRec failed, mtime value for C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\temp.binpkg does not match
+[Process-21724] [PkgVerCtrl]    PkgPrSelGenExtNeeded True, pkg updated
+[Process-21724] [PkgVerCtrl]    PkgPrSelGenExtNeeded True
+[Process-21724] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-21724] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-21724] [PkgVerCtrl]    PkgLoadPrimXPKGOnly 0 items finish
+[Process-21724] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-21724] [PkgVerCtrl]    PkgPrSelGenData Entry
+[Process-21724] [PkgVerCtrl]    PkgPrSelGenData SyncRegenMode
+[Process-21724] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-21724] [PkgVerCtrl]    PkgPrSelGenProdCfg PkgPrSelGenXPK skip
+[Process-21724] [PkgVerCtrl]    PkgPrSelGenProdCfg suc
+[Process-21724] [FlashTop]    do_main: cmd rgcfgfile
+[Process-21724] [Para]    RegenItemTestAndSetVal, package_info[selected_product] 'EC618_OLDPKG_DEFAULT' to 'EC718HM_PRD'
+[Process-21724] [Para]    PrSelGenProdSelCfg selected_product update EC718HM_PRD
+[Process-21724] [Para]    PrSelGenProdSelCfg xpk_ovwrcfg_ini_path branch3 
+[Process-21724] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-21724] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-21724] [Para]    PrSelGenProdSelCfg xpk_ovwrcfg_ini_path branch4,  
+[Process-21724] [Para]    PrSelGenFrBaseCfg , tProductSel EC718HM_PRD  exist, local or xpk  0
+[Process-21724] [Para]    LPrSelGenFrBaseCfg pathconv_to_tool_basedir_pairs_dict ({}) 
+[Process-21724] [Para]    RegenItemTestAndSetVal, config[line_0_snd_ass_com] = COM65535, key added
+[Process-21724] [Para]    RegenItemTestAndSetVal, config[baud] = 130000, key added
+[Process-21724] [Para]    PrSelGenFrBaseCfg remove old config[comment_filter]="filter for com config" 
+[Process-21724] [Para]    RegenItemTestAndSetVal, agentboot[agpath] '.\product_sets\ec618_products\common_data\agentboot_usb\agentboot.bin' to '.\product_sets\ec718m_products\common_data\agentboot_usb\agentboot.bin'
+[Process-21724] [Para]    PrSelGenFrBaseCfg remove old agentboot[comment_agentboot]="agentboot.bin file infomation" 
+[Process-21724] [Para]    RegenItemTestAndSetVal, storage_cfg[format_path] 'C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolsEC618\FlashToolCLI_V4.1.4p01_20230825\product_sets\ec618_products\618_legacy\format\format_ec618_legacy.json' to 'format_ec718m_none.json'
+[Process-21724] [Para]    RegenItemTestAndSetVal, bootloader[blpath] '.\image_ec618\legacy_product\618_legacy\ap_bootloader.bin' to '.\image_ec619\ap_bootloader.bin'
+[Process-21724] [Para]    RegenItemTestAndSetVal, bootloader[burnaddr] '0x4000' to '0xf'
+[Process-21724] [Para]    PrSelGenFrBaseCfg remove old bootloader[comment_default]="bootloader.bin file infomation" 
+[Process-21724] [Para]    RegenItemTestAndSetVal, system[syspath] '.\image_ec618\legacy_product\618_legacy\ap_demo-flash.bin' to '.\image_ec619\ap_demo-flash.bin'
+[Process-21724] [Para]    RegenItemTestAndSetVal, system[burnaddr] '0x24000' to '0xf'
+[Process-21724] [Para]    PrSelGenFrBaseCfg remove old system[comment_default]="system.bin file infomation" 
+[Process-21724] [Para]    RegenItemTestAndSetVal, cp_system[cp_syspath] '.\image_ec618\legacy_product\618_legacy\cp-demo-flash.bin' to '.\image_ec619\cp-demo-flash.bin'
+[Process-21724] [Para]    RegenItemTestAndSetVal, cp_system[burnaddr] = 0xf, key added
+[Process-21724] [Para]    RegenItemTestAndSetVal, control[rom_version] '0000000103010000' to '0000000103030000'
+[Process-21724] [Para]    RegenItemTestAndSetVal, control[assist_second_port_cmd] = at+ecrst=delay,599, key added
+[Process-21724] [Para]    RegenItemTestAndSetVal, control[dribble_dld_en] = 0, key added
+[Process-21724] [Para]    RegenItemTestAndSetVal, control[pr_runtime_ctrl_en] = 1, key added
+[Process-21724] [Para]    RegenItemTestAndSetVal, control[chip_ctl_para_en] = 1, key added
+[Process-21724] [Para]    RegenItemTestAndSetVal, control[verify_flash_size_need] = 1, key added
+[Process-21724] [Para]    RegenItemTestAndSetVal, flexfile0[filepath] '.\product_sets\ec618_products\618_legacy\rfCaliTb\MergeRfTable.bin' to '.\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin'
+[Process-21724] [Para]    RegenItemTestAndSetVal, flexfile0[burnaddr] '0xe7000' to '0x7E5000'
+[Process-21724] [Para]    PrSelGenFrBaseCfg remove old flexfile0[storage_type]=cp_flash 
+[Process-21724] [Para]    RegenItemTestAndSetVal, package_info[selected_base_inicfg_rec] 'C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolsEC618\FlashToolCLI_V4.1.4p01_20230825\product_sets\ec618_products\618_legacy\base_config_files\config_ec618_legacy_pkg_usb.baseini@hash:1ef001a607ecbba39c5f03f6c736c942e10863fb167409c2d8b606726a01bafb' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718m_products\ec718hm\base_config_files\config_ec718hm_prd_usb.baseini@hash:385d56fde71d25606aa2f9c7b4e4b907421c4bbe9d9773c213114ba2bdbd4a45'
+[Process-21724] [Para]    RegenItemTestAndSetVal, storage_cfg[format_path] 'format_ec718m_none.json' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718m_products\ec718hm\format\format_ec718hm.json'
+[Process-21724] [Para]    PrSelGenStorageCfg format_path update
+[Process-21724] [Para]    PrSelGenCfgfile update suc
+[Process-21724] [FlashTop]    rgcfgfile success
+[Process-21724] [PkgRgCtl]    Step1, SetPrSelGenSuc
+[Process-21724] [FlashTop]    do_main: cmd loadpara
+[Process-21724] [FlashTop]    loadpara args 0x37f73d0 
+[Process-21724] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-21724] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-21724] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-21724] [Para]    LdPkgSubSelXPKRec entry
+[Process-21724] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-21724] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-21724] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-21724] [Para]    LoadPkgSubSel , tProductSel EC718HM_PRD  exist, local or xpk 0
+[Process-21724] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x117c980  
+[Process-21724] [Para]    invalid config, filepath:C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin, burnaddr 0x7e5000
+[Process-21724] [Para]    LoadPkgFlx
+[Process-21724] [FlashTop]    Load para sync success
+[Process-21724] [FlashTop]    LoadParaToArgs id args 0x37f73d0, opt_storage_list 0x117c980 
+[Process-21724] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-21724] [PkgRgCtl]    Step2, SetPrSelLoadSuc
+[Process-21724] [FlashTop]    do_main: cmd pkg2img
+[Process-21724] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-21724] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-21724] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-21724] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-21724] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-21724] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-21724] [PkgVerCtrl]    PkgPreExtNeeded True, ExtSyncRec not cfged yet
+[Process-21724] [PkgVerCtrl]    PkgPreExtNeeded True
+[Process-21724] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-21724] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-21724] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-21724] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-21724] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-21724] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-21724] [PkgRgCtl]    Step3, SetPreExtSuc
+[Process-21724] [PkgVerCtrl]    PkgPreExtract SyncRegenMode
+[Process-21724] [FlashTop]    do_main: cmd pkg2img
+[Process-21724] [PkgVerCtrl]    PkgRgMdPostExtNeeded True, ExtSyncRec not cfged yet
+[Process-21724] [PkgVerCtrl]    PkgRgMdPostExtNeeded True
+[Process-21724] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-21724] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-21724] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-21724] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-21724] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-21724] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-21724] [PkgRgCtl]    Step4, SetPostExtSuc
+[Process-21724] [FlashTop]    do_main: cmd pkg2img
+[Process-21724] [PkgVerCtrl]    PkgRgMdRegenData Entry
+[Process-21724] [PkgVerCtrl]    PkgRgRegenStateCfg suc
+[Process-21724] [PkgVerCtrl]    PkgRgSelProdCfg suc
+[Process-21724] [PkgVerCtrl]    PkgRgRESBinAndCfg bootloader suc, tgt copy 1
+[Process-21724] [PkgVerCtrl]    PkgRgRESBinAndCfg system suc, tgt copy 1
+[Process-21724] [PkgVerCtrl]    PkgRgRESBinAndCfg cp_system suc, tgt copy 1
+[Process-21724] [FlashTop]    do_main: cmd rgcfgfile
+[Process-21724] [Para]    RegenItemTestAndSetVal, package_info[pkg_inicfg_regened_state] 'backward_restored' to 'forward_regened'
+[Process-21724] [Para]    RegenRegenerateStateCfg pkg_inicfg_regened_state update
+[Process-21724] [Para]    RegenItemTestAndSetVal, bootloader[blpath] '.\image_ec619\ap_bootloader.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\ap_bootloader.bin'
+[Process-21724] [Para]    RegenRESCfg blpath update
+[Process-21724] [Para]    RegenItemTestAndSetVal, bootloader[burnaddr] '0xf' to '0x3000'
+[Process-21724] [Para]    RegenRESCfg burnaddr update
+[Process-21724] [Para]    RegenItemTestAndSetVal, system[syspath] '.\image_ec619\ap_demo-flash.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\ap.bin'
+[Process-21724] [Para]    RegenRESCfg syspath update
+[Process-21724] [Para]    RegenItemTestAndSetVal, system[burnaddr] '0xf' to '0xcd000'
+[Process-21724] [Para]    RegenRESCfg burnaddr update
+[Process-21724] [Para]    RegenItemTestAndSetVal, cp_system[cp_syspath] '.\image_ec619\cp-demo-flash.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\cp-demo-flash.bin'
+[Process-21724] [Para]    RegenRESCfg cp_syspath update
+[Process-21724] [Para]    RegenItemTestAndSetVal, cp_system[burnaddr] '0xf' to '0x2d000'
+[Process-21724] [Para]    RegenRESCfg burnaddr update
+[Process-21724] [Para]    FwdGenCfgFile update suc
+[Process-21724] [FlashTop]    rgcfgfile success
+[Process-21724] [PkgRgCtl]    Step5, SetRegenSuc
+[Process-21724] [FlashTop]    do_main: cmd loadpara
+[Process-21724] [FlashTop]    loadpara args 0x381ab10 
+[Process-21724] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-21724] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-21724] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-21724] [Para]    LdPkgSubSelXPKRec entry
+[Process-21724] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-21724] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-21724] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-21724] [Para]    LoadPkgSubSel , tProductSel EC718HM_PRD  exist, local or xpk 0
+[Process-21724] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x117c980  
+[Process-21724] [Para]    invalid config, filepath:C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin, burnaddr 0x7e5000
+[Process-21724] [Para]    LoadPkgFlx
+[Process-21724] [FlashTop]    Load para sync success
+[Process-21724] [FlashTop]    LoadParaToArgs id args 0x381ab10, opt_storage_list 0x117c980 
+[Process-21724] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-21724] [PkgRgCtl]    Step6, SetReloadSuc
+[Process-21724] [FlashTop]    do_main: cmd pkg2img
+[Process-21724] [PkgVerCtrl]    PkgExtRgMdSync->GetExtUpdated True, GetRgMdExtTgtChked False, need to sync
+[Process-21724] [PkgRgCtl]    Step7, SetTgtSynSuc
+[Process-21724] [FlashTop]    do_main: cmd pkg2img
+[Process-21724] [PkgRgCtl]    Step8, SetDumpRecSuc
+[Process-21724] [FlashTop]    pkg2img success
+
+2025-09-22 10:56:35.601 my_api.py:336 ERROR 
+2025-09-22 10:56:34,099 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000681,build time-2025-03-19 14:50:58
+2025-09-22 10:56:34,099 INFO     [FlashTop]    init
+2025-09-22 10:56:34,119 INFO     [FlashTop]    PreLoad para sync success
+[Process-21724] [FlashTop]    do_main: cmd loadpara
+[Process-21724] [FlashTop]    loadpara args 0x37c8070 
+[Process-21724] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-21724] [PRFrame]    LoadPrMgrProc init loaded C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\PRMgrCfg.json
+[Process-21724] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-21724] [Para]    tryupd_chinese_stat_once, legal now
+[Process-21724] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-21724] [Para]    LdPkgSubSelXPKRec entry
+[Process-21724] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-21724] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-21724] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-21724] [Para]    LoadPkgSubSel , tProductSel EC618_OLDPKG_DEFAULT  exist, local or xpk 0
+[Process-21724] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x1283d18 cp_flash 
+[Process-21724] [Para]    LoadPkgFlx
+[Process-21724] [FlashTop]    Load para sync success
+[Process-21724] [FlashTop]    LoadParaToArgs id args 0x37c8070, opt_storage_list 0x1283d18 cp_flash
+[Process-21724] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-21724] [FlashTop]    do_main: cmd pkg2img
+[Process-21724] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-21724] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-21724] [PkgVerCtrl]    PkgLoadPrimXPKGOnly 0 items finish
+[Process-21724] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-21724] [PkgVerCtrl]    ChkPkgSyncRec failed, mtime 2025-09-22 10:56:32 !=  pakcage mtime 2025-09-22 10:55:18
+[Process-21724] [PkgVerCtrl]    ChkPkgSyncRec failed, mtime value for C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\temp.binpkg does not match
+[Process-21724] [PkgVerCtrl]    PkgPrSelGenExtNeeded True, pkg updated
+[Process-21724] [PkgVerCtrl]    PkgPrSelGenExtNeeded True
+[Process-21724] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-21724] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-21724] [PkgVerCtrl]    PkgLoadPrimXPKGOnly 0 items finish
+[Process-21724] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-21724] [PkgVerCtrl]    PkgPrSelGenData Entry
+[Process-21724] [PkgVerCtrl]    PkgPrSelGenData SyncRegenMode
+[Process-21724] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-21724] [PkgVerCtrl]    PkgPrSelGenProdCfg PkgPrSelGenXPK skip
+[Process-21724] [PkgVerCtrl]    PkgPrSelGenProdCfg suc
+[Process-21724] [FlashTop]    do_main: cmd rgcfgfile
+[Process-21724] [Para]    RegenItemTestAndSetVal, package_info[selected_product] 'EC618_OLDPKG_DEFAULT' to 'EC718HM_PRD'
+[Process-21724] [Para]    PrSelGenProdSelCfg selected_product update EC718HM_PRD
+[Process-21724] [Para]    PrSelGenProdSelCfg xpk_ovwrcfg_ini_path branch3 
+[Process-21724] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-21724] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-21724] [Para]    PrSelGenProdSelCfg xpk_ovwrcfg_ini_path branch4,  
+[Process-21724] [Para]    PrSelGenFrBaseCfg , tProductSel EC718HM_PRD  exist, local or xpk  0
+[Process-21724] [Para]    LPrSelGenFrBaseCfg pathconv_to_tool_basedir_pairs_dict ({}) 
+[Process-21724] [Para]    RegenItemTestAndSetVal, config[line_0_snd_ass_com] = COM65535, key added
+[Process-21724] [Para]    RegenItemTestAndSetVal, config[baud] = 130000, key added
+[Process-21724] [Para]    PrSelGenFrBaseCfg remove old config[comment_filter]="filter for com config" 
+[Process-21724] [Para]    RegenItemTestAndSetVal, agentboot[agpath] '.\product_sets\ec618_products\common_data\agentboot_usb\agentboot.bin' to '.\product_sets\ec718m_products\common_data\agentboot_usb\agentboot.bin'
+[Process-21724] [Para]    PrSelGenFrBaseCfg remove old agentboot[comment_agentboot]="agentboot.bin file infomation" 
+[Process-21724] [Para]    RegenItemTestAndSetVal, storage_cfg[format_path] 'C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolsEC618\FlashToolCLI_V4.1.4p01_20230825\product_sets\ec618_products\618_legacy\format\format_ec618_legacy.json' to 'format_ec718m_none.json'
+[Process-21724] [Para]    RegenItemTestAndSetVal, bootloader[blpath] '.\image_ec618\legacy_product\618_legacy\ap_bootloader.bin' to '.\image_ec619\ap_bootloader.bin'
+[Process-21724] [Para]    RegenItemTestAndSetVal, bootloader[burnaddr] '0x4000' to '0xf'
+[Process-21724] [Para]    PrSelGenFrBaseCfg remove old bootloader[comment_default]="bootloader.bin file infomation" 
+[Process-21724] [Para]    RegenItemTestAndSetVal, system[syspath] '.\image_ec618\legacy_product\618_legacy\ap_demo-flash.bin' to '.\image_ec619\ap_demo-flash.bin'
+[Process-21724] [Para]    RegenItemTestAndSetVal, system[burnaddr] '0x24000' to '0xf'
+[Process-21724] [Para]    PrSelGenFrBaseCfg remove old system[comment_default]="system.bin file infomation" 
+[Process-21724] [Para]    RegenItemTestAndSetVal, cp_system[cp_syspath] '.\image_ec618\legacy_product\618_legacy\cp-demo-flash.bin' to '.\image_ec619\cp-demo-flash.bin'
+[Process-21724] [Para]    RegenItemTestAndSetVal, cp_system[burnaddr] = 0xf, key added
+[Process-21724] [Para]    RegenItemTestAndSetVal, control[rom_version] '0000000103010000' to '0000000103030000'
+[Process-21724] [Para]    RegenItemTestAndSetVal, control[assist_second_port_cmd] = at+ecrst=delay,599, key added
+[Process-21724] [Para]    RegenItemTestAndSetVal, control[dribble_dld_en] = 0, key added
+[Process-21724] [Para]    RegenItemTestAndSetVal, control[pr_runtime_ctrl_en] = 1, key added
+[Process-21724] [Para]    RegenItemTestAndSetVal, control[chip_ctl_para_en] = 1, key added
+[Process-21724] [Para]    RegenItemTestAndSetVal, control[verify_flash_size_need] = 1, key added
+[Process-21724] [Para]    RegenItemTestAndSetVal, flexfile0[filepath] '.\product_sets\ec618_products\618_legacy\rfCaliTb\MergeRfTable.bin' to '.\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin'
+[Process-21724] [Para]    RegenItemTestAndSetVal, flexfile0[burnaddr] '0xe7000' to '0x7E5000'
+[Process-21724] [Para]    PrSelGenFrBaseCfg remove old flexfile0[storage_type]=cp_flash 
+[Process-21724] [Para]    RegenItemTestAndSetVal, package_info[selected_base_inicfg_rec] 'C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolsEC618\FlashToolCLI_V4.1.4p01_20230825\product_sets\ec618_products\618_legacy\base_config_files\config_ec618_legacy_pkg_usb.baseini@hash:1ef001a607ecbba39c5f03f6c736c942e10863fb167409c2d8b606726a01bafb' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718m_products\ec718hm\base_config_files\config_ec718hm_prd_usb.baseini@hash:385d56fde71d25606aa2f9c7b4e4b907421c4bbe9d9773c213114ba2bdbd4a45'
+[Process-21724] [Para]    RegenItemTestAndSetVal, storage_cfg[format_path] 'format_ec718m_none.json' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718m_products\ec718hm\format\format_ec718hm.json'
+[Process-21724] [Para]    PrSelGenStorageCfg format_path update
+[Process-21724] [Para]    PrSelGenCfgfile update suc
+[Process-21724] [FlashTop]    rgcfgfile success
+[Process-21724] [PkgRgCtl]    Step1, SetPrSelGenSuc
+[Process-21724] [FlashTop]    do_main: cmd loadpara
+[Process-21724] [FlashTop]    loadpara args 0x37f73d0 
+[Process-21724] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-21724] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-21724] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-21724] [Para]    LdPkgSubSelXPKRec entry
+[Process-21724] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-21724] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-21724] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-21724] [Para]    LoadPkgSubSel , tProductSel EC718HM_PRD  exist, local or xpk 0
+[Process-21724] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x117c980  
+[Process-21724] [Para]    invalid config, filepath:C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin, burnaddr 0x7e5000
+[Process-21724] [Para]    LoadPkgFlx
+[Process-21724] [FlashTop]    Load para sync success
+[Process-21724] [FlashTop]    LoadParaToArgs id args 0x37f73d0, opt_storage_list 0x117c980 
+[Process-21724] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-21724] [PkgRgCtl]    Step2, SetPrSelLoadSuc
+[Process-21724] [FlashTop]    do_main: cmd pkg2img
+[Process-21724] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-21724] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-21724] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-21724] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-21724] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-21724] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-21724] [PkgVerCtrl]    PkgPreExtNeeded True, ExtSyncRec not cfged yet
+[Process-21724] [PkgVerCtrl]    PkgPreExtNeeded True
+[Process-21724] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-21724] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-21724] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-21724] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-21724] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-21724] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-21724] [PkgRgCtl]    Step3, SetPreExtSuc
+[Process-21724] [PkgVerCtrl]    PkgPreExtract SyncRegenMode
+[Process-21724] [FlashTop]    do_main: cmd pkg2img
+[Process-21724] [PkgVerCtrl]    PkgRgMdPostExtNeeded True, ExtSyncRec not cfged yet
+[Process-21724] [PkgVerCtrl]    PkgRgMdPostExtNeeded True
+[Process-21724] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-21724] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-21724] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-21724] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-21724] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-21724] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-21724] [PkgRgCtl]    Step4, SetPostExtSuc
+[Process-21724] [FlashTop]    do_main: cmd pkg2img
+[Process-21724] [PkgVerCtrl]    PkgRgMdRegenData Entry
+[Process-21724] [PkgVerCtrl]    PkgRgRegenStateCfg suc
+[Process-21724] [PkgVerCtrl]    PkgRgSelProdCfg suc
+[Process-21724] [PkgVerCtrl]    PkgRgRESBinAndCfg bootloader suc, tgt copy 1
+[Process-21724] [PkgVerCtrl]    PkgRgRESBinAndCfg system suc, tgt copy 1
+[Process-21724] [PkgVerCtrl]    PkgRgRESBinAndCfg cp_system suc, tgt copy 1
+[Process-21724] [FlashTop]    do_main: cmd rgcfgfile
+[Process-21724] [Para]    RegenItemTestAndSetVal, package_info[pkg_inicfg_regened_state] 'backward_restored' to 'forward_regened'
+[Process-21724] [Para]    RegenRegenerateStateCfg pkg_inicfg_regened_state update
+[Process-21724] [Para]    RegenItemTestAndSetVal, bootloader[blpath] '.\image_ec619\ap_bootloader.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\ap_bootloader.bin'
+[Process-21724] [Para]    RegenRESCfg blpath update
+[Process-21724] [Para]    RegenItemTestAndSetVal, bootloader[burnaddr] '0xf' to '0x3000'
+[Process-21724] [Para]    RegenRESCfg burnaddr update
+[Process-21724] [Para]    RegenItemTestAndSetVal, system[syspath] '.\image_ec619\ap_demo-flash.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\ap.bin'
+[Process-21724] [Para]    RegenRESCfg syspath update
+[Process-21724] [Para]    RegenItemTestAndSetVal, system[burnaddr] '0xf' to '0xcd000'
+[Process-21724] [Para]    RegenRESCfg burnaddr update
+[Process-21724] [Para]    RegenItemTestAndSetVal, cp_system[cp_syspath] '.\image_ec619\cp-demo-flash.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\cp-demo-flash.bin'
+[Process-21724] [Para]    RegenRESCfg cp_syspath update
+[Process-21724] [Para]    RegenItemTestAndSetVal, cp_system[burnaddr] '0xf' to '0x2d000'
+[Process-21724] [Para]    RegenRESCfg burnaddr update
+[Process-21724] [Para]    FwdGenCfgFile update suc
+[Process-21724] [FlashTop]    rgcfgfile success
+[Process-21724] [PkgRgCtl]    Step5, SetRegenSuc
+[Process-21724] [FlashTop]    do_main: cmd loadpara
+[Process-21724] [FlashTop]    loadpara args 0x381ab10 
+[Process-21724] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-21724] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-21724] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-21724] [Para]    LdPkgSubSelXPKRec entry
+[Process-21724] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-21724] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-21724] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-21724] [Para]    LoadPkgSubSel , tProductSel EC718HM_PRD  exist, local or xpk 0
+[Process-21724] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x117c980  
+[Process-21724] [Para]    invalid config, filepath:C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin, burnaddr 0x7e5000
+[Process-21724] [Para]    LoadPkgFlx
+[Process-21724] [FlashTop]    Load para sync success
+[Process-21724] [FlashTop]    LoadParaToArgs id args 0x381ab10, opt_storage_list 0x117c980 
+[Process-21724] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-21724] [PkgRgCtl]    Step6, SetReloadSuc
+[Process-21724] [FlashTop]    do_main: cmd pkg2img
+[Process-21724] [PkgVerCtrl]    PkgExtRgMdSync->GetExtUpdated True, GetRgMdExtTgtChked False, need to sync
+[Process-21724] [PkgRgCtl]    Step7, SetTgtSynSuc
+[Process-21724] [FlashTop]    do_main: cmd pkg2img
+[Process-21724] [PkgRgCtl]    Step8, SetDumpRecSuc
+[Process-21724] [FlashTop]    pkg2img success
+
+2025-09-22 10:56:35.618 ui_firmware.py:116 INFO Foundec718hmfirmware,Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-09-22 10:57:05.669 usb_device.py:1366 ERROR Timeout!! Pls off-on the power, and then press "PowerOn" Button for 2 secs. at last, press "Download" button on LuaTools.
+2025-09-22 10:57:05.697 usb_device.py:1385 INFO usb device sleep
+2025-09-22 10:57:05.709 usb_device.py:1385 INFO usb device sleep
+2025-09-22 10:57:05.731 ui_firmware.py:123 ERROR Timeout!! Pls off-on the power, and then press "PowerOn" Button for 2 secs. at last, press "Download" button on LuaTools.
+2025-09-22 10:57:05.734 soc.py:476 INFO None
+2025-09-22 10:57:05.738 usb_device.py:3284 INFO quit download
+2025-09-22 10:57:05.745 my_api.py:114 INFO [None, None]
+2025-09-22 10:57:05.747 my_api.py:114 INFO [None, None]
+2025-09-22 10:57:05.749 my_api.py:114 INFO [None, None]
+2025-09-22 10:57:05.753 my_api.py:114 INFO [None, None]
+2025-09-22 10:57:27.214 usb_device.py:1439 INFO usb device download
+2025-09-22 10:57:27.214 my_api.py:114 INFO [None, None]
+2025-09-22 10:57:27.220 usb_device.py:3282 INFO enter download
+2025-09-22 10:57:27.244 ui_firmware.py:116 INFO Ready to download
+2025-09-22 10:57:27.276 ui_firmware.py:116 INFO Parsing Firmware
+2025-09-22 10:57:28.926 ui_firmware.py:116 INFO Download perparing
+2025-09-22 10:57:30.142 my_api.py:310 INFO FlashToolCLI.exe --cfgfile config_pkg_product_usb.ini pkg2img
+2025-09-22 10:57:33.093 my_api.py:325 ERROR 
+2025-09-22 10:57:31,465 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000681,build time-2025-03-19 14:50:58
+2025-09-22 10:57:31,467 INFO     [FlashTop]    init
+2025-09-22 10:57:31,481 INFO     [FlashTop]    PreLoad para sync success
+[Process-12748] [FlashTop]    do_main: cmd loadpara
+[Process-12748] [FlashTop]    loadpara args 0x3a171d0 
+[Process-12748] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-12748] [PRFrame]    LoadPrMgrProc init loaded C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\PRMgrCfg.json
+[Process-12748] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-12748] [Para]    tryupd_chinese_stat_once, legal now
+[Process-12748] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-12748] [Para]    LdPkgSubSelXPKRec entry
+[Process-12748] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-12748] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-12748] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-12748] [Para]    LoadPkgSubSel , tProductSel EC618_OLDPKG_DEFAULT  exist, local or xpk 0
+[Process-12748] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x1624ca0 cp_flash 
+[Process-12748] [Para]    LoadPkgFlx
+[Process-12748] [FlashTop]    Load para sync success
+[Process-12748] [FlashTop]    LoadParaToArgs id args 0x3a171d0, opt_storage_list 0x1624ca0 cp_flash
+[Process-12748] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-12748] [FlashTop]    do_main: cmd pkg2img
+[Process-12748] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-12748] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-12748] [PkgVerCtrl]    PkgLoadPrimXPKGOnly 0 items finish
+[Process-12748] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-12748] [PkgVerCtrl]    ChkPkgSyncRec failed, mtime 2025-09-22 10:57:30 !=  pakcage mtime 2025-09-22 10:56:35
+[Process-12748] [PkgVerCtrl]    ChkPkgSyncRec failed, mtime value for C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\temp.binpkg does not match
+[Process-12748] [PkgVerCtrl]    PkgPrSelGenExtNeeded True, pkg updated
+[Process-12748] [PkgVerCtrl]    PkgPrSelGenExtNeeded True
+[Process-12748] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-12748] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-12748] [PkgVerCtrl]    PkgLoadPrimXPKGOnly 0 items finish
+[Process-12748] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-12748] [PkgVerCtrl]    PkgPrSelGenData Entry
+[Process-12748] [PkgVerCtrl]    PkgPrSelGenData SyncRegenMode
+[Process-12748] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-12748] [PkgVerCtrl]    PkgPrSelGenProdCfg PkgPrSelGenXPK skip
+[Process-12748] [PkgVerCtrl]    PkgPrSelGenProdCfg suc
+[Process-12748] [FlashTop]    do_main: cmd rgcfgfile
+[Process-12748] [Para]    RegenItemTestAndSetVal, package_info[selected_product] 'EC618_OLDPKG_DEFAULT' to 'EC718HM_PRD'
+[Process-12748] [Para]    PrSelGenProdSelCfg selected_product update EC718HM_PRD
+[Process-12748] [Para]    PrSelGenProdSelCfg xpk_ovwrcfg_ini_path branch3 
+[Process-12748] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-12748] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-12748] [Para]    PrSelGenProdSelCfg xpk_ovwrcfg_ini_path branch4,  
+[Process-12748] [Para]    PrSelGenFrBaseCfg , tProductSel EC718HM_PRD  exist, local or xpk  0
+[Process-12748] [Para]    LPrSelGenFrBaseCfg pathconv_to_tool_basedir_pairs_dict ({}) 
+[Process-12748] [Para]    RegenItemTestAndSetVal, config[line_0_snd_ass_com] = COM65535, key added
+[Process-12748] [Para]    RegenItemTestAndSetVal, config[baud] = 130000, key added
+[Process-12748] [Para]    PrSelGenFrBaseCfg remove old config[comment_filter]="filter for com config" 
+[Process-12748] [Para]    RegenItemTestAndSetVal, agentboot[agpath] '.\product_sets\ec618_products\common_data\agentboot_usb\agentboot.bin' to '.\product_sets\ec718m_products\common_data\agentboot_usb\agentboot.bin'
+[Process-12748] [Para]    PrSelGenFrBaseCfg remove old agentboot[comment_agentboot]="agentboot.bin file infomation" 
+[Process-12748] [Para]    RegenItemTestAndSetVal, storage_cfg[format_path] 'C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolsEC618\FlashToolCLI_V4.1.4p01_20230825\product_sets\ec618_products\618_legacy\format\format_ec618_legacy.json' to 'format_ec718m_none.json'
+[Process-12748] [Para]    RegenItemTestAndSetVal, bootloader[blpath] '.\image_ec618\legacy_product\618_legacy\ap_bootloader.bin' to '.\image_ec619\ap_bootloader.bin'
+[Process-12748] [Para]    RegenItemTestAndSetVal, bootloader[burnaddr] '0x4000' to '0xf'
+[Process-12748] [Para]    PrSelGenFrBaseCfg remove old bootloader[comment_default]="bootloader.bin file infomation" 
+[Process-12748] [Para]    RegenItemTestAndSetVal, system[syspath] '.\image_ec618\legacy_product\618_legacy\ap_demo-flash.bin' to '.\image_ec619\ap_demo-flash.bin'
+[Process-12748] [Para]    RegenItemTestAndSetVal, system[burnaddr] '0x24000' to '0xf'
+[Process-12748] [Para]    PrSelGenFrBaseCfg remove old system[comment_default]="system.bin file infomation" 
+[Process-12748] [Para]    RegenItemTestAndSetVal, cp_system[cp_syspath] '.\image_ec618\legacy_product\618_legacy\cp-demo-flash.bin' to '.\image_ec619\cp-demo-flash.bin'
+[Process-12748] [Para]    RegenItemTestAndSetVal, cp_system[burnaddr] = 0xf, key added
+[Process-12748] [Para]    RegenItemTestAndSetVal, control[rom_version] '0000000103010000' to '0000000103030000'
+[Process-12748] [Para]    RegenItemTestAndSetVal, control[assist_second_port_cmd] = at+ecrst=delay,599, key added
+[Process-12748] [Para]    RegenItemTestAndSetVal, control[dribble_dld_en] = 0, key added
+[Process-12748] [Para]    RegenItemTestAndSetVal, control[pr_runtime_ctrl_en] = 1, key added
+[Process-12748] [Para]    RegenItemTestAndSetVal, control[chip_ctl_para_en] = 1, key added
+[Process-12748] [Para]    RegenItemTestAndSetVal, control[verify_flash_size_need] = 1, key added
+[Process-12748] [Para]    RegenItemTestAndSetVal, flexfile0[filepath] '.\product_sets\ec618_products\618_legacy\rfCaliTb\MergeRfTable.bin' to '.\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin'
+[Process-12748] [Para]    RegenItemTestAndSetVal, flexfile0[burnaddr] '0xe7000' to '0x7E5000'
+[Process-12748] [Para]    PrSelGenFrBaseCfg remove old flexfile0[storage_type]=cp_flash 
+[Process-12748] [Para]    RegenItemTestAndSetVal, package_info[selected_base_inicfg_rec] 'C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolsEC618\FlashToolCLI_V4.1.4p01_20230825\product_sets\ec618_products\618_legacy\base_config_files\config_ec618_legacy_pkg_usb.baseini@hash:1ef001a607ecbba39c5f03f6c736c942e10863fb167409c2d8b606726a01bafb' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718m_products\ec718hm\base_config_files\config_ec718hm_prd_usb.baseini@hash:385d56fde71d25606aa2f9c7b4e4b907421c4bbe9d9773c213114ba2bdbd4a45'
+[Process-12748] [Para]    RegenItemTestAndSetVal, storage_cfg[format_path] 'format_ec718m_none.json' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718m_products\ec718hm\format\format_ec718hm.json'
+[Process-12748] [Para]    PrSelGenStorageCfg format_path update
+[Process-12748] [Para]    PrSelGenCfgfile update suc
+[Process-12748] [FlashTop]    rgcfgfile success
+[Process-12748] [PkgRgCtl]    Step1, SetPrSelGenSuc
+[Process-12748] [FlashTop]    do_main: cmd loadpara
+[Process-12748] [FlashTop]    loadpara args 0x3a46510 
+[Process-12748] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-12748] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-12748] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-12748] [Para]    LdPkgSubSelXPKRec entry
+[Process-12748] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-12748] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-12748] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-12748] [Para]    LoadPkgSubSel , tProductSel EC718HM_PRD  exist, local or xpk 0
+[Process-12748] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x151c980  
+[Process-12748] [Para]    invalid config, filepath:C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin, burnaddr 0x7e5000
+[Process-12748] [Para]    LoadPkgFlx
+[Process-12748] [FlashTop]    Load para sync success
+[Process-12748] [FlashTop]    LoadParaToArgs id args 0x3a46510, opt_storage_list 0x151c980 
+[Process-12748] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-12748] [PkgRgCtl]    Step2, SetPrSelLoadSuc
+[Process-12748] [FlashTop]    do_main: cmd pkg2img
+[Process-12748] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-12748] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-12748] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-12748] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-12748] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-12748] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-12748] [PkgVerCtrl]    PkgPreExtNeeded True, ExtSyncRec not cfged yet
+[Process-12748] [PkgVerCtrl]    PkgPreExtNeeded True
+[Process-12748] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-12748] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-12748] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-12748] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-12748] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-12748] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-12748] [PkgRgCtl]    Step3, SetPreExtSuc
+[Process-12748] [PkgVerCtrl]    PkgPreExtract SyncRegenMode
+[Process-12748] [FlashTop]    do_main: cmd pkg2img
+[Process-12748] [PkgVerCtrl]    PkgRgMdPostExtNeeded True, ExtSyncRec not cfged yet
+[Process-12748] [PkgVerCtrl]    PkgRgMdPostExtNeeded True
+[Process-12748] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-12748] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-12748] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-12748] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-12748] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-12748] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-12748] [PkgRgCtl]    Step4, SetPostExtSuc
+[Process-12748] [FlashTop]    do_main: cmd pkg2img
+[Process-12748] [PkgVerCtrl]    PkgRgMdRegenData Entry
+[Process-12748] [PkgVerCtrl]    PkgRgRegenStateCfg suc
+[Process-12748] [PkgVerCtrl]    PkgRgSelProdCfg suc
+[Process-12748] [PkgVerCtrl]    PkgRgRESBinAndCfg bootloader suc, tgt copy 1
+[Process-12748] [PkgVerCtrl]    PkgRgRESBinAndCfg system suc, tgt copy 1
+[Process-12748] [PkgVerCtrl]    PkgRgRESBinAndCfg cp_system suc, tgt copy 1
+[Process-12748] [FlashTop]    do_main: cmd rgcfgfile
+[Process-12748] [Para]    RegenItemTestAndSetVal, package_info[pkg_inicfg_regened_state] 'backward_restored' to 'forward_regened'
+[Process-12748] [Para]    RegenRegenerateStateCfg pkg_inicfg_regened_state update
+[Process-12748] [Para]    RegenItemTestAndSetVal, bootloader[blpath] '.\image_ec619\ap_bootloader.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\ap_bootloader.bin'
+[Process-12748] [Para]    RegenRESCfg blpath update
+[Process-12748] [Para]    RegenItemTestAndSetVal, bootloader[burnaddr] '0xf' to '0x3000'
+[Process-12748] [Para]    RegenRESCfg burnaddr update
+[Process-12748] [Para]    RegenItemTestAndSetVal, system[syspath] '.\image_ec619\ap_demo-flash.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\ap.bin'
+[Process-12748] [Para]    RegenRESCfg syspath update
+[Process-12748] [Para]    RegenItemTestAndSetVal, system[burnaddr] '0xf' to '0xcd000'
+[Process-12748] [Para]    RegenRESCfg burnaddr update
+[Process-12748] [Para]    RegenItemTestAndSetVal, cp_system[cp_syspath] '.\image_ec619\cp-demo-flash.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\cp-demo-flash.bin'
+[Process-12748] [Para]    RegenRESCfg cp_syspath update
+[Process-12748] [Para]    RegenItemTestAndSetVal, cp_system[burnaddr] '0xf' to '0x2d000'
+[Process-12748] [Para]    RegenRESCfg burnaddr update
+[Process-12748] [Para]    FwdGenCfgFile update suc
+[Process-12748] [FlashTop]    rgcfgfile success
+[Process-12748] [PkgRgCtl]    Step5, SetRegenSuc
+[Process-12748] [FlashTop]    do_main: cmd loadpara
+[Process-12748] [FlashTop]    loadpara args 0x3a63e70 
+[Process-12748] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-12748] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-12748] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-12748] [Para]    LdPkgSubSelXPKRec entry
+[Process-12748] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-12748] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-12748] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-12748] [Para]    LoadPkgSubSel , tProductSel EC718HM_PRD  exist, local or xpk 0
+[Process-12748] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x151c980  
+[Process-12748] [Para]    invalid config, filepath:C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin, burnaddr 0x7e5000
+[Process-12748] [Para]    LoadPkgFlx
+[Process-12748] [FlashTop]    Load para sync success
+[Process-12748] [FlashTop]    LoadParaToArgs id args 0x3a63e70, opt_storage_list 0x151c980 
+[Process-12748] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-12748] [PkgRgCtl]    Step6, SetReloadSuc
+[Process-12748] [FlashTop]    do_main: cmd pkg2img
+[Process-12748] [PkgVerCtrl]    PkgExtRgMdSync->GetExtUpdated True, GetRgMdExtTgtChked False, need to sync
+[Process-12748] [PkgRgCtl]    Step7, SetTgtSynSuc
+[Process-12748] [FlashTop]    do_main: cmd pkg2img
+[Process-12748] [PkgRgCtl]    Step8, SetDumpRecSuc
+[Process-12748] [FlashTop]    pkg2img success
+
+2025-09-22 10:57:33.097 my_api.py:336 ERROR 
+2025-09-22 10:57:31,465 DEBUG    [FlashTop]    lib svn rev: LIB_SVN_REVISION:  00000681,build time-2025-03-19 14:50:58
+2025-09-22 10:57:31,467 INFO     [FlashTop]    init
+2025-09-22 10:57:31,481 INFO     [FlashTop]    PreLoad para sync success
+[Process-12748] [FlashTop]    do_main: cmd loadpara
+[Process-12748] [FlashTop]    loadpara args 0x3a171d0 
+[Process-12748] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-12748] [PRFrame]    LoadPrMgrProc init loaded C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\PRMgrCfg.json
+[Process-12748] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-12748] [Para]    tryupd_chinese_stat_once, legal now
+[Process-12748] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-12748] [Para]    LdPkgSubSelXPKRec entry
+[Process-12748] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-12748] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-12748] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-12748] [Para]    LoadPkgSubSel , tProductSel EC618_OLDPKG_DEFAULT  exist, local or xpk 0
+[Process-12748] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x1624ca0 cp_flash 
+[Process-12748] [Para]    LoadPkgFlx
+[Process-12748] [FlashTop]    Load para sync success
+[Process-12748] [FlashTop]    LoadParaToArgs id args 0x3a171d0, opt_storage_list 0x1624ca0 cp_flash
+[Process-12748] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-12748] [FlashTop]    do_main: cmd pkg2img
+[Process-12748] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-12748] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-12748] [PkgVerCtrl]    PkgLoadPrimXPKGOnly 0 items finish
+[Process-12748] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-12748] [PkgVerCtrl]    ChkPkgSyncRec failed, mtime 2025-09-22 10:57:30 !=  pakcage mtime 2025-09-22 10:56:35
+[Process-12748] [PkgVerCtrl]    ChkPkgSyncRec failed, mtime value for C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\temp.binpkg does not match
+[Process-12748] [PkgVerCtrl]    PkgPrSelGenExtNeeded True, pkg updated
+[Process-12748] [PkgVerCtrl]    PkgPrSelGenExtNeeded True
+[Process-12748] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-12748] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-12748] [PkgVerCtrl]    PkgLoadPrimXPKGOnly 0 items finish
+[Process-12748] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-12748] [PkgVerCtrl]    PkgPrSelGenData Entry
+[Process-12748] [PkgVerCtrl]    PkgPrSelGenData SyncRegenMode
+[Process-12748] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-12748] [PkgVerCtrl]    PkgPrSelGenProdCfg PkgPrSelGenXPK skip
+[Process-12748] [PkgVerCtrl]    PkgPrSelGenProdCfg suc
+[Process-12748] [FlashTop]    do_main: cmd rgcfgfile
+[Process-12748] [Para]    RegenItemTestAndSetVal, package_info[selected_product] 'EC618_OLDPKG_DEFAULT' to 'EC718HM_PRD'
+[Process-12748] [Para]    PrSelGenProdSelCfg selected_product update EC718HM_PRD
+[Process-12748] [Para]    PrSelGenProdSelCfg xpk_ovwrcfg_ini_path branch3 
+[Process-12748] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-12748] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-12748] [Para]    PrSelGenProdSelCfg xpk_ovwrcfg_ini_path branch4,  
+[Process-12748] [Para]    PrSelGenFrBaseCfg , tProductSel EC718HM_PRD  exist, local or xpk  0
+[Process-12748] [Para]    LPrSelGenFrBaseCfg pathconv_to_tool_basedir_pairs_dict ({}) 
+[Process-12748] [Para]    RegenItemTestAndSetVal, config[line_0_snd_ass_com] = COM65535, key added
+[Process-12748] [Para]    RegenItemTestAndSetVal, config[baud] = 130000, key added
+[Process-12748] [Para]    PrSelGenFrBaseCfg remove old config[comment_filter]="filter for com config" 
+[Process-12748] [Para]    RegenItemTestAndSetVal, agentboot[agpath] '.\product_sets\ec618_products\common_data\agentboot_usb\agentboot.bin' to '.\product_sets\ec718m_products\common_data\agentboot_usb\agentboot.bin'
+[Process-12748] [Para]    PrSelGenFrBaseCfg remove old agentboot[comment_agentboot]="agentboot.bin file infomation" 
+[Process-12748] [Para]    RegenItemTestAndSetVal, storage_cfg[format_path] 'C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolsEC618\FlashToolCLI_V4.1.4p01_20230825\product_sets\ec618_products\618_legacy\format\format_ec618_legacy.json' to 'format_ec718m_none.json'
+[Process-12748] [Para]    RegenItemTestAndSetVal, bootloader[blpath] '.\image_ec618\legacy_product\618_legacy\ap_bootloader.bin' to '.\image_ec619\ap_bootloader.bin'
+[Process-12748] [Para]    RegenItemTestAndSetVal, bootloader[burnaddr] '0x4000' to '0xf'
+[Process-12748] [Para]    PrSelGenFrBaseCfg remove old bootloader[comment_default]="bootloader.bin file infomation" 
+[Process-12748] [Para]    RegenItemTestAndSetVal, system[syspath] '.\image_ec618\legacy_product\618_legacy\ap_demo-flash.bin' to '.\image_ec619\ap_demo-flash.bin'
+[Process-12748] [Para]    RegenItemTestAndSetVal, system[burnaddr] '0x24000' to '0xf'
+[Process-12748] [Para]    PrSelGenFrBaseCfg remove old system[comment_default]="system.bin file infomation" 
+[Process-12748] [Para]    RegenItemTestAndSetVal, cp_system[cp_syspath] '.\image_ec618\legacy_product\618_legacy\cp-demo-flash.bin' to '.\image_ec619\cp-demo-flash.bin'
+[Process-12748] [Para]    RegenItemTestAndSetVal, cp_system[burnaddr] = 0xf, key added
+[Process-12748] [Para]    RegenItemTestAndSetVal, control[rom_version] '0000000103010000' to '0000000103030000'
+[Process-12748] [Para]    RegenItemTestAndSetVal, control[assist_second_port_cmd] = at+ecrst=delay,599, key added
+[Process-12748] [Para]    RegenItemTestAndSetVal, control[dribble_dld_en] = 0, key added
+[Process-12748] [Para]    RegenItemTestAndSetVal, control[pr_runtime_ctrl_en] = 1, key added
+[Process-12748] [Para]    RegenItemTestAndSetVal, control[chip_ctl_para_en] = 1, key added
+[Process-12748] [Para]    RegenItemTestAndSetVal, control[verify_flash_size_need] = 1, key added
+[Process-12748] [Para]    RegenItemTestAndSetVal, flexfile0[filepath] '.\product_sets\ec618_products\618_legacy\rfCaliTb\MergeRfTable.bin' to '.\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin'
+[Process-12748] [Para]    RegenItemTestAndSetVal, flexfile0[burnaddr] '0xe7000' to '0x7E5000'
+[Process-12748] [Para]    PrSelGenFrBaseCfg remove old flexfile0[storage_type]=cp_flash 
+[Process-12748] [Para]    RegenItemTestAndSetVal, package_info[selected_base_inicfg_rec] 'C:\Users\ivan\Documents\projects\ec616_00\release_ec616_01\jwzhuang20191121_20191031_flashtoolcli\FlashToolsEC618\FlashToolCLI_V4.1.4p01_20230825\product_sets\ec618_products\618_legacy\base_config_files\config_ec618_legacy_pkg_usb.baseini@hash:1ef001a607ecbba39c5f03f6c736c942e10863fb167409c2d8b606726a01bafb' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718m_products\ec718hm\base_config_files\config_ec718hm_prd_usb.baseini@hash:385d56fde71d25606aa2f9c7b4e4b907421c4bbe9d9773c213114ba2bdbd4a45'
+[Process-12748] [Para]    RegenItemTestAndSetVal, storage_cfg[format_path] 'format_ec718m_none.json' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718m_products\ec718hm\format\format_ec718hm.json'
+[Process-12748] [Para]    PrSelGenStorageCfg format_path update
+[Process-12748] [Para]    PrSelGenCfgfile update suc
+[Process-12748] [FlashTop]    rgcfgfile success
+[Process-12748] [PkgRgCtl]    Step1, SetPrSelGenSuc
+[Process-12748] [FlashTop]    do_main: cmd loadpara
+[Process-12748] [FlashTop]    loadpara args 0x3a46510 
+[Process-12748] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-12748] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-12748] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-12748] [Para]    LdPkgSubSelXPKRec entry
+[Process-12748] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-12748] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-12748] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-12748] [Para]    LoadPkgSubSel , tProductSel EC718HM_PRD  exist, local or xpk 0
+[Process-12748] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x151c980  
+[Process-12748] [Para]    invalid config, filepath:C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin, burnaddr 0x7e5000
+[Process-12748] [Para]    LoadPkgFlx
+[Process-12748] [FlashTop]    Load para sync success
+[Process-12748] [FlashTop]    LoadParaToArgs id args 0x3a46510, opt_storage_list 0x151c980 
+[Process-12748] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-12748] [PkgRgCtl]    Step2, SetPrSelLoadSuc
+[Process-12748] [FlashTop]    do_main: cmd pkg2img
+[Process-12748] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-12748] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-12748] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-12748] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-12748] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-12748] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-12748] [PkgVerCtrl]    PkgPreExtNeeded True, ExtSyncRec not cfged yet
+[Process-12748] [PkgVerCtrl]    PkgPreExtNeeded True
+[Process-12748] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-12748] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-12748] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-12748] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-12748] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-12748] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-12748] [PkgRgCtl]    Step3, SetPreExtSuc
+[Process-12748] [PkgVerCtrl]    PkgPreExtract SyncRegenMode
+[Process-12748] [FlashTop]    do_main: cmd pkg2img
+[Process-12748] [PkgVerCtrl]    PkgRgMdPostExtNeeded True, ExtSyncRec not cfged yet
+[Process-12748] [PkgVerCtrl]    PkgRgMdPostExtNeeded True
+[Process-12748] [PkgVerCtrl]    PkgLoadPrimInfo item virtual image skip
+[Process-12748] [PkgVerCtrl]    PkgLoadPrimInfo finish
+[Process-12748] [PkgVerCtrl]    PkgLoadToolVerInfo tool version 111
+[Process-12748] [PkgVerCtrl]    PkgLoadCargInfo finish
+[Process-12748] [PkgVerCtrl]    PkgChkRuleOldOrNew tool ver 111, new format pkg
+[Process-12748] [PkgVerCtrl]    PkgLoadExtSyncRec finish
+[Process-12748] [PkgRgCtl]    Step4, SetPostExtSuc
+[Process-12748] [FlashTop]    do_main: cmd pkg2img
+[Process-12748] [PkgVerCtrl]    PkgRgMdRegenData Entry
+[Process-12748] [PkgVerCtrl]    PkgRgRegenStateCfg suc
+[Process-12748] [PkgVerCtrl]    PkgRgSelProdCfg suc
+[Process-12748] [PkgVerCtrl]    PkgRgRESBinAndCfg bootloader suc, tgt copy 1
+[Process-12748] [PkgVerCtrl]    PkgRgRESBinAndCfg system suc, tgt copy 1
+[Process-12748] [PkgVerCtrl]    PkgRgRESBinAndCfg cp_system suc, tgt copy 1
+[Process-12748] [FlashTop]    do_main: cmd rgcfgfile
+[Process-12748] [Para]    RegenItemTestAndSetVal, package_info[pkg_inicfg_regened_state] 'backward_restored' to 'forward_regened'
+[Process-12748] [Para]    RegenRegenerateStateCfg pkg_inicfg_regened_state update
+[Process-12748] [Para]    RegenItemTestAndSetVal, bootloader[blpath] '.\image_ec619\ap_bootloader.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\ap_bootloader.bin'
+[Process-12748] [Para]    RegenRESCfg blpath update
+[Process-12748] [Para]    RegenItemTestAndSetVal, bootloader[burnaddr] '0xf' to '0x3000'
+[Process-12748] [Para]    RegenRESCfg burnaddr update
+[Process-12748] [Para]    RegenItemTestAndSetVal, system[syspath] '.\image_ec619\ap_demo-flash.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\ap.bin'
+[Process-12748] [Para]    RegenRESCfg syspath update
+[Process-12748] [Para]    RegenItemTestAndSetVal, system[burnaddr] '0xf' to '0xcd000'
+[Process-12748] [Para]    RegenRESCfg burnaddr update
+[Process-12748] [Para]    RegenItemTestAndSetVal, cp_system[cp_syspath] '.\image_ec619\cp-demo-flash.bin' to 'C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\pkgimg_gen\ec718hm_prd_images\cp-demo-flash.bin'
+[Process-12748] [Para]    RegenRESCfg cp_syspath update
+[Process-12748] [Para]    RegenItemTestAndSetVal, cp_system[burnaddr] '0xf' to '0x2d000'
+[Process-12748] [Para]    RegenRESCfg burnaddr update
+[Process-12748] [Para]    FwdGenCfgFile update suc
+[Process-12748] [FlashTop]    rgcfgfile success
+[Process-12748] [PkgRgCtl]    Step5, SetRegenSuc
+[Process-12748] [FlashTop]    do_main: cmd loadpara
+[Process-12748] [FlashTop]    loadpara args 0x3a63e70 
+[Process-12748] [FlashTop]     TestAndSetP2ILdStat Entry
+[Process-12748] [Para]    LoadPara LoadPrMgrCfg PRMgrCfg.json success
+[Process-12748] [Para]    LoadPara from cfgfile(C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\config_pkg_product_usb.ini) 
+[Process-12748] [Para]    LdPkgSubSelXPKRec entry
+[Process-12748] [Para]    LdPkgSubSelXPKRec  selected_xpk_prmgrcfg_rec dummy
+[Process-12748] [PRFrame]    LdXPKPrMgrProc update start, loadstat 0, path chg 1, digest chg 0
+[Process-12748] [PRFrame]    LdXPKPrMgrProc  not exist
+[Process-12748] [Para]    LoadPkgSubSel , tProductSel EC718HM_PRD  exist, local or xpk 0
+[Process-12748] [Para]    LoadStorFrPrCfg args storage_cfg.opt_storage_list id 0x151c980  
+[Process-12748] [Para]    invalid config, filepath:C:\Users\Thinkpad\Documents\Personal\Tracker\Luatools\_temp\ec_download\product_sets\ec718_products\ec718um\rfCaliTb\MergeRfTable.bin, burnaddr 0x7e5000
+[Process-12748] [Para]    LoadPkgFlx
+[Process-12748] [FlashTop]    Load para sync success
+[Process-12748] [FlashTop]    LoadParaToArgs id args 0x3a63e70, opt_storage_list 0x151c980 
+[Process-12748] [FlashTop]    InitLoadImgInfo add empty bootloader2
+[Process-12748] [PkgRgCtl]    Step6, SetReloadSuc
+[Process-12748] [FlashTop]    do_main: cmd pkg2img
+[Process-12748] [PkgVerCtrl]    PkgExtRgMdSync->GetExtUpdated True, GetRgMdExtTgtChked False, need to sync
+[Process-12748] [PkgRgCtl]    Step7, SetTgtSynSuc
+[Process-12748] [FlashTop]    do_main: cmd pkg2img
+[Process-12748] [PkgRgCtl]    Step8, SetDumpRecSuc
+[Process-12748] [FlashTop]    pkg2img success
+
+2025-09-22 10:57:33.103 ui_firmware.py:116 INFO Foundec718hmfirmware,Hole "Boot" Button , and Press "Reset", then Release "Boot". Press "Pwr" first if NOT PowerOn yet.
+2025-09-22 10:58:03.141 usb_device.py:1366 ERROR Timeout!! Pls off-on the power, and then press "PowerOn" Button for 2 secs. at last, press "Download" button on LuaTools.
+2025-09-22 10:58:03.160 usb_device.py:1385 INFO usb device sleep
+2025-09-22 10:58:03.175 usb_device.py:1385 INFO usb device sleep
+2025-09-22 10:58:03.199 ui_firmware.py:123 ERROR Timeout!! Pls off-on the power, and then press "PowerOn" Button for 2 secs. at last, press "Download" button on LuaTools.
+2025-09-22 10:58:03.199 soc.py:476 INFO None
+2025-09-22 10:58:03.207 usb_device.py:3284 INFO quit download
+2025-09-22 10:58:03.208 my_api.py:114 INFO [None, None]
+2025-09-22 10:58:03.208 my_api.py:114 INFO [None, None]
+2025-09-22 10:58:03.208 my_api.py:114 INFO [None, None]
+2025-09-22 10:58:03.216 my_api.py:114 INFO [None, None]
+2025-09-22 12:29:54.063 usb_device.py:1385 INFO usb device sleep
+2025-09-22 12:29:54.071 my_api.py:114 INFO [None, None]
+2025-09-22 12:29:54.071 my_api.py:114 INFO [None, None]
+2025-09-22 12:29:54.189 my_api.py:114 INFO [None, None]
+2025-09-22 12:29:54.189 host_device.py:507 INFO task quit
+2025-09-22 12:29:54.189 my_api.py:114 INFO [None, None]
+2025-09-22 12:29:54.189 usb_device.py:3291 INFO task quit
+2025-09-22 12:29:54.407 core.py:220 INFO event loop closed
+2025-09-22 12:29:55.958 core.py:245 INFO end!
